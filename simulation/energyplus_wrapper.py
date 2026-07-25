@@ -148,11 +148,11 @@ ThermostatSetpoint:DualSetpoint,
                         c_val = cooling_setpoints[zone_name]
                         new_lines.append(f"  {h_val},                     !- Heating Setpoint Temperature Schedule Name\n")
                         new_lines.append(f"  {c_val};                     !- Cooling Setpoint Temperature Schedule Name\n")
-                        skip_lines = 2
+                        skip_lines = 3
                     else:
                         new_lines.append(lines[idx+2])
                         new_lines.append(lines[idx+3])
-                        skip_lines = 2
+                        skip_lines = 3
                 else:
                     new_lines.append(line)
             

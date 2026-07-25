@@ -42,16 +42,13 @@ ThermostatSetpoint:DualSetpoint,
   Zone 1: Open Office Setpoints, !- Name
   15.0,                     !- Heating Setpoint Temperature Schedule Name
   28.0;                     !- Cooling Setpoint Temperature Schedule Name
-  22.0;                     !- Cooling Setpoint Temperature Schedule Name {C} or Value
 
 ThermostatSetpoint:DualSetpoint,
   Zone 2: Meeting Room Setpoints, !- Name
   15.0,                     !- Heating Setpoint Temperature Schedule Name
   28.0;                     !- Cooling Setpoint Temperature Schedule Name
-  23.0;                     !- Cooling Setpoint Temperature Schedule Name {C} or Value
 
 ThermostatSetpoint:DualSetpoint,
   Zone 3: Executive Suite Setpoints, !- Name
   15.0,                     !- Heating Setpoint Temperature Schedule Name
   28.0;                     !- Cooling Setpoint Temperature Schedule Name
-  22.0;                     !- Cooling Setpoint Temperature Schedule Name {C} or Value

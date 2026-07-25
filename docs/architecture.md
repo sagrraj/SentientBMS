@@ -78,3 +78,27 @@ The safety layer acts as a firewall between the AI suggestions and the building 
    - $|\text{Setpoint}_t - \text{Setpoint}_{t-1}| \le 3.0^\circ\text{C}$ per 15-minute step.
 
 If any constraint is violated, the proposed setpoints are rejected, and the system falls back to the **Rule-Based Controller (RBC)**.
+
+---
+
+## 4. LLM Agent Prompt Engineering
+The system utilizes a structured, role-based prompting pattern to orchestrate the AI Strategic Planner:
+- **System Instructions**: Defines the agent as a senior building energy optimizer with strict thermodynamic constraints.
+- **Dynamic Context Injection**: Feeds the current time, outdoor weather forecast, occupancies, and grid carbon intensity ($g\text{ CO}_2/\text{kWh}$) into the prompt structure.
+- **Structured JSON Formatting**: Enforces output formatting through JSON schema definitions to ensure deterministic tool execution on the Model Context Protocol (MCP) server.
+
+---
+
+## 5. Prompt Latency Management
+To minimize real-time control loop delay during operations:
+- **Parallel Strategy Generation**: Rather than prompting the LLM sequentially, candidate strategies (Eco-Optimized, Carbon-Aware, and Comfort-First) are generated in parallel.
+- **Asynchronous Execution**: Invocations to the LLM use async task management, capping prompt evaluation at a 2.5-second timeout window.
+- **Caching**: Frequently encountered states (e.g. standard night-time setbacks) bypass LLM generation through a fast-lookup key-value cache database.
+
+---
+
+## 6. Technical Approach to Simulation Logs
+Closed-loop telemetry history and decision paths are logged using a dual-channel database pipeline:
+- **Telemetry DB**: High-frequency variables (temperatures, energy intake, setpoints) are stored in structured JSON formats (`data/agent_history.json`).
+- **Audit & Explainability Log**: The LLM's natural language explanation detailing *why* a particular setpoint actuation was selected (e.g., peak shifting during high grid demand) is recorded chronologically, allowing building managers to audit the AI's logic step-by-step.
+

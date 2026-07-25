@@ -1,0 +1,5282 @@
+[
+  {
+    "hour": 0.0,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.036,
+      "Zone 2: Meeting Room": 22.036,
+      "Zone 3: Executive Suite": 22.036
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 20.0,
+      "Zone 2: Meeting Room": 20.0,
+      "Zone 3: Executive Suite": 20.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0,
+    "metrics": {
+      "cost": 0.0,
+      "energy_cost": 0.0,
+      "carbon_cost": 0.0,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.0,
+      "comfort_penalty": 0.0
+    },
+    "ai_strategy": "Strategy A (Eco-Optimized)",
+    "ai_explanation": "Low occupancy or moderate weather detected. Eco-Optimized strategy minimizes baseline energy consumption. Predicted Cost J=0.000 (Energy Cost: 0.000, Carbon Cost: 0.000, Comfort Penalty: 0.000).",
+    "safety_log": {
+      "status": "REJECTED",
+      "reason": "Failed to apply: Zone 'Zone 1: Open Office' Validation Failed: Cooling setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 5.0\u00b0C); Heating setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 4.0\u00b0C)",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 27.0,
+        "Zone 2: Meeting Room": 27.0,
+        "Zone 3: Executive Suite": 27.0
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 16.0,
+        "Zone 2: Meeting Room": 16.0,
+        "Zone 3: Executive Suite": 16.0
+      }
+    }
+  },
+  {
+    "hour": 0.25,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 20.0,
+      "Zone 2: Meeting Room": 20.0,
+      "Zone 3: Executive Suite": 20.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.03327333333333396,
+      "Zone 2: Meeting Room": 0.03327333333333396,
+      "Zone 3: Executive Suite": 0.03327333333333396
+    },
+    "total_energy": 0.09982000000000188,
+    "metrics": {
+      "cost": 0.15971200000000302,
+      "energy_cost": 0.09982000000000188,
+      "carbon_cost": 0.059892000000001125,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.011978400000000226,
+      "comfort_penalty": 0.0
+    },
+    "ai_strategy": "Strategy A (Eco-Optimized)",
+    "ai_explanation": "Low occupancy or moderate weather detected. Eco-Optimized strategy minimizes baseline energy consumption. Predicted Cost J=0.000 (Energy Cost: 0.000, Carbon Cost: 0.000, Comfort Penalty: 0.000).",
+    "safety_log": {
+      "status": "REJECTED",
+      "reason": "Failed to apply: Zone 'Zone 1: Open Office' Validation Failed: Cooling setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 5.0\u00b0C); Heating setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 4.0\u00b0C)",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 27.0,
+        "Zone 2: Meeting Room": 27.0,
+        "Zone 3: Executive Suite": 27.0
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 16.0,
+        "Zone 2: Meeting Room": 16.0,
+        "Zone 3: Executive Suite": 16.0
+      }
+    }
+  },
+  {
+    "hour": 0.5,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.036,
+      "Zone 2: Meeting Room": 22.036,
+      "Zone 3: Executive Suite": 22.036
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 20.0,
+      "Zone 2: Meeting Room": 20.0,
+      "Zone 3: Executive Suite": 20.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0,
+    "metrics": {
+      "cost": 0.0,
+      "energy_cost": 0.0,
+      "carbon_cost": 0.0,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.0,
+      "comfort_penalty": 0.0
+    },
+    "ai_strategy": "Strategy A (Eco-Optimized)",
+    "ai_explanation": "Low occupancy or moderate weather detected. Eco-Optimized strategy minimizes baseline energy consumption. Predicted Cost J=0.000 (Energy Cost: 0.000, Carbon Cost: 0.000, Comfort Penalty: 0.000).",
+    "safety_log": {
+      "status": "REJECTED",
+      "reason": "Failed to apply: Zone 'Zone 1: Open Office' Validation Failed: Cooling setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 5.0\u00b0C); Heating setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 4.0\u00b0C)",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 27.0,
+        "Zone 2: Meeting Room": 27.0,
+        "Zone 3: Executive Suite": 27.0
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 16.0,
+        "Zone 2: Meeting Room": 16.0,
+        "Zone 3: Executive Suite": 16.0
+      }
+    }
+  },
+  {
+    "hour": 0.75,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 20.0,
+      "Zone 2: Meeting Room": 20.0,
+      "Zone 3: Executive Suite": 20.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.03327333333333396,
+      "Zone 2: Meeting Room": 0.03327333333333396,
+      "Zone 3: Executive Suite": 0.03327333333333396
+    },
+    "total_energy": 0.09982000000000188,
+    "metrics": {
+      "cost": 0.15971200000000302,
+      "energy_cost": 0.09982000000000188,
+      "carbon_cost": 0.059892000000001125,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.011978400000000226,
+      "comfort_penalty": 0.0
+    },
+    "ai_strategy": "Strategy A (Eco-Optimized)",
+    "ai_explanation": "Low occupancy or moderate weather detected. Eco-Optimized strategy minimizes baseline energy consumption. Predicted Cost J=0.000 (Energy Cost: 0.000, Carbon Cost: 0.000, Comfort Penalty: 0.000).",
+    "safety_log": {
+      "status": "REJECTED",
+      "reason": "Failed to apply: Zone 'Zone 1: Open Office' Validation Failed: Cooling setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 5.0\u00b0C); Heating setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 4.0\u00b0C)",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 27.0,
+        "Zone 2: Meeting Room": 27.0,
+        "Zone 3: Executive Suite": 27.0
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 16.0,
+        "Zone 2: Meeting Room": 16.0,
+        "Zone 3: Executive Suite": 16.0
+      }
+    }
+  },
+  {
+    "hour": 1.0,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.036,
+      "Zone 2: Meeting Room": 22.036,
+      "Zone 3: Executive Suite": 22.036
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 20.0,
+      "Zone 2: Meeting Room": 20.0,
+      "Zone 3: Executive Suite": 20.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0,
+    "metrics": {
+      "cost": 0.0,
+      "energy_cost": 0.0,
+      "carbon_cost": 0.0,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.0,
+      "comfort_penalty": 0.0
+    },
+    "ai_strategy": "Strategy A (Eco-Optimized)",
+    "ai_explanation": "Low occupancy or moderate weather detected. Eco-Optimized strategy minimizes baseline energy consumption. Predicted Cost J=0.000 (Energy Cost: 0.000, Carbon Cost: 0.000, Comfort Penalty: 0.000).",
+    "safety_log": {
+      "status": "REJECTED",
+      "reason": "Failed to apply: Zone 'Zone 1: Open Office' Validation Failed: Cooling setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 5.0\u00b0C); Heating setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 4.0\u00b0C)",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 27.0,
+        "Zone 2: Meeting Room": 27.0,
+        "Zone 3: Executive Suite": 27.0
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 16.0,
+        "Zone 2: Meeting Room": 16.0,
+        "Zone 3: Executive Suite": 16.0
+      }
+    }
+  },
+  {
+    "hour": 1.25,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 20.0,
+      "Zone 2: Meeting Room": 20.0,
+      "Zone 3: Executive Suite": 20.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.03327333333333396,
+      "Zone 2: Meeting Room": 0.03327333333333396,
+      "Zone 3: Executive Suite": 0.03327333333333396
+    },
+    "total_energy": 0.09982000000000188,
+    "metrics": {
+      "cost": 0.15971200000000302,
+      "energy_cost": 0.09982000000000188,
+      "carbon_cost": 0.059892000000001125,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.011978400000000226,
+      "comfort_penalty": 0.0
+    },
+    "ai_strategy": "Strategy A (Eco-Optimized)",
+    "ai_explanation": "Low occupancy or moderate weather detected. Eco-Optimized strategy minimizes baseline energy consumption. Predicted Cost J=0.000 (Energy Cost: 0.000, Carbon Cost: 0.000, Comfort Penalty: 0.000).",
+    "safety_log": {
+      "status": "REJECTED",
+      "reason": "Failed to apply: Zone 'Zone 1: Open Office' Validation Failed: Cooling setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 5.0\u00b0C); Heating setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 4.0\u00b0C)",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 27.0,
+        "Zone 2: Meeting Room": 27.0,
+        "Zone 3: Executive Suite": 27.0
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 16.0,
+        "Zone 2: Meeting Room": 16.0,
+        "Zone 3: Executive Suite": 16.0
+      }
+    }
+  },
+  {
+    "hour": 1.5,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.036,
+      "Zone 2: Meeting Room": 22.036,
+      "Zone 3: Executive Suite": 22.036
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 20.0,
+      "Zone 2: Meeting Room": 20.0,
+      "Zone 3: Executive Suite": 20.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0,
+    "metrics": {
+      "cost": 0.0,
+      "energy_cost": 0.0,
+      "carbon_cost": 0.0,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.0,
+      "comfort_penalty": 0.0
+    },
+    "ai_strategy": "Strategy A (Eco-Optimized)",
+    "ai_explanation": "Low occupancy or moderate weather detected. Eco-Optimized strategy minimizes baseline energy consumption. Predicted Cost J=0.000 (Energy Cost: 0.000, Carbon Cost: 0.000, Comfort Penalty: 0.000).",
+    "safety_log": {
+      "status": "REJECTED",
+      "reason": "Failed to apply: Zone 'Zone 1: Open Office' Validation Failed: Cooling setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 5.0\u00b0C); Heating setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 4.0\u00b0C)",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 27.0,
+        "Zone 2: Meeting Room": 27.0,
+        "Zone 3: Executive Suite": 27.0
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 16.0,
+        "Zone 2: Meeting Room": 16.0,
+        "Zone 3: Executive Suite": 16.0
+      }
+    }
+  },
+  {
+    "hour": 1.75,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 20.0,
+      "Zone 2: Meeting Room": 20.0,
+      "Zone 3: Executive Suite": 20.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.03327333333333396,
+      "Zone 2: Meeting Room": 0.03327333333333396,
+      "Zone 3: Executive Suite": 0.03327333333333396
+    },
+    "total_energy": 0.09982000000000188,
+    "metrics": {
+      "cost": 0.15971200000000302,
+      "energy_cost": 0.09982000000000188,
+      "carbon_cost": 0.059892000000001125,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.011978400000000226,
+      "comfort_penalty": 0.0
+    },
+    "ai_strategy": "Strategy A (Eco-Optimized)",
+    "ai_explanation": "Low occupancy or moderate weather detected. Eco-Optimized strategy minimizes baseline energy consumption. Predicted Cost J=0.000 (Energy Cost: 0.000, Carbon Cost: 0.000, Comfort Penalty: 0.000).",
+    "safety_log": {
+      "status": "REJECTED",
+      "reason": "Failed to apply: Zone 'Zone 1: Open Office' Validation Failed: Cooling setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 5.0\u00b0C); Heating setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 4.0\u00b0C)",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 27.0,
+        "Zone 2: Meeting Room": 27.0,
+        "Zone 3: Executive Suite": 27.0
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 16.0,
+        "Zone 2: Meeting Room": 16.0,
+        "Zone 3: Executive Suite": 16.0
+      }
+    }
+  },
+  {
+    "hour": 2.0,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.036,
+      "Zone 2: Meeting Room": 22.036,
+      "Zone 3: Executive Suite": 22.036
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 20.0,
+      "Zone 2: Meeting Room": 20.0,
+      "Zone 3: Executive Suite": 20.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0,
+    "metrics": {
+      "cost": 0.0,
+      "energy_cost": 0.0,
+      "carbon_cost": 0.0,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.0,
+      "comfort_penalty": 0.0
+    },
+    "ai_strategy": "Strategy A (Eco-Optimized)",
+    "ai_explanation": "Low occupancy or moderate weather detected. Eco-Optimized strategy minimizes baseline energy consumption. Predicted Cost J=0.000 (Energy Cost: 0.000, Carbon Cost: 0.000, Comfort Penalty: 0.000).",
+    "safety_log": {
+      "status": "REJECTED",
+      "reason": "Failed to apply: Zone 'Zone 1: Open Office' Validation Failed: Cooling setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 5.0\u00b0C); Heating setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 4.0\u00b0C)",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 27.0,
+        "Zone 2: Meeting Room": 27.0,
+        "Zone 3: Executive Suite": 27.0
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 16.0,
+        "Zone 2: Meeting Room": 16.0,
+        "Zone 3: Executive Suite": 16.0
+      }
+    }
+  },
+  {
+    "hour": 2.25,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 20.0,
+      "Zone 2: Meeting Room": 20.0,
+      "Zone 3: Executive Suite": 20.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.03327333333333396,
+      "Zone 2: Meeting Room": 0.03327333333333396,
+      "Zone 3: Executive Suite": 0.03327333333333396
+    },
+    "total_energy": 0.09982000000000188,
+    "metrics": {
+      "cost": 0.15971200000000302,
+      "energy_cost": 0.09982000000000188,
+      "carbon_cost": 0.059892000000001125,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.011978400000000226,
+      "comfort_penalty": 0.0
+    },
+    "ai_strategy": "Strategy A (Eco-Optimized)",
+    "ai_explanation": "Low occupancy or moderate weather detected. Eco-Optimized strategy minimizes baseline energy consumption. Predicted Cost J=0.000 (Energy Cost: 0.000, Carbon Cost: 0.000, Comfort Penalty: 0.000).",
+    "safety_log": {
+      "status": "REJECTED",
+      "reason": "Failed to apply: Zone 'Zone 1: Open Office' Validation Failed: Cooling setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 5.0\u00b0C); Heating setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 4.0\u00b0C)",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 27.0,
+        "Zone 2: Meeting Room": 27.0,
+        "Zone 3: Executive Suite": 27.0
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 16.0,
+        "Zone 2: Meeting Room": 16.0,
+        "Zone 3: Executive Suite": 16.0
+      }
+    }
+  },
+  {
+    "hour": 2.5,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.036,
+      "Zone 2: Meeting Room": 22.036,
+      "Zone 3: Executive Suite": 22.036
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 20.0,
+      "Zone 2: Meeting Room": 20.0,
+      "Zone 3: Executive Suite": 20.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0,
+    "metrics": {
+      "cost": 0.0,
+      "energy_cost": 0.0,
+      "carbon_cost": 0.0,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.0,
+      "comfort_penalty": 0.0
+    },
+    "ai_strategy": "Strategy A (Eco-Optimized)",
+    "ai_explanation": "Low occupancy or moderate weather detected. Eco-Optimized strategy minimizes baseline energy consumption. Predicted Cost J=0.000 (Energy Cost: 0.000, Carbon Cost: 0.000, Comfort Penalty: 0.000).",
+    "safety_log": {
+      "status": "REJECTED",
+      "reason": "Failed to apply: Zone 'Zone 1: Open Office' Validation Failed: Cooling setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 5.0\u00b0C); Heating setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 4.0\u00b0C)",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 27.0,
+        "Zone 2: Meeting Room": 27.0,
+        "Zone 3: Executive Suite": 27.0
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 16.0,
+        "Zone 2: Meeting Room": 16.0,
+        "Zone 3: Executive Suite": 16.0
+      }
+    }
+  },
+  {
+    "hour": 2.75,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 20.0,
+      "Zone 2: Meeting Room": 20.0,
+      "Zone 3: Executive Suite": 20.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.03327333333333396,
+      "Zone 2: Meeting Room": 0.03327333333333396,
+      "Zone 3: Executive Suite": 0.03327333333333396
+    },
+    "total_energy": 0.09982000000000188,
+    "metrics": {
+      "cost": 0.15971200000000302,
+      "energy_cost": 0.09982000000000188,
+      "carbon_cost": 0.059892000000001125,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.011978400000000226,
+      "comfort_penalty": 0.0
+    },
+    "ai_strategy": "Strategy A (Eco-Optimized)",
+    "ai_explanation": "Low occupancy or moderate weather detected. Eco-Optimized strategy minimizes baseline energy consumption. Predicted Cost J=0.000 (Energy Cost: 0.000, Carbon Cost: 0.000, Comfort Penalty: 0.000).",
+    "safety_log": {
+      "status": "REJECTED",
+      "reason": "Failed to apply: Zone 'Zone 1: Open Office' Validation Failed: Cooling setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 5.0\u00b0C); Heating setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 4.0\u00b0C)",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 27.0,
+        "Zone 2: Meeting Room": 27.0,
+        "Zone 3: Executive Suite": 27.0
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 16.0,
+        "Zone 2: Meeting Room": 16.0,
+        "Zone 3: Executive Suite": 16.0
+      }
+    }
+  },
+  {
+    "hour": 3.0,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.036,
+      "Zone 2: Meeting Room": 22.036,
+      "Zone 3: Executive Suite": 22.036
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 20.0,
+      "Zone 2: Meeting Room": 20.0,
+      "Zone 3: Executive Suite": 20.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0,
+    "metrics": {
+      "cost": 0.0,
+      "energy_cost": 0.0,
+      "carbon_cost": 0.0,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.0,
+      "comfort_penalty": 0.0
+    },
+    "ai_strategy": "Strategy A (Eco-Optimized)",
+    "ai_explanation": "Low occupancy or moderate weather detected. Eco-Optimized strategy minimizes baseline energy consumption. Predicted Cost J=0.000 (Energy Cost: 0.000, Carbon Cost: 0.000, Comfort Penalty: 0.000).",
+    "safety_log": {
+      "status": "REJECTED",
+      "reason": "Failed to apply: Zone 'Zone 1: Open Office' Validation Failed: Cooling setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 5.0\u00b0C); Heating setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 4.0\u00b0C)",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 27.0,
+        "Zone 2: Meeting Room": 27.0,
+        "Zone 3: Executive Suite": 27.0
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 16.0,
+        "Zone 2: Meeting Room": 16.0,
+        "Zone 3: Executive Suite": 16.0
+      }
+    }
+  },
+  {
+    "hour": 3.25,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 20.0,
+      "Zone 2: Meeting Room": 20.0,
+      "Zone 3: Executive Suite": 20.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.03327333333333396,
+      "Zone 2: Meeting Room": 0.03327333333333396,
+      "Zone 3: Executive Suite": 0.03327333333333396
+    },
+    "total_energy": 0.09982000000000188,
+    "metrics": {
+      "cost": 0.15971200000000302,
+      "energy_cost": 0.09982000000000188,
+      "carbon_cost": 0.059892000000001125,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.011978400000000226,
+      "comfort_penalty": 0.0
+    },
+    "ai_strategy": "Strategy A (Eco-Optimized)",
+    "ai_explanation": "Low occupancy or moderate weather detected. Eco-Optimized strategy minimizes baseline energy consumption. Predicted Cost J=0.000 (Energy Cost: 0.000, Carbon Cost: 0.000, Comfort Penalty: 0.000).",
+    "safety_log": {
+      "status": "REJECTED",
+      "reason": "Failed to apply: Zone 'Zone 1: Open Office' Validation Failed: Cooling setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 5.0\u00b0C); Heating setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 4.0\u00b0C)",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 27.0,
+        "Zone 2: Meeting Room": 27.0,
+        "Zone 3: Executive Suite": 27.0
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 16.0,
+        "Zone 2: Meeting Room": 16.0,
+        "Zone 3: Executive Suite": 16.0
+      }
+    }
+  },
+  {
+    "hour": 3.5,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.036,
+      "Zone 2: Meeting Room": 22.036,
+      "Zone 3: Executive Suite": 22.036
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 20.0,
+      "Zone 2: Meeting Room": 20.0,
+      "Zone 3: Executive Suite": 20.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0,
+    "metrics": {
+      "cost": 0.0,
+      "energy_cost": 0.0,
+      "carbon_cost": 0.0,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.0,
+      "comfort_penalty": 0.0
+    },
+    "ai_strategy": "Strategy A (Eco-Optimized)",
+    "ai_explanation": "Low occupancy or moderate weather detected. Eco-Optimized strategy minimizes baseline energy consumption. Predicted Cost J=0.000 (Energy Cost: 0.000, Carbon Cost: 0.000, Comfort Penalty: 0.000).",
+    "safety_log": {
+      "status": "REJECTED",
+      "reason": "Failed to apply: Zone 'Zone 1: Open Office' Validation Failed: Cooling setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 5.0\u00b0C); Heating setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 4.0\u00b0C)",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 27.0,
+        "Zone 2: Meeting Room": 27.0,
+        "Zone 3: Executive Suite": 27.0
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 16.0,
+        "Zone 2: Meeting Room": 16.0,
+        "Zone 3: Executive Suite": 16.0
+      }
+    }
+  },
+  {
+    "hour": 3.75,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 20.0,
+      "Zone 2: Meeting Room": 20.0,
+      "Zone 3: Executive Suite": 20.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.03327333333333396,
+      "Zone 2: Meeting Room": 0.03327333333333396,
+      "Zone 3: Executive Suite": 0.03327333333333396
+    },
+    "total_energy": 0.09982000000000188,
+    "metrics": {
+      "cost": 0.15971200000000302,
+      "energy_cost": 0.09982000000000188,
+      "carbon_cost": 0.059892000000001125,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.011978400000000226,
+      "comfort_penalty": 0.0
+    },
+    "ai_strategy": "Strategy A (Eco-Optimized)",
+    "ai_explanation": "Low occupancy or moderate weather detected. Eco-Optimized strategy minimizes baseline energy consumption. Predicted Cost J=0.000 (Energy Cost: 0.000, Carbon Cost: 0.000, Comfort Penalty: 0.000).",
+    "safety_log": {
+      "status": "REJECTED",
+      "reason": "Failed to apply: Zone 'Zone 1: Open Office' Validation Failed: Cooling setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 5.0\u00b0C); Heating setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 4.0\u00b0C)",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 27.0,
+        "Zone 2: Meeting Room": 27.0,
+        "Zone 3: Executive Suite": 27.0
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 16.0,
+        "Zone 2: Meeting Room": 16.0,
+        "Zone 3: Executive Suite": 16.0
+      }
+    }
+  },
+  {
+    "hour": 4.0,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.036,
+      "Zone 2: Meeting Room": 22.036,
+      "Zone 3: Executive Suite": 22.036
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 20.0,
+      "Zone 2: Meeting Room": 20.0,
+      "Zone 3: Executive Suite": 20.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0,
+    "metrics": {
+      "cost": 0.0,
+      "energy_cost": 0.0,
+      "carbon_cost": 0.0,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.0,
+      "comfort_penalty": 0.0
+    },
+    "ai_strategy": "Strategy A (Eco-Optimized)",
+    "ai_explanation": "Low occupancy or moderate weather detected. Eco-Optimized strategy minimizes baseline energy consumption. Predicted Cost J=0.000 (Energy Cost: 0.000, Carbon Cost: 0.000, Comfort Penalty: 0.000).",
+    "safety_log": {
+      "status": "REJECTED",
+      "reason": "Failed to apply: Zone 'Zone 1: Open Office' Validation Failed: Cooling setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 5.0\u00b0C); Heating setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 4.0\u00b0C)",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 27.0,
+        "Zone 2: Meeting Room": 27.0,
+        "Zone 3: Executive Suite": 27.0
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 16.0,
+        "Zone 2: Meeting Room": 16.0,
+        "Zone 3: Executive Suite": 16.0
+      }
+    }
+  },
+  {
+    "hour": 4.25,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 20.0,
+      "Zone 2: Meeting Room": 20.0,
+      "Zone 3: Executive Suite": 20.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.03327333333333396,
+      "Zone 2: Meeting Room": 0.03327333333333396,
+      "Zone 3: Executive Suite": 0.03327333333333396
+    },
+    "total_energy": 0.09982000000000188,
+    "metrics": {
+      "cost": 0.15971200000000302,
+      "energy_cost": 0.09982000000000188,
+      "carbon_cost": 0.059892000000001125,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.011978400000000226,
+      "comfort_penalty": 0.0
+    },
+    "ai_strategy": "Strategy A (Eco-Optimized)",
+    "ai_explanation": "Low occupancy or moderate weather detected. Eco-Optimized strategy minimizes baseline energy consumption. Predicted Cost J=0.000 (Energy Cost: 0.000, Carbon Cost: 0.000, Comfort Penalty: 0.000).",
+    "safety_log": {
+      "status": "REJECTED",
+      "reason": "Failed to apply: Zone 'Zone 1: Open Office' Validation Failed: Cooling setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 5.0\u00b0C); Heating setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 4.0\u00b0C)",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 27.0,
+        "Zone 2: Meeting Room": 27.0,
+        "Zone 3: Executive Suite": 27.0
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 16.0,
+        "Zone 2: Meeting Room": 16.0,
+        "Zone 3: Executive Suite": 16.0
+      }
+    }
+  },
+  {
+    "hour": 4.5,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.036,
+      "Zone 2: Meeting Room": 22.036,
+      "Zone 3: Executive Suite": 22.036
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 20.0,
+      "Zone 2: Meeting Room": 20.0,
+      "Zone 3: Executive Suite": 20.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0,
+    "metrics": {
+      "cost": 0.0,
+      "energy_cost": 0.0,
+      "carbon_cost": 0.0,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.0,
+      "comfort_penalty": 0.0
+    },
+    "ai_strategy": "Strategy A (Eco-Optimized)",
+    "ai_explanation": "Low occupancy or moderate weather detected. Eco-Optimized strategy minimizes baseline energy consumption. Predicted Cost J=0.000 (Energy Cost: 0.000, Carbon Cost: 0.000, Comfort Penalty: 0.000).",
+    "safety_log": {
+      "status": "REJECTED",
+      "reason": "Failed to apply: Zone 'Zone 1: Open Office' Validation Failed: Cooling setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 5.0\u00b0C); Heating setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 4.0\u00b0C)",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 27.0,
+        "Zone 2: Meeting Room": 27.0,
+        "Zone 3: Executive Suite": 27.0
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 16.0,
+        "Zone 2: Meeting Room": 16.0,
+        "Zone 3: Executive Suite": 16.0
+      }
+    }
+  },
+  {
+    "hour": 4.75,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 20.0,
+      "Zone 2: Meeting Room": 20.0,
+      "Zone 3: Executive Suite": 20.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.03327333333333396,
+      "Zone 2: Meeting Room": 0.03327333333333396,
+      "Zone 3: Executive Suite": 0.03327333333333396
+    },
+    "total_energy": 0.09982000000000188,
+    "metrics": {
+      "cost": 0.15971200000000302,
+      "energy_cost": 0.09982000000000188,
+      "carbon_cost": 0.059892000000001125,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.011978400000000226,
+      "comfort_penalty": 0.0
+    },
+    "ai_strategy": "Strategy A (Eco-Optimized)",
+    "ai_explanation": "Low occupancy or moderate weather detected. Eco-Optimized strategy minimizes baseline energy consumption. Predicted Cost J=0.000 (Energy Cost: 0.000, Carbon Cost: 0.000, Comfort Penalty: 0.000).",
+    "safety_log": {
+      "status": "REJECTED",
+      "reason": "Failed to apply: Zone 'Zone 1: Open Office' Validation Failed: Cooling setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 5.0\u00b0C); Heating setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 4.0\u00b0C)",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 27.0,
+        "Zone 2: Meeting Room": 27.0,
+        "Zone 3: Executive Suite": 27.0
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 16.0,
+        "Zone 2: Meeting Room": 16.0,
+        "Zone 3: Executive Suite": 16.0
+      }
+    }
+  },
+  {
+    "hour": 5.0,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.036,
+      "Zone 2: Meeting Room": 22.036,
+      "Zone 3: Executive Suite": 22.036
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 20.0,
+      "Zone 2: Meeting Room": 20.0,
+      "Zone 3: Executive Suite": 20.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0,
+    "metrics": {
+      "cost": 0.0,
+      "energy_cost": 0.0,
+      "carbon_cost": 0.0,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.0,
+      "comfort_penalty": 0.0
+    },
+    "ai_strategy": "Strategy A (Eco-Optimized)",
+    "ai_explanation": "Low occupancy or moderate weather detected. Eco-Optimized strategy minimizes baseline energy consumption. Predicted Cost J=0.000 (Energy Cost: 0.000, Carbon Cost: 0.000, Comfort Penalty: 0.000).",
+    "safety_log": {
+      "status": "REJECTED",
+      "reason": "Failed to apply: Zone 'Zone 1: Open Office' Validation Failed: Cooling setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 5.0\u00b0C); Heating setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 4.0\u00b0C)",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 27.0,
+        "Zone 2: Meeting Room": 27.0,
+        "Zone 3: Executive Suite": 27.0
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 16.0,
+        "Zone 2: Meeting Room": 16.0,
+        "Zone 3: Executive Suite": 16.0
+      }
+    }
+  },
+  {
+    "hour": 5.25,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 20.0,
+      "Zone 2: Meeting Room": 20.0,
+      "Zone 3: Executive Suite": 20.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.03327333333333396,
+      "Zone 2: Meeting Room": 0.03327333333333396,
+      "Zone 3: Executive Suite": 0.03327333333333396
+    },
+    "total_energy": 0.09982000000000188,
+    "metrics": {
+      "cost": 0.15971200000000302,
+      "energy_cost": 0.09982000000000188,
+      "carbon_cost": 0.059892000000001125,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.011978400000000226,
+      "comfort_penalty": 0.0
+    },
+    "ai_strategy": "Strategy A (Eco-Optimized)",
+    "ai_explanation": "Low occupancy or moderate weather detected. Eco-Optimized strategy minimizes baseline energy consumption. Predicted Cost J=0.000 (Energy Cost: 0.000, Carbon Cost: 0.000, Comfort Penalty: 0.000).",
+    "safety_log": {
+      "status": "REJECTED",
+      "reason": "Failed to apply: Zone 'Zone 1: Open Office' Validation Failed: Cooling setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 5.0\u00b0C); Heating setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 4.0\u00b0C)",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 27.0,
+        "Zone 2: Meeting Room": 27.0,
+        "Zone 3: Executive Suite": 27.0
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 16.0,
+        "Zone 2: Meeting Room": 16.0,
+        "Zone 3: Executive Suite": 16.0
+      }
+    }
+  },
+  {
+    "hour": 5.5,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.036,
+      "Zone 2: Meeting Room": 22.036,
+      "Zone 3: Executive Suite": 22.036
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 20.0,
+      "Zone 2: Meeting Room": 20.0,
+      "Zone 3: Executive Suite": 20.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0,
+    "metrics": {
+      "cost": 0.0,
+      "energy_cost": 0.0,
+      "carbon_cost": 0.0,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.0,
+      "comfort_penalty": 0.0
+    },
+    "ai_strategy": "Strategy A (Eco-Optimized)",
+    "ai_explanation": "Low occupancy or moderate weather detected. Eco-Optimized strategy minimizes baseline energy consumption. Predicted Cost J=0.000 (Energy Cost: 0.000, Carbon Cost: 0.000, Comfort Penalty: 0.000).",
+    "safety_log": {
+      "status": "REJECTED",
+      "reason": "Failed to apply: Zone 'Zone 1: Open Office' Validation Failed: Cooling setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 5.0\u00b0C); Heating setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 4.0\u00b0C)",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 27.0,
+        "Zone 2: Meeting Room": 27.0,
+        "Zone 3: Executive Suite": 27.0
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 16.0,
+        "Zone 2: Meeting Room": 16.0,
+        "Zone 3: Executive Suite": 16.0
+      }
+    }
+  },
+  {
+    "hour": 5.75,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 20.0,
+      "Zone 2: Meeting Room": 20.0,
+      "Zone 3: Executive Suite": 20.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.03327333333333396,
+      "Zone 2: Meeting Room": 0.03327333333333396,
+      "Zone 3: Executive Suite": 0.03327333333333396
+    },
+    "total_energy": 0.09982000000000188,
+    "metrics": {
+      "cost": 0.15971200000000302,
+      "energy_cost": 0.09982000000000188,
+      "carbon_cost": 0.059892000000001125,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.011978400000000226,
+      "comfort_penalty": 0.0
+    },
+    "ai_strategy": "Strategy A (Eco-Optimized)",
+    "ai_explanation": "Low occupancy or moderate weather detected. Eco-Optimized strategy minimizes baseline energy consumption. Predicted Cost J=0.000 (Energy Cost: 0.000, Carbon Cost: 0.000, Comfort Penalty: 0.000).",
+    "safety_log": {
+      "status": "REJECTED",
+      "reason": "Failed to apply: Zone 'Zone 1: Open Office' Validation Failed: Cooling setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 5.0\u00b0C); Heating setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 4.0\u00b0C)",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 27.0,
+        "Zone 2: Meeting Room": 27.0,
+        "Zone 3: Executive Suite": 27.0
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 16.0,
+        "Zone 2: Meeting Room": 16.0,
+        "Zone 3: Executive Suite": 16.0
+      }
+    }
+  },
+  {
+    "hour": 6.0,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.036,
+      "Zone 2: Meeting Room": 22.036,
+      "Zone 3: Executive Suite": 22.036
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 20.0,
+      "Zone 2: Meeting Room": 20.0,
+      "Zone 3: Executive Suite": 20.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0,
+    "metrics": {
+      "cost": 0.0,
+      "energy_cost": 0.0,
+      "carbon_cost": 0.0,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.0,
+      "comfort_penalty": 0.0
+    },
+    "ai_strategy": "Strategy A (Eco-Optimized)",
+    "ai_explanation": "Low occupancy or moderate weather detected. Eco-Optimized strategy minimizes baseline energy consumption. Predicted Cost J=0.000 (Energy Cost: 0.000, Carbon Cost: 0.000, Comfort Penalty: 0.000).",
+    "safety_log": {
+      "status": "REJECTED",
+      "reason": "Failed to apply: Zone 'Zone 1: Open Office' Validation Failed: Cooling setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 5.0\u00b0C); Heating setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 4.0\u00b0C)",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 27.0,
+        "Zone 2: Meeting Room": 27.0,
+        "Zone 3: Executive Suite": 27.0
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 16.0,
+        "Zone 2: Meeting Room": 16.0,
+        "Zone 3: Executive Suite": 16.0
+      }
+    }
+  },
+  {
+    "hour": 6.25,
+    "outdoor_temp": 22.915643809222004,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 20.0,
+      "Zone 2: Meeting Room": 20.0,
+      "Zone 3: Executive Suite": 20.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.04569992788706114,
+      "Zone 2: Meeting Room": 0.04024966711788256,
+      "Zone 3: Executive Suite": 0.04024966711788256
+    },
+    "total_energy": 0.12619926212282626,
+    "metrics": {
+      "cost": 0.201918819396522,
+      "energy_cost": 0.12619926212282626,
+      "carbon_cost": 0.07571955727369575,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.01514391145473915,
+      "comfort_penalty": 0.0
+    },
+    "ai_strategy": "Strategy A (Eco-Optimized)",
+    "ai_explanation": "Low occupancy or moderate weather detected. Eco-Optimized strategy minimizes baseline energy consumption. Predicted Cost J=0.000 (Energy Cost: 0.000, Carbon Cost: 0.000, Comfort Penalty: 0.000).",
+    "safety_log": {
+      "status": "REJECTED",
+      "reason": "Failed to apply: Zone 'Zone 1: Open Office' Validation Failed: Cooling setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 5.0\u00b0C); Heating setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 4.0\u00b0C)",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 27.0,
+        "Zone 2: Meeting Room": 27.0,
+        "Zone 3: Executive Suite": 27.0
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 16.0,
+        "Zone 2: Meeting Room": 16.0,
+        "Zone 3: Executive Suite": 16.0
+      }
+    }
+  },
+  {
+    "hour": 6.5,
+    "outdoor_temp": 23.827366691080723,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.089567949287108,
+      "Zone 2: Meeting Room": 22.0660732346875,
+      "Zone 3: Executive Suite": 22.0660732346875
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 20.0,
+      "Zone 2: Meeting Room": 20.0,
+      "Zone 3: Executive Suite": 20.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0,
+    "metrics": {
+      "cost": 0.0,
+      "energy_cost": 0.0,
+      "carbon_cost": 0.0,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.0,
+      "comfort_penalty": 0.0
+    },
+    "ai_strategy": "Strategy A (Eco-Optimized)",
+    "ai_explanation": "Low occupancy or moderate weather detected. Eco-Optimized strategy minimizes baseline energy consumption. Predicted Cost J=0.000 (Energy Cost: 0.000, Carbon Cost: 0.000, Comfort Penalty: 0.000).",
+    "safety_log": {
+      "status": "REJECTED",
+      "reason": "Failed to apply: Zone 'Zone 1: Open Office' Validation Failed: Cooling setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 5.0\u00b0C); Heating setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 4.0\u00b0C)",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 27.0,
+        "Zone 2: Meeting Room": 27.0,
+        "Zone 3: Executive Suite": 27.0
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 16.0,
+        "Zone 2: Meeting Room": 16.0,
+        "Zone 3: Executive Suite": 16.0
+      }
+    }
+  },
+  {
+    "hour": 6.75,
+    "outdoor_temp": 24.731264508225795,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 20.0,
+      "Zone 2: Meeting Room": 20.0,
+      "Zone 3: Executive Suite": 20.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.09503161219389553,
+      "Zone 2: Meeting Room": 0.0679654289251303,
+      "Zone 3: Executive Suite": 0.0679654289251303
+    },
+    "total_energy": 0.23096247004415613,
+    "metrics": {
+      "cost": 0.3695399520706498,
+      "energy_cost": 0.23096247004415613,
+      "carbon_cost": 0.13857748202649367,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.027715496405298735,
+      "comfort_penalty": 0.0
+    },
+    "ai_strategy": "Strategy A (Eco-Optimized)",
+    "ai_explanation": "Low occupancy or moderate weather detected. Eco-Optimized strategy minimizes baseline energy consumption. Predicted Cost J=0.000 (Energy Cost: 0.000, Carbon Cost: 0.000, Comfort Penalty: 0.000).",
+    "safety_log": {
+      "status": "REJECTED",
+      "reason": "Failed to apply: Zone 'Zone 1: Open Office' Validation Failed: Cooling setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 5.0\u00b0C); Heating setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 4.0\u00b0C)",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 27.0,
+        "Zone 2: Meeting Room": 27.0,
+        "Zone 3: Executive Suite": 27.0
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 16.0,
+        "Zone 2: Meeting Room": 16.0,
+        "Zone 3: Executive Suite": 16.0
+      }
+    }
+  },
+  {
+    "hour": 7.0,
+    "outdoor_temp": 25.623466631435292,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.142219336110074,
+      "Zone 2: Meeting Room": 22.09563190799162,
+      "Zone 3: Executive Suite": 22.09563190799162
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 20.0,
+      "Zone 2: Meeting Room": 20.0,
+      "Zone 3: Executive Suite": 20.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0,
+    "metrics": {
+      "cost": 0.0,
+      "energy_cost": 0.0,
+      "carbon_cost": 0.0,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.0,
+      "comfort_penalty": 0.0
+    },
+    "ai_strategy": "Strategy A (Eco-Optimized)",
+    "ai_explanation": "Low occupancy or moderate weather detected. Eco-Optimized strategy minimizes baseline energy consumption. Predicted Cost J=0.000 (Energy Cost: 0.000, Carbon Cost: 0.000, Comfort Penalty: 0.000).",
+    "safety_log": {
+      "status": "REJECTED",
+      "reason": "Failed to apply: Zone 'Zone 1: Open Office' Validation Failed: Cooling setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 5.0\u00b0C); Heating setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 4.0\u00b0C)",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 27.0,
+        "Zone 2: Meeting Room": 27.0,
+        "Zone 3: Executive Suite": 27.0
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 16.0,
+        "Zone 2: Meeting Room": 16.0,
+        "Zone 3: Executive Suite": 16.0
+      }
+    }
+  },
+  {
+    "hour": 7.25,
+    "outdoor_temp": 26.500152514244263,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 20.0,
+      "Zone 2: Meeting Room": 20.0,
+      "Zone 3: Executive Suite": 20.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.14330659522679717,
+      "Zone 2: Meeting Room": 0.09508759935833602,
+      "Zone 3: Executive Suite": 0.09508759935833602
+    },
+    "total_energy": 0.3334817939434692,
+    "metrics": {
+      "cost": 0.5335708703095507,
+      "energy_cost": 0.3334817939434692,
+      "carbon_cost": 0.2000890763660815,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.0400178152732163,
+      "comfort_penalty": 0.0
+    },
+    "ai_strategy": "Strategy A (Eco-Optimized)",
+    "ai_explanation": "Low occupancy or moderate weather detected. Eco-Optimized strategy minimizes baseline energy consumption. Predicted Cost J=0.000 (Energy Cost: 0.000, Carbon Cost: 0.000, Comfort Penalty: 0.000).",
+    "safety_log": {
+      "status": "REJECTED",
+      "reason": "Failed to apply: Zone 'Zone 1: Open Office' Validation Failed: Cooling setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 5.0\u00b0C); Heating setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 4.0\u00b0C)",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 27.0,
+        "Zone 2: Meeting Room": 27.0,
+        "Zone 3: Executive Suite": 27.0
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 16.0,
+        "Zone 2: Meeting Room": 16.0,
+        "Zone 3: Executive Suite": 16.0
+      }
+    }
+  },
+  {
+    "hour": 7.5,
+    "outdoor_temp": 27.357568053111258,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.193053280642633,
+      "Zone 2: Meeting Room": 22.124170262816918,
+      "Zone 3: Executive Suite": 22.124170262816918
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 20.0,
+      "Zone 2: Meeting Room": 20.0,
+      "Zone 3: Executive Suite": 20.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0,
+    "metrics": {
+      "cost": 0.0,
+      "energy_cost": 0.0,
+      "carbon_cost": 0.0,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.0,
+      "comfort_penalty": 0.0
+    },
+    "ai_strategy": "Strategy A (Eco-Optimized)",
+    "ai_explanation": "Low occupancy or moderate weather detected. Eco-Optimized strategy minimizes baseline energy consumption. Predicted Cost J=0.000 (Energy Cost: 0.000, Carbon Cost: 0.000, Comfort Penalty: 0.000).",
+    "safety_log": {
+      "status": "REJECTED",
+      "reason": "Failed to apply: Zone 'Zone 1: Open Office' Validation Failed: Cooling setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 5.0\u00b0C); Heating setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 4.0\u00b0C)",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 27.0,
+        "Zone 2: Meeting Room": 27.0,
+        "Zone 3: Executive Suite": 27.0
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 16.0,
+        "Zone 2: Meeting Room": 16.0,
+        "Zone 3: Executive Suite": 16.0
+      }
+    }
+  },
+  {
+    "hour": 7.75,
+    "outdoor_temp": 28.192041663066018,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 20.0,
+      "Zone 2: Meeting Room": 20.0,
+      "Zone 3: Executive Suite": 20.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.18969887864171847,
+      "Zone 2: Meeting Room": 0.12115211056170279,
+      "Zone 3: Executive Suite": 0.12115211056170279
+    },
+    "total_energy": 0.4320030997651241,
+    "metrics": {
+      "cost": 0.6912049596241985,
+      "energy_cost": 0.4320030997651241,
+      "carbon_cost": 0.25920185985907446,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.05184037197181489,
+      "comfort_penalty": 0.0
+    },
+    "ai_strategy": "Strategy A (Eco-Optimized)",
+    "ai_explanation": "Low occupancy or moderate weather detected. Eco-Optimized strategy minimizes baseline energy consumption. Predicted Cost J=0.000 (Energy Cost: 0.000, Carbon Cost: 0.000, Comfort Penalty: 0.000).",
+    "safety_log": {
+      "status": "REJECTED",
+      "reason": "Failed to apply: Zone 'Zone 1: Open Office' Validation Failed: Cooling setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 5.0\u00b0C); Heating setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 4.0\u00b0C)",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 27.0,
+        "Zone 2: Meeting Room": 27.0,
+        "Zone 3: Executive Suite": 27.0
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 16.0,
+        "Zone 2: Meeting Room": 16.0,
+        "Zone 3: Executive Suite": 16.0
+      }
+    }
+  },
+  {
+    "hour": 8.0,
+    "outdoor_temp": 29.0,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 18,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 2
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.7992,
+      "Zone 2: Meeting Room": 22.2592,
+      "Zone 3: Executive Suite": 22.2592
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 20.0,
+      "Zone 2: Meeting Room": 20.0,
+      "Zone 3: Executive Suite": 20.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0,
+    "metrics": {
+      "cost": 0.0,
+      "energy_cost": 0.0,
+      "carbon_cost": 0.0,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.0,
+      "comfort_penalty": 0.0
+    },
+    "ai_strategy": "Strategy A (Eco-Optimized)",
+    "ai_explanation": "Low occupancy or moderate weather detected. Eco-Optimized strategy minimizes baseline energy consumption. Predicted Cost J=4.053 (Energy Cost: 2.533, Carbon Cost: 1.520, Comfort Penalty: 0.000).",
+    "safety_log": {
+      "status": "REJECTED",
+      "reason": "Failed to apply: Zone 'Zone 2: Meeting Room' Validation Failed: Cooling setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 5.0\u00b0C); Heating setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 4.0\u00b0C)",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 23.5,
+        "Zone 2: Meeting Room": 27.0,
+        "Zone 3: Executive Suite": 23.5
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 19.0,
+        "Zone 2: Meeting Room": 16.0,
+        "Zone 3: Executive Suite": 19.0
+      }
+    }
+  },
+  {
+    "hour": 8.25,
+    "outdoor_temp": 29.777983262274432,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 18,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 2
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.177356903631242,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 20.0,
+      "Zone 2: Meeting Room": 20.0,
+      "Zone 3: Executive Suite": 20.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.6666666666666666,
+      "Zone 2: Meeting Room": 0.24572049152209083,
+      "Zone 3: Executive Suite": 0.24572049152209083
+    },
+    "total_energy": 1.1581076497108482,
+    "metrics": {
+      "cost": 1.8529722395373571,
+      "energy_cost": 1.1581076497108482,
+      "carbon_cost": 0.6948645898265089,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.13897291796530178,
+      "comfort_penalty": 0.0
+    },
+    "ai_strategy": "Strategy A (Eco-Optimized)",
+    "ai_explanation": "Low occupancy or moderate weather detected. Eco-Optimized strategy minimizes baseline energy consumption. Predicted Cost J=5.513 (Energy Cost: 3.445, Carbon Cost: 2.067, Comfort Penalty: 0.000).",
+    "safety_log": {
+      "status": "REJECTED",
+      "reason": "Failed to apply: Zone 'Zone 2: Meeting Room' Validation Failed: Cooling setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 5.0\u00b0C); Heating setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 4.0\u00b0C)",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 23.5,
+        "Zone 2: Meeting Room": 27.0,
+        "Zone 3: Executive Suite": 23.5
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 19.0,
+        "Zone 2: Meeting Room": 16.0,
+        "Zone 3: Executive Suite": 19.0
+      }
+    }
+  },
+  {
+    "hour": 8.5,
+    "outdoor_temp": 30.522660006122088,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 18,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 2
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.284418254456877,
+      "Zone 3: Executive Suite": 22.284418254456877
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 20.0,
+      "Zone 2: Meeting Room": 20.0,
+      "Zone 3: Executive Suite": 20.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.4723309568596355,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.4723309568596355,
+    "metrics": {
+      "cost": 0.7557295309754168,
+      "energy_cost": 0.4723309568596355,
+      "carbon_cost": 0.2833985741157813,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.05667971482315626,
+      "comfort_penalty": 0.0
+    },
+    "ai_strategy": "Strategy A (Eco-Optimized)",
+    "ai_explanation": "Low occupancy or moderate weather detected. Eco-Optimized strategy minimizes baseline energy consumption. Predicted Cost J=4.716 (Energy Cost: 2.948, Carbon Cost: 1.769, Comfort Penalty: 0.000).",
+    "safety_log": {
+      "status": "REJECTED",
+      "reason": "Failed to apply: Zone 'Zone 2: Meeting Room' Validation Failed: Cooling setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 5.0\u00b0C); Heating setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 4.0\u00b0C)",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 23.5,
+        "Zone 2: Meeting Room": 27.0,
+        "Zone 3: Executive Suite": 23.5
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 19.0,
+        "Zone 2: Meeting Room": 16.0,
+        "Zone 3: Executive Suite": 19.0
+      }
+    }
+  },
+  {
+    "hour": 8.75,
+    "outdoor_temp": 31.230841411400963,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 18,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 2
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.86510747537509,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 20.0,
+      "Zone 2: Meeting Room": 20.0,
+      "Zone 3: Executive Suite": 20.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.26807946671799876,
+      "Zone 3: Executive Suite": 0.26807946671799876
+    },
+    "total_energy": 0.5361589334359975,
+    "metrics": {
+      "cost": 0.857854293497596,
+      "energy_cost": 0.5361589334359975,
+      "carbon_cost": 0.3216953600615985,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.0643390720123197,
+      "comfort_penalty": 0.0
+    },
+    "ai_strategy": "Strategy A (Eco-Optimized)",
+    "ai_explanation": "Low occupancy or moderate weather detected. Eco-Optimized strategy minimizes baseline energy consumption. Predicted Cost J=4.680 (Energy Cost: 2.925, Carbon Cost: 1.755, Comfort Penalty: 0.000).",
+    "safety_log": {
+      "status": "REJECTED",
+      "reason": "Failed to apply: Zone 'Zone 2: Meeting Room' Validation Failed: Cooling setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 5.0\u00b0C); Heating setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 4.0\u00b0C)",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 23.5,
+        "Zone 2: Meeting Room": 27.0,
+        "Zone 3: Executive Suite": 23.5
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 19.0,
+        "Zone 2: Meeting Room": 16.0,
+        "Zone 3: Executive Suite": 19.0
+      }
+    }
+  },
+  {
+    "hour": 9.0,
+    "outdoor_temp": 31.899494936611667,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 18,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 2
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.304632518007026,
+      "Zone 2: Meeting Room": 22.307695999113218,
+      "Zone 3: Executive Suite": 22.307695999113218
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 20.0,
+      "Zone 2: Meeting Room": 20.0,
+      "Zone 3: Executive Suite": 20.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.6666666666666666,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.6666666666666666,
+    "metrics": {
+      "cost": 1.0666666666666664,
+      "energy_cost": 0.6666666666666666,
+      "carbon_cost": 0.3999999999999999,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.07999999999999999,
+      "comfort_penalty": 0.0
+    },
+    "ai_strategy": "Strategy A (Eco-Optimized)",
+    "ai_explanation": "Low occupancy or moderate weather detected. Eco-Optimized strategy minimizes baseline energy consumption. Predicted Cost J=5.838 (Energy Cost: 3.649, Carbon Cost: 2.189, Comfort Penalty: 0.000).",
+    "safety_log": {
+      "status": "REJECTED",
+      "reason": "Failed to apply: Zone 'Zone 2: Meeting Room' Validation Failed: Cooling setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 5.0\u00b0C); Heating setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 4.0\u00b0C)",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 23.5,
+        "Zone 2: Meeting Room": 27.0,
+        "Zone 3: Executive Suite": 23.5
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 19.0,
+        "Zone 2: Meeting Room": 16.0,
+        "Zone 3: Executive Suite": 19.0
+      }
+    }
+  },
+  {
+    "hour": 9.25,
+    "outdoor_temp": 32.52575730470568,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 18,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 2
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 20.0,
+      "Zone 2: Meeting Room": 20.0,
+      "Zone 3: Executive Suite": 20.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.5583779686099832,
+      "Zone 2: Meeting Room": 0.2888006611234125,
+      "Zone 3: Executive Suite": 0.2888006611234125
+    },
+    "total_energy": 1.1359792908568083,
+    "metrics": {
+      "cost": 1.8175668653708932,
+      "energy_cost": 1.1359792908568083,
+      "carbon_cost": 0.6815875745140849,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.136317514902817,
+      "comfort_penalty": 0.0
+    },
+    "ai_strategy": "Strategy A (Eco-Optimized)",
+    "ai_explanation": "Low occupancy or moderate weather detected. Eco-Optimized strategy minimizes baseline energy consumption. Predicted Cost J=4.802 (Energy Cost: 3.001, Carbon Cost: 1.801, Comfort Penalty: 0.000).",
+    "safety_log": {
+      "status": "REJECTED",
+      "reason": "Failed to apply: Zone 'Zone 2: Meeting Room' Validation Failed: Cooling setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 5.0\u00b0C); Heating setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 4.0\u00b0C)",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 23.5,
+        "Zone 2: Meeting Room": 27.0,
+        "Zone 3: Executive Suite": 23.5
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 19.0,
+        "Zone 2: Meeting Room": 16.0,
+        "Zone 3: Executive Suite": 19.0
+      }
+    }
+  },
+  {
+    "hour": 9.5,
+    "outdoor_temp": 33.10694676407729,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 18,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 2
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.919592210855523,
+      "Zone 2: Meeting Room": 22.3267886096031,
+      "Zone 3: Executive Suite": 22.3267886096031
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 20.0,
+      "Zone 2: Meeting Room": 20.0,
+      "Zone 3: Executive Suite": 20.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0,
+    "metrics": {
+      "cost": 0.0,
+      "energy_cost": 0.0,
+      "carbon_cost": 0.0,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.0,
+      "comfort_penalty": 0.0
+    },
+    "ai_strategy": "Strategy A (Eco-Optimized)",
+    "ai_explanation": "Low occupancy or moderate weather detected. Eco-Optimized strategy minimizes baseline energy consumption. Predicted Cost J=5.068 (Energy Cost: 3.167, Carbon Cost: 1.900, Comfort Penalty: 0.000).",
+    "safety_log": {
+      "status": "REJECTED",
+      "reason": "Failed to apply: Zone 'Zone 2: Meeting Room' Validation Failed: Cooling setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 5.0\u00b0C); Heating setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 4.0\u00b0C)",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 23.5,
+        "Zone 2: Meeting Room": 27.0,
+        "Zone 3: Executive Suite": 23.5
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 19.0,
+        "Zone 2: Meeting Room": 16.0,
+        "Zone 3: Executive Suite": 19.0
+      }
+    }
+  },
+  {
+    "hour": 9.75,
+    "outdoor_temp": 33.640574572235636,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 18,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 2
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.410449761303152,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 20.0,
+      "Zone 2: Meeting Room": 20.0,
+      "Zone 3: Executive Suite": 20.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.6666666666666666,
+      "Zone 2: Meeting Room": 0.3063501354278526,
+      "Zone 3: Executive Suite": 0.3063501354278526
+    },
+    "total_energy": 1.2793669375223717,
+    "metrics": {
+      "cost": 2.0469871000357944,
+      "energy_cost": 1.2793669375223717,
+      "carbon_cost": 0.7676201625134229,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.1535240325026846,
+      "comfort_penalty": 0.0
+    },
+    "ai_strategy": "Strategy A (Eco-Optimized)",
+    "ai_explanation": "Low occupancy or moderate weather detected. Eco-Optimized strategy minimizes baseline energy consumption. Predicted Cost J=6.152 (Energy Cost: 3.845, Carbon Cost: 2.307, Comfort Penalty: 0.000).",
+    "safety_log": {
+      "status": "REJECTED",
+      "reason": "Failed to apply: Zone 'Zone 2: Meeting Room' Validation Failed: Cooling setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 5.0\u00b0C); Heating setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 4.0\u00b0C)",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 23.5,
+        "Zone 2: Meeting Room": 27.0,
+        "Zone 3: Executive Suite": 23.5
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 19.0,
+        "Zone 2: Meeting Room": 16.0,
+        "Zone 3: Executive Suite": 19.0
+      }
+    }
+  },
+  {
+    "hour": 10.0,
+    "outdoor_temp": 34.12435565298214,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 18,
+      "Zone 2: Meeting Room": 12,
+      "Zone 3: Executive Suite": 2
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 23.357650158305248,
+      "Zone 2: Meeting Room": 22.559901657817107,
+      "Zone 3: Executive Suite": 22.343901657817106
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 23.5,
+      "Zone 2: Meeting Room": 23.5,
+      "Zone 3: Executive Suite": 23.5
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 19.0,
+      "Zone 2: Meeting Room": 19.0,
+      "Zone 3: Executive Suite": 19.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0,
+    "metrics": {
+      "cost": 0.0,
+      "energy_cost": 0.0,
+      "carbon_cost": 0.0,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.0,
+      "comfort_penalty": 0.0
+    },
+    "ai_strategy": "Strategy A (Eco-Optimized)",
+    "ai_explanation": "Low occupancy or moderate weather detected. Eco-Optimized strategy minimizes baseline energy consumption. Predicted Cost J=8.204 (Energy Cost: 5.127, Carbon Cost: 3.076, Comfort Penalty: 0.000).",
+    "safety_log": {
+      "status": "APPROVED",
+      "reason": "Successfully applied control setpoints",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 23.5,
+        "Zone 2: Meeting Room": 23.5,
+        "Zone 3: Executive Suite": 23.5
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 19.0,
+        "Zone 2: Meeting Room": 19.0,
+        "Zone 3: Executive Suite": 19.0
+      }
+    }
+  },
+  {
+    "hour": 10.25,
+    "outdoor_temp": 34.55621838145764,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 18,
+      "Zone 2: Meeting Room": 12,
+      "Zone 3: Executive Suite": 2
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 24.313208843559487,
+      "Zone 2: Meeting Room": 23.125243465148536,
+      "Zone 3: Executive Suite": 22.694215465148535
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 23.5,
+      "Zone 2: Meeting Room": 23.5,
+      "Zone 3: Executive Suite": 23.5
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 19.0,
+      "Zone 2: Meeting Room": 19.0,
+      "Zone 3: Executive Suite": 19.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0,
+    "metrics": {
+      "cost": 0.0,
+      "energy_cost": 0.0,
+      "carbon_cost": 0.0,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.0,
+      "comfort_penalty": 0.0
+    },
+    "ai_strategy": "Strategy A (Eco-Optimized)",
+    "ai_explanation": "Low occupancy or moderate weather detected. Eco-Optimized strategy minimizes baseline energy consumption. Predicted Cost J=8.228 (Energy Cost: 5.142, Carbon Cost: 3.085, Comfort Penalty: 0.000).",
+    "safety_log": {
+      "status": "APPROVED",
+      "reason": "Successfully applied control setpoints",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 23.5,
+        "Zone 2: Meeting Room": 23.5,
+        "Zone 3: Executive Suite": 23.5
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 19.0,
+        "Zone 2: Meeting Room": 19.0,
+        "Zone 3: Executive Suite": 19.0
+      }
+    }
+  },
+  {
+    "hour": 10.5,
+    "outdoor_temp": 34.93431345515801,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 18,
+      "Zone 2: Meeting Room": 12,
+      "Zone 3: Executive Suite": 2
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 23.835515188984164,
+      "Zone 2: Meeting Room": 23.69512360180517,
+      "Zone 3: Executive Suite": 23.05003522780517
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 23.5,
+      "Zone 2: Meeting Room": 23.5,
+      "Zone 3: Executive Suite": 23.5
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 19.0,
+      "Zone 2: Meeting Room": 19.0,
+      "Zone 3: Executive Suite": 19.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.6666666666666666,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.6666666666666666,
+    "metrics": {
+      "cost": 1.0666666666666664,
+      "energy_cost": 0.6666666666666666,
+      "carbon_cost": 0.3999999999999999,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.07999999999999999,
+      "comfort_penalty": 0.0
+    },
+    "ai_strategy": "Strategy A (Eco-Optimized)",
+    "ai_explanation": "Low occupancy or moderate weather detected. Eco-Optimized strategy minimizes baseline energy consumption. Predicted Cost J=10.712 (Energy Cost: 6.695, Carbon Cost: 4.017, Comfort Penalty: 0.000).",
+    "safety_log": {
+      "status": "APPROVED",
+      "reason": "Successfully applied control setpoints",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 23.5,
+        "Zone 2: Meeting Room": 23.5,
+        "Zone 3: Executive Suite": 23.5
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 19.0,
+        "Zone 2: Meeting Room": 19.0,
+        "Zone 3: Executive Suite": 19.0
+      }
+    }
+  },
+  {
+    "hour": 10.75,
+    "outdoor_temp": 35.25702181293148,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 18,
+      "Zone 2: Meeting Room": 12,
+      "Zone 3: Executive Suite": 2
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 23.5,
+      "Zone 2: Meeting Room": 23.5,
+      "Zone 3: Executive Suite": 23.409134734785805
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 23.5,
+      "Zone 2: Meeting Room": 23.5,
+      "Zone 3: Executive Suite": 23.5
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 19.0,
+      "Zone 2: Meeting Room": 19.0,
+      "Zone 3: Executive Suite": 19.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.6068028588218011,
+      "Zone 2: Meeting Room": 0.35524083847352156,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.9620436972953226,
+    "metrics": {
+      "cost": 1.539269915672516,
+      "energy_cost": 0.9620436972953226,
+      "carbon_cost": 0.5772262183771936,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.11544524367543871,
+      "comfort_penalty": 0.0
+    },
+    "ai_strategy": "Strategy A (Eco-Optimized)",
+    "ai_explanation": "Low occupancy or moderate weather detected. Eco-Optimized strategy minimizes baseline energy consumption. Predicted Cost J=10.728 (Energy Cost: 6.705, Carbon Cost: 4.023, Comfort Penalty: 0.000).",
+    "safety_log": {
+      "status": "APPROVED",
+      "reason": "Successfully applied control setpoints",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 23.5,
+        "Zone 2: Meeting Room": 23.5,
+        "Zone 3: Executive Suite": 23.5
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 19.0,
+        "Zone 2: Meeting Room": 19.0,
+        "Zone 3: Executive Suite": 19.0
+      }
+    }
+  },
+  {
+    "hour": 11.0,
+    "outdoor_temp": 35.52296156804695,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 18,
+      "Zone 2: Meeting Room": 12,
+      "Zone 3: Executive Suite": 2
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 24.48493418037034,
+      "Zone 2: Meeting Room": 24.077149310377003,
+      "Zone 3: Executive Suite": 23.77069293885627
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 23.5,
+      "Zone 2: Meeting Room": 23.5,
+      "Zone 3: Executive Suite": 23.5
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 19.0,
+      "Zone 2: Meeting Room": 19.0,
+      "Zone 3: Executive Suite": 19.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0,
+    "metrics": {
+      "cost": 0.0,
+      "energy_cost": 0.0,
+      "carbon_cost": 0.0,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.0,
+      "comfort_penalty": 0.0
+    },
+    "ai_strategy": "Strategy A (Eco-Optimized)",
+    "ai_explanation": "Low occupancy or moderate weather detected. Eco-Optimized strategy minimizes baseline energy consumption. Predicted Cost J=11.407 (Energy Cost: 7.129, Carbon Cost: 4.278, Comfort Penalty: 0.000).",
+    "safety_log": {
+      "status": "APPROVED",
+      "reason": "Successfully applied control setpoints",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 23.5,
+        "Zone 2: Meeting Room": 23.5,
+        "Zone 3: Executive Suite": 23.5
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 19.0,
+        "Zone 2: Meeting Room": 19.0,
+        "Zone 3: Executive Suite": 19.0
+      }
+    }
+  },
+  {
+    "hour": 11.25,
+    "outdoor_temp": 35.73099392564522,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 18,
+      "Zone 2: Meeting Room": 12,
+      "Zone 3: Executive Suite": 2
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 24.031492872898138,
+      "Zone 2: Meeting Room": 23.5,
+      "Zone 3: Executive Suite": 23.5
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 23.5,
+      "Zone 2: Meeting Room": 23.5,
+      "Zone 3: Executive Suite": 23.5
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 19.0,
+      "Zone 2: Meeting Room": 19.0,
+      "Zone 3: Executive Suite": 19.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.6666666666666666,
+      "Zone 2: Meeting Room": 0.5351905128923813,
+      "Zone 3: Executive Suite": 0.2939510138882665
+    },
+    "total_energy": 1.4958081934473144,
+    "metrics": {
+      "cost": 2.393293109515703,
+      "energy_cost": 1.4958081934473144,
+      "carbon_cost": 0.8974849160683885,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.1794969832136777,
+      "comfort_penalty": 0.0
+    },
+    "ai_strategy": "Strategy A (Eco-Optimized)",
+    "ai_explanation": "Low occupancy or moderate weather detected. Eco-Optimized strategy minimizes baseline energy consumption. Predicted Cost J=11.419 (Energy Cost: 7.137, Carbon Cost: 4.282, Comfort Penalty: 0.000).",
+    "safety_log": {
+      "status": "APPROVED",
+      "reason": "Successfully applied control setpoints",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 23.5,
+        "Zone 2: Meeting Room": 23.5,
+        "Zone 3: Executive Suite": 23.5
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 19.0,
+        "Zone 2: Meeting Room": 19.0,
+        "Zone 3: Executive Suite": 19.0
+      }
+    }
+  },
+  {
+    "hour": 11.5,
+    "outdoor_temp": 35.880228059233346,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 18,
+      "Zone 2: Meeting Room": 12,
+      "Zone 3: Executive Suite": 2
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 23.5841117824923,
+      "Zone 2: Meeting Room": 24.083507239646135,
+      "Zone 3: Executive Suite": 23.867507239646134
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 23.5,
+      "Zone 2: Meeting Room": 23.5,
+      "Zone 3: Executive Suite": 23.5
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 19.0,
+      "Zone 2: Meeting Room": 19.0,
+      "Zone 3: Executive Suite": 19.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.6666666666666666,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.6666666666666666,
+    "metrics": {
+      "cost": 1.0666666666666664,
+      "energy_cost": 0.6666666666666666,
+      "carbon_cost": 0.3999999999999999,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.07999999999999999,
+      "comfort_penalty": 0.0
+    },
+    "ai_strategy": "Strategy A (Eco-Optimized)",
+    "ai_explanation": "Low occupancy or moderate weather detected. Eco-Optimized strategy minimizes baseline energy consumption. Predicted Cost J=11.486 (Energy Cost: 7.179, Carbon Cost: 4.307, Comfort Penalty: 0.000).",
+    "safety_log": {
+      "status": "APPROVED",
+      "reason": "Successfully applied control setpoints",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 23.5,
+        "Zone 2: Meeting Room": 23.5,
+        "Zone 3: Executive Suite": 23.5
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 19.0,
+        "Zone 2: Meeting Room": 19.0,
+        "Zone 3: Executive Suite": 19.0
+      }
+    }
+  },
+  {
+    "hour": 11.75,
+    "outdoor_temp": 35.97002492534045,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 18,
+      "Zone 2: Meeting Room": 12,
+      "Zone 3: Executive Suite": 2
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 23.5,
+      "Zone 2: Meeting Room": 23.5,
+      "Zone 3: Executive Suite": 23.5
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 23.5,
+      "Zone 2: Meeting Room": 23.5,
+      "Zone 3: Executive Suite": 23.5
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 19.0,
+      "Zone 2: Meeting Room": 19.0,
+      "Zone 3: Executive Suite": 19.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.501219812034874,
+      "Zone 2: Meeting Room": 0.5395665988824744,
+      "Zone 3: Executive Suite": 0.3400165988824739
+    },
+    "total_energy": 1.3808030097998223,
+    "metrics": {
+      "cost": 2.2092848156797156,
+      "energy_cost": 1.3808030097998223,
+      "carbon_cost": 0.8284818058798933,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.16569636117597866,
+      "comfort_penalty": 0.0
+    },
+    "ai_strategy": "Strategy A (Eco-Optimized)",
+    "ai_explanation": "Low occupancy or moderate weather detected. Eco-Optimized strategy minimizes baseline energy consumption. Predicted Cost J=11.491 (Energy Cost: 7.182, Carbon Cost: 4.309, Comfort Penalty: 0.000).",
+    "safety_log": {
+      "status": "APPROVED",
+      "reason": "Successfully applied control setpoints",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 23.5,
+        "Zone 2: Meeting Room": 23.5,
+        "Zone 3: Executive Suite": 23.5
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 19.0,
+        "Zone 2: Meeting Room": 19.0,
+        "Zone 3: Executive Suite": 19.0
+      }
+    }
+  },
+  {
+    "hour": 12.0,
+    "outdoor_temp": 36.0,
+    "carbon_intensity": 550.0,
+    "occupancies": {
+      "Zone 1: Open Office": 18,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 2
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 24.499,
+      "Zone 2: Meeting Room": 23.869,
+      "Zone 3: Executive Suite": 23.869
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 23.5,
+      "Zone 2: Meeting Room": 23.5,
+      "Zone 3: Executive Suite": 23.5
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 19.0,
+      "Zone 2: Meeting Room": 19.0,
+      "Zone 3: Executive Suite": 19.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0,
+    "metrics": {
+      "cost": 0.0,
+      "energy_cost": 0.0,
+      "carbon_cost": 0.0,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.0,
+      "comfort_penalty": 0.0
+    },
+    "ai_strategy": "Strategy C (Carbon-Aware Load-Shifting)",
+    "ai_explanation": "Grid carbon intensity is currently 550.0 g/kWh. Selecting Carbon-Aware strategy to minimize emissions. Predicted Cost J=15.112 (Energy Cost: 4.030, Carbon Cost: 11.082, Comfort Penalty: 0.000).",
+    "safety_log": {
+      "status": "REJECTED",
+      "reason": "Failed to apply: Zone 'Zone 2: Meeting Room' Validation Failed: Cooling setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 3.5\u00b0C)",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 24.5,
+        "Zone 2: Meeting Room": 27.0,
+        "Zone 3: Executive Suite": 24.5
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 18.5,
+        "Zone 2: Meeting Room": 16.0,
+        "Zone 3: Executive Suite": 18.5
+      }
+    }
+  },
+  {
+    "hour": 12.25,
+    "outdoor_temp": 35.97002492534045,
+    "carbon_intensity": 550.0,
+    "occupancies": {
+      "Zone 1: Open Office": 18,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 2
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 24.052390902097123,
+      "Zone 2: Meeting Room": 23.5,
+      "Zone 3: Executive Suite": 23.5
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 23.5,
+      "Zone 2: Meeting Room": 23.5,
+      "Zone 3: Executive Suite": 23.5
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 19.0,
+      "Zone 2: Meeting Room": 19.0,
+      "Zone 3: Executive Suite": 19.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.6666666666666666,
+      "Zone 2: Meeting Room": 0.3410857851454509,
+      "Zone 3: Executive Suite": 0.3410857851454509
+    },
+    "total_energy": 1.3488382369575684,
+    "metrics": {
+      "cost": 5.0581433885908815,
+      "energy_cost": 1.3488382369575684,
+      "carbon_cost": 3.7093051516333135,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.7418610303266627,
+      "comfort_penalty": 0.0
+    },
+    "ai_strategy": "Strategy C (Carbon-Aware Load-Shifting)",
+    "ai_explanation": "Grid carbon intensity is currently 550.0 g/kWh. Selecting Carbon-Aware strategy to minimize emissions. Predicted Cost J=16.893 (Energy Cost: 4.477, Carbon Cost: 12.311, Comfort Penalty: 0.116).",
+    "safety_log": {
+      "status": "REJECTED",
+      "reason": "Failed to apply: Zone 'Zone 2: Meeting Room' Validation Failed: Cooling setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 3.5\u00b0C)",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 24.5,
+        "Zone 2: Meeting Room": 27.0,
+        "Zone 3: Executive Suite": 24.5
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 18.5,
+        "Zone 2: Meeting Room": 16.0,
+        "Zone 3: Executive Suite": 18.5
+      }
+    }
+  },
+  {
+    "hour": 12.5,
+    "outdoor_temp": 35.880228059233346,
+    "carbon_intensity": 550.0,
+    "occupancies": {
+      "Zone 1: Open Office": 18,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 2
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 23.604896962333612,
+      "Zone 2: Meeting Room": 23.867526047872413,
+      "Zone 3: Executive Suite": 23.867526047872413
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 23.5,
+      "Zone 2: Meeting Room": 23.5,
+      "Zone 3: Executive Suite": 23.5
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 19.0,
+      "Zone 2: Meeting Room": 19.0,
+      "Zone 3: Executive Suite": 19.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.6666666666666666,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.6666666666666666,
+    "metrics": {
+      "cost": 2.5,
+      "energy_cost": 0.6666666666666666,
+      "carbon_cost": 1.8333333333333335,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.3666666666666667,
+      "comfort_penalty": 0.0
+    },
+    "ai_strategy": "Strategy C (Carbon-Aware Load-Shifting)",
+    "ai_explanation": "Grid carbon intensity is currently 550.0 g/kWh. Selecting Carbon-Aware strategy to minimize emissions. Predicted Cost J=14.976 (Energy Cost: 3.783, Carbon Cost: 10.404, Comfort Penalty: 0.876).",
+    "safety_log": {
+      "status": "REJECTED",
+      "reason": "Failed to apply: Zone 'Zone 2: Meeting Room' Validation Failed: Cooling setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 3.5\u00b0C)",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 24.5,
+        "Zone 2: Meeting Room": 27.0,
+        "Zone 3: Executive Suite": 24.5
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 18.5,
+        "Zone 2: Meeting Room": 16.0,
+        "Zone 3: Executive Suite": 18.5
+      }
+    }
+  },
+  {
+    "hour": 12.75,
+    "outdoor_temp": 35.73099392564522,
+    "carbon_intensity": 550.0,
+    "occupancies": {
+      "Zone 1: Open Office": 18,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 2
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 23.5,
+      "Zone 2: Meeting Room": 23.5,
+      "Zone 3: Executive Suite": 23.5
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 23.5,
+      "Zone 2: Meeting Room": 23.5,
+      "Zone 3: Executive Suite": 23.5
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 19.0,
+      "Zone 2: Meeting Room": 19.0,
+      "Zone 3: Executive Suite": 19.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.5074566410651234,
+      "Zone 2: Meeting Room": 0.33821273913332967,
+      "Zone 3: Executive Suite": 0.33821273913332967
+    },
+    "total_energy": 1.1838821193317828,
+    "metrics": {
+      "cost": 4.439557947494185,
+      "energy_cost": 1.1838821193317828,
+      "carbon_cost": 3.2556758281624028,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.6511351656324805,
+      "comfort_penalty": 0.0
+    },
+    "ai_strategy": "Strategy C (Carbon-Aware Load-Shifting)",
+    "ai_explanation": "Grid carbon intensity is currently 550.0 g/kWh. Selecting Carbon-Aware strategy to minimize emissions. Predicted Cost J=14.436 (Energy Cost: 3.783, Carbon Cost: 10.404, Comfort Penalty: 0.277).",
+    "safety_log": {
+      "status": "REJECTED",
+      "reason": "Failed to apply: Zone 'Zone 2: Meeting Room' Validation Failed: Cooling setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 3.5\u00b0C)",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 24.5,
+        "Zone 2: Meeting Room": 27.0,
+        "Zone 3: Executive Suite": 24.5
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 18.5,
+        "Zone 2: Meeting Room": 16.0,
+        "Zone 3: Executive Suite": 18.5
+      }
+    }
+  },
+  {
+    "hour": 13.0,
+    "outdoor_temp": 35.52296156804695,
+    "carbon_intensity": 550.0,
+    "occupancies": {
+      "Zone 1: Open Office": 18,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 2
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 24.485015959109035,
+      "Zone 2: Meeting Room": 23.861149310377,
+      "Zone 3: Executive Suite": 23.861149310377
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 23.5,
+      "Zone 2: Meeting Room": 23.5,
+      "Zone 3: Executive Suite": 23.5
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 19.0,
+      "Zone 2: Meeting Room": 19.0,
+      "Zone 3: Executive Suite": 19.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0,
+    "metrics": {
+      "cost": 0.0,
+      "energy_cost": 0.0,
+      "carbon_cost": 0.0,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.0,
+      "comfort_penalty": 0.0
+    },
+    "ai_strategy": "Strategy C (Carbon-Aware Load-Shifting)",
+    "ai_explanation": "Grid carbon intensity is currently 550.0 g/kWh. Selecting Carbon-Aware strategy to minimize emissions. Predicted Cost J=13.582 (Energy Cost: 3.425, Carbon Cost: 9.419, Comfort Penalty: 0.821).",
+    "safety_log": {
+      "status": "REJECTED",
+      "reason": "Failed to apply: Zone 'Zone 2: Meeting Room' Validation Failed: Cooling setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 3.5\u00b0C)",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 24.5,
+        "Zone 2: Meeting Room": 27.0,
+        "Zone 3: Executive Suite": 24.5
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 18.5,
+        "Zone 2: Meeting Room": 16.0,
+        "Zone 3: Executive Suite": 18.5
+      }
+    }
+  },
+  {
+    "hour": 13.25,
+    "outdoor_temp": 35.257021812931484,
+    "carbon_intensity": 550.0,
+    "occupancies": {
+      "Zone 1: Open Office": 18,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 2
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 24.017567066833315,
+      "Zone 2: Meeting Room": 23.5,
+      "Zone 3: Executive Suite": 23.5
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 23.5,
+      "Zone 2: Meeting Room": 23.5,
+      "Zone 3: Executive Suite": 23.5
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 19.0,
+      "Zone 2: Meeting Room": 19.0,
+      "Zone 3: Executive Suite": 19.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.6666666666666666,
+      "Zone 2: Meeting Room": 0.33202933086998865,
+      "Zone 3: Executive Suite": 0.33202933086998865
+    },
+    "total_energy": 1.3307253284066438,
+    "metrics": {
+      "cost": 4.990219981524914,
+      "energy_cost": 1.3307253284066438,
+      "carbon_cost": 3.659494653118271,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.7318989306236542,
+      "comfort_penalty": 0.0
+    },
+    "ai_strategy": "Strategy C (Carbon-Aware Load-Shifting)",
+    "ai_explanation": "Grid carbon intensity is currently 550.0 g/kWh. Selecting Carbon-Aware strategy to minimize emissions. Predicted Cost J=15.519 (Energy Cost: 4.086, Carbon Cost: 11.236, Comfort Penalty: 0.218).",
+    "safety_log": {
+      "status": "REJECTED",
+      "reason": "Failed to apply: Zone 'Zone 2: Meeting Room' Validation Failed: Cooling setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 3.5\u00b0C)",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 24.5,
+        "Zone 2: Meeting Room": 27.0,
+        "Zone 3: Executive Suite": 24.5
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 18.5,
+        "Zone 2: Meeting Room": 16.0,
+        "Zone 3: Executive Suite": 18.5
+      }
+    }
+  },
+  {
+    "hour": 13.5,
+    "outdoor_temp": 34.93431345515801,
+    "carbon_intensity": 550.0,
+    "occupancies": {
+      "Zone 1: Open Office": 18,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 2
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 23.54253236481505,
+      "Zone 2: Meeting Room": 23.85192765465075,
+      "Zone 3: Executive Suite": 23.85192765465075
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 23.5,
+      "Zone 2: Meeting Room": 23.5,
+      "Zone 3: Executive Suite": 23.5
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 19.0,
+      "Zone 2: Meeting Room": 19.0,
+      "Zone 3: Executive Suite": 19.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.6666666666666666,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.6666666666666666,
+    "metrics": {
+      "cost": 2.5,
+      "energy_cost": 0.6666666666666666,
+      "carbon_cost": 1.8333333333333335,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.3666666666666667,
+      "comfort_penalty": 0.0
+    },
+    "ai_strategy": "Strategy C (Carbon-Aware Load-Shifting)",
+    "ai_explanation": "Grid carbon intensity is currently 550.0 g/kWh. Selecting Carbon-Aware strategy to minimize emissions. Predicted Cost J=14.738 (Energy Cost: 3.930, Carbon Cost: 10.808, Comfort Penalty: 0.000).",
+    "safety_log": {
+      "status": "REJECTED",
+      "reason": "Failed to apply: Zone 'Zone 2: Meeting Room' Validation Failed: Cooling setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 3.5\u00b0C)",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 24.5,
+        "Zone 2: Meeting Room": 27.0,
+        "Zone 3: Executive Suite": 24.5
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 18.5,
+        "Zone 2: Meeting Room": 16.0,
+        "Zone 3: Executive Suite": 18.5
+      }
+    }
+  },
+  {
+    "hour": 13.75,
+    "outdoor_temp": 34.55621838145764,
+    "carbon_intensity": 550.0,
+    "occupancies": {
+      "Zone 1: Open Office": 18,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 2
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 23.5,
+      "Zone 2: Meeting Room": 23.5,
+      "Zone 3: Executive Suite": 23.5
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 23.5,
+      "Zone 2: Meeting Room": 23.5,
+      "Zone 3: Executive Suite": 23.5
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 19.0,
+      "Zone 2: Meeting Room": 19.0,
+      "Zone 3: Executive Suite": 19.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.4627836726613121,
+      "Zone 2: Meeting Room": 0.3220471013806888,
+      "Zone 3: Executive Suite": 0.3220471013806888
+    },
+    "total_energy": 1.1068778754226898,
+    "metrics": {
+      "cost": 4.150792032835087,
+      "energy_cost": 1.1068778754226898,
+      "carbon_cost": 3.0439141574123973,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.6087828314824795,
+      "comfort_penalty": 0.0
+    },
+    "ai_strategy": "Strategy C (Carbon-Aware Load-Shifting)",
+    "ai_explanation": "Grid carbon intensity is currently 550.0 g/kWh. Selecting Carbon-Aware strategy to minimize emissions. Predicted Cost J=12.943 (Energy Cost: 3.258, Carbon Cost: 8.958, Comfort Penalty: 0.808).",
+    "safety_log": {
+      "status": "REJECTED",
+      "reason": "Failed to apply: Zone 'Zone 2: Meeting Room' Validation Failed: Cooling setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 3.5\u00b0C)",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 24.5,
+        "Zone 2: Meeting Room": 27.0,
+        "Zone 3: Executive Suite": 24.5
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 18.5,
+        "Zone 2: Meeting Room": 16.0,
+        "Zone 3: Executive Suite": 18.5
+      }
+    }
+  },
+  {
+    "hour": 14.0,
+    "outdoor_temp": 34.124355652982146,
+    "carbon_intensity": 550.0,
+    "occupancies": {
+      "Zone 1: Open Office": 18,
+      "Zone 2: Meeting Room": 12,
+      "Zone 3: Executive Suite": 2
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 24.444016825713135,
+      "Zone 2: Meeting Room": 24.054132253031934,
+      "Zone 3: Executive Suite": 23.838132253031933
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 24.5,
+      "Zone 2: Meeting Room": 24.5,
+      "Zone 3: Executive Suite": 24.5
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 18.5,
+      "Zone 2: Meeting Room": 18.5,
+      "Zone 3: Executive Suite": 18.5
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0,
+    "metrics": {
+      "cost": 0.0,
+      "energy_cost": 0.0,
+      "carbon_cost": 0.0,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.0,
+      "comfort_penalty": 0.0
+    },
+    "ai_strategy": "Strategy C (Carbon-Aware Load-Shifting)",
+    "ai_explanation": "Grid carbon intensity is currently 550.0 g/kWh. Selecting Carbon-Aware strategy to minimize emissions. Predicted Cost J=16.831 (Energy Cost: 4.246, Carbon Cost: 11.677, Comfort Penalty: 1.009).",
+    "safety_log": {
+      "status": "APPROVED",
+      "reason": "Successfully applied control setpoints",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 24.5,
+        "Zone 2: Meeting Room": 24.5,
+        "Zone 3: Executive Suite": 24.5
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 18.5,
+        "Zone 2: Meeting Room": 18.5,
+        "Zone 3: Executive Suite": 18.5
+      }
+    }
+  },
+  {
+    "hour": 14.25,
+    "outdoor_temp": 33.640574572235636,
+    "carbon_intensity": 550.0,
+    "occupancies": {
+      "Zone 1: Open Office": 18,
+      "Zone 2: Meeting Room": 12,
+      "Zone 3: Executive Suite": 2
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 25.369557301798707,
+      "Zone 2: Meeting Room": 24.59865887171094,
+      "Zone 3: Executive Suite": 24.167630871710937
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 24.5,
+      "Zone 2: Meeting Room": 24.5,
+      "Zone 3: Executive Suite": 24.5
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 18.5,
+      "Zone 2: Meeting Room": 18.5,
+      "Zone 3: Executive Suite": 18.5
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0,
+    "metrics": {
+      "cost": 0.6892771266708512,
+      "energy_cost": 0.0,
+      "carbon_cost": 0.0,
+      "comfort_cost": 0.6892771266708512,
+      "carbon_emissions": 0.0,
+      "comfort_penalty": 0.7658634740787235
+    },
+    "ai_strategy": "Strategy C (Carbon-Aware Load-Shifting)",
+    "ai_explanation": "Grid carbon intensity is currently 550.0 g/kWh. Selecting Carbon-Aware strategy to minimize emissions. Predicted Cost J=21.036 (Energy Cost: 5.601, Carbon Cost: 15.403, Comfort Penalty: 0.036).",
+    "safety_log": {
+      "status": "APPROVED",
+      "reason": "Successfully applied control setpoints",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 24.5,
+        "Zone 2: Meeting Room": 24.5,
+        "Zone 3: Executive Suite": 24.5
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 18.5,
+        "Zone 2: Meeting Room": 18.5,
+        "Zone 3: Executive Suite": 18.5
+      }
+    }
+  },
+  {
+    "hour": 14.5,
+    "outdoor_temp": 33.10694676407729,
+    "carbon_intensity": 550.0,
+    "occupancies": {
+      "Zone 1: Open Office": 18,
+      "Zone 2: Meeting Room": 12,
+      "Zone 3: Executive Suite": 2
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 24.835243563993597,
+      "Zone 2: Meeting Room": 24.5,
+      "Zone 3: Executive Suite": 24.487697743962958
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 24.5,
+      "Zone 2: Meeting Room": 24.5,
+      "Zone 3: Executive Suite": 24.5
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 18.5,
+      "Zone 2: Meeting Room": 18.5,
+      "Zone 3: Executive Suite": 18.5
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.6666666666666666,
+      "Zone 2: Meeting Room": 0.2929565360939624,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.9596232027606291,
+    "metrics": {
+      "cost": 3.699736432831575,
+      "energy_cost": 0.9596232027606291,
+      "carbon_cost": 2.63896380759173,
+      "comfort_cost": 0.101149422479216,
+      "carbon_emissions": 0.527792761518346,
+      "comfort_penalty": 0.11238824719912889
+    },
+    "ai_strategy": "Strategy C (Carbon-Aware Load-Shifting)",
+    "ai_explanation": "Grid carbon intensity is currently 550.0 g/kWh. Selecting Carbon-Aware strategy to minimize emissions. Predicted Cost J=22.881 (Energy Cost: 6.033, Carbon Cost: 16.591, Comfort Penalty: 0.287).",
+    "safety_log": {
+      "status": "APPROVED",
+      "reason": "Successfully applied control setpoints",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 24.5,
+        "Zone 2: Meeting Room": 24.5,
+        "Zone 3: Executive Suite": 24.5
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 18.5,
+        "Zone 2: Meeting Room": 18.5,
+        "Zone 3: Executive Suite": 18.5
+      }
+    }
+  },
+  {
+    "hour": 14.75,
+    "outdoor_temp": 32.525757304705685,
+    "carbon_intensity": 550.0,
+    "occupancies": {
+      "Zone 1: Open Office": 18,
+      "Zone 2: Meeting Room": 12,
+      "Zone 3: Executive Suite": 2
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 24.5,
+      "Zone 2: Meeting Room": 25.024525610850752,
+      "Zone 3: Executive Suite": 24.796278714965876
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 24.5,
+      "Zone 2: Meeting Room": 24.5,
+      "Zone 3: Executive Suite": 24.5
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 18.5,
+      "Zone 2: Meeting Room": 18.5,
+      "Zone 3: Executive Suite": 18.5
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.5680450156050789,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.5680450156050789,
+    "metrics": {
+      "cost": 2.456786182561213,
+      "energy_cost": 0.5680450156050789,
+      "carbon_cost": 1.5621237929139673,
+      "comfort_cost": 0.3266173740421666,
+      "carbon_emissions": 0.31242475858279345,
+      "comfort_penalty": 0.36290819338018515
+    },
+    "ai_strategy": "Strategy C (Carbon-Aware Load-Shifting)",
+    "ai_explanation": "Grid carbon intensity is currently 550.0 g/kWh. Selecting Carbon-Aware strategy to minimize emissions. Predicted Cost J=21.939 (Energy Cost: 5.711, Carbon Cost: 15.706, Comfort Penalty: 0.580).",
+    "safety_log": {
+      "status": "APPROVED",
+      "reason": "Successfully applied control setpoints",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 24.5,
+        "Zone 2: Meeting Room": 24.5,
+        "Zone 3: Executive Suite": 24.5
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 18.5,
+        "Zone 2: Meeting Room": 18.5,
+        "Zone 3: Executive Suite": 18.5
+      }
+    }
+  },
+  {
+    "hour": 15.0,
+    "outdoor_temp": 31.899494936611667,
+    "carbon_intensity": 550.0,
+    "occupancies": {
+      "Zone 1: Open Office": 18,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 2
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 25.375935346892195,
+      "Zone 2: Meeting Room": 25.320082647987306,
+      "Zone 3: Executive Suite": 24.5
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 24.5,
+      "Zone 2: Meeting Room": 27.0,
+      "Zone 3: Executive Suite": 24.5
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 18.5,
+      "Zone 2: Meeting Room": 16.0,
+      "Zone 3: Executive Suite": 18.5
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.2744735477471806
+    },
+    "total_energy": 0.2744735477471806,
+    "metrics": {
+      "cost": 1.7198122627935626,
+      "energy_cost": 0.2744735477471806,
+      "carbon_cost": 0.7548022563047467,
+      "comfort_cost": 0.6905364587416352,
+      "carbon_emissions": 0.15096045126094934,
+      "comfort_penalty": 0.7672627319351502
+    },
+    "ai_strategy": "Strategy C (Carbon-Aware Load-Shifting)",
+    "ai_explanation": "Grid carbon intensity is currently 550.0 g/kWh. Selecting Carbon-Aware strategy to minimize emissions. Predicted Cost J=14.966 (Energy Cost: 3.978, Carbon Cost: 10.938, Comfort Penalty: 0.056).",
+    "safety_log": {
+      "status": "APPROVED",
+      "reason": "Successfully applied control setpoints",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 24.5,
+        "Zone 2: Meeting Room": 27.0,
+        "Zone 3: Executive Suite": 24.5
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 18.5,
+        "Zone 2: Meeting Room": 16.0,
+        "Zone 3: Executive Suite": 18.5
+      }
+    }
+  },
+  {
+    "hour": 15.25,
+    "outdoor_temp": 31.230841411400966,
+    "carbon_intensity": 550.0,
+    "occupancies": {
+      "Zone 1: Open Office": 18,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 2
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 24.787538892919233,
+      "Zone 2: Meeting Room": 25.60409389368262,
+      "Zone 3: Executive Suite": 24.78770161761126
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 24.5,
+      "Zone 2: Meeting Room": 27.0,
+      "Zone 3: Executive Suite": 24.5
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 18.5,
+      "Zone 2: Meeting Room": 16.0,
+      "Zone 3: Executive Suite": 18.5
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.6666666666666666,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.6666666666666666,
+    "metrics": {
+      "cost": 2.648905752145618,
+      "energy_cost": 0.6666666666666666,
+      "carbon_cost": 1.8333333333333335,
+      "comfort_cost": 0.14890575214561774,
+      "carbon_emissions": 0.3666666666666667,
+      "comfort_penalty": 0.16545083571735303
+    },
+    "ai_strategy": "Strategy C (Carbon-Aware Load-Shifting)",
+    "ai_explanation": "Grid carbon intensity is currently 550.0 g/kWh. Selecting Carbon-Aware strategy to minimize emissions. Predicted Cost J=16.413 (Energy Cost: 4.377, Carbon Cost: 12.036, Comfort Penalty: 0.000).",
+    "safety_log": {
+      "status": "APPROVED",
+      "reason": "Successfully applied control setpoints",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 24.5,
+        "Zone 2: Meeting Room": 27.0,
+        "Zone 3: Executive Suite": 24.5
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 18.5,
+        "Zone 2: Meeting Room": 16.0,
+        "Zone 3: Executive Suite": 18.5
+      }
+    }
+  },
+  {
+    "hour": 15.5,
+    "outdoor_temp": 30.52266000612209,
+    "carbon_intensity": 550.0,
+    "occupancies": {
+      "Zone 1: Open Office": 18,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 2
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 24.5,
+      "Zone 2: Meeting Room": 25.874642889408285,
+      "Zone 3: Executive Suite": 24.5
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 24.5,
+      "Zone 2: Meeting Room": 27.0,
+      "Zone 3: Executive Suite": 24.5
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 18.5,
+      "Zone 2: Meeting Room": 16.0,
+      "Zone 3: Executive Suite": 18.5
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.5194789302420431,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.26015017526816864
+    },
+    "total_energy": 0.7796291055102117,
+    "metrics": {
+      "cost": 2.9236091456632938,
+      "energy_cost": 0.7796291055102117,
+      "carbon_cost": 2.143980040153082,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.42879600803061646,
+      "comfort_penalty": 0.0
+    },
+    "ai_strategy": "Strategy C (Carbon-Aware Load-Shifting)",
+    "ai_explanation": "Grid carbon intensity is currently 550.0 g/kWh. Selecting Carbon-Aware strategy to minimize emissions. Predicted Cost J=14.283 (Energy Cost: 3.686, Carbon Cost: 10.135, Comfort Penalty: 0.514).",
+    "safety_log": {
+      "status": "APPROVED",
+      "reason": "Successfully applied control setpoints",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 24.5,
+        "Zone 2: Meeting Room": 27.0,
+        "Zone 3: Executive Suite": 24.5
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 18.5,
+        "Zone 2: Meeting Room": 16.0,
+        "Zone 3: Executive Suite": 18.5
+      }
+    }
+  },
+  {
+    "hour": 15.75,
+    "outdoor_temp": 29.777983262274432,
+    "carbon_intensity": 550.0,
+    "occupancies": {
+      "Zone 1: Open Office": 18,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 2
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 25.31424320223171,
+      "Zone 2: Meeting Room": 26.131460378093664,
+      "Zone 3: Executive Suite": 24.763003381687717
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 24.5,
+      "Zone 2: Meeting Room": 27.0,
+      "Zone 3: Executive Suite": 24.5
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 18.5,
+      "Zone 2: Meeting Room": 16.0,
+      "Zone 3: Executive Suite": 18.5
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0,
+    "metrics": {
+      "cost": 0.6589464940437545,
+      "energy_cost": 0.0,
+      "carbon_cost": 0.0,
+      "comfort_cost": 0.6589464940437545,
+      "carbon_emissions": 0.0,
+      "comfort_penalty": 0.7321627711597272
+    },
+    "ai_strategy": "Strategy C (Carbon-Aware Load-Shifting)",
+    "ai_explanation": "Grid carbon intensity is currently 550.0 g/kWh. Selecting Carbon-Aware strategy to minimize emissions. Predicted Cost J=14.443 (Energy Cost: 3.852, Carbon Cost: 10.592, Comfort Penalty: 0.000).",
+    "safety_log": {
+      "status": "APPROVED",
+      "reason": "Successfully applied control setpoints",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 24.5,
+        "Zone 2: Meeting Room": 27.0,
+        "Zone 3: Executive Suite": 24.5
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 18.5,
+        "Zone 2: Meeting Room": 16.0,
+        "Zone 3: Executive Suite": 18.5
+      }
+    }
+  },
+  {
+    "hour": 16.0,
+    "outdoor_temp": 29.0,
+    "carbon_intensity": 550.0,
+    "occupancies": {
+      "Zone 1: Open Office": 18,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 2
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 24.661751306323463,
+      "Zone 2: Meeting Room": 26.37505162527425,
+      "Zone 3: Executive Suite": 24.5
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 24.5,
+      "Zone 2: Meeting Room": 27.0,
+      "Zone 3: Executive Suite": 24.5
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 18.5,
+      "Zone 2: Meeting Room": 16.0,
+      "Zone 3: Executive Suite": 18.5
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.6666666666666666,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.23738550247783852
+    },
+    "total_energy": 0.9040521691445051,
+    "metrics": {
+      "cost": 3.4137427708795065,
+      "energy_cost": 0.9040521691445051,
+      "carbon_cost": 2.4861434651473893,
+      "comfort_cost": 0.023547136587612157,
+      "carbon_emissions": 0.49722869302947786,
+      "comfort_penalty": 0.02616348509734684
+    },
+    "ai_strategy": "Strategy C (Carbon-Aware Load-Shifting)",
+    "ai_explanation": "Grid carbon intensity is currently 550.0 g/kWh. Selecting Carbon-Aware strategy to minimize emissions. Predicted Cost J=14.732 (Energy Cost: 3.824, Carbon Cost: 10.517, Comfort Penalty: 0.434).",
+    "safety_log": {
+      "status": "APPROVED",
+      "reason": "Successfully applied control setpoints",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 24.5,
+        "Zone 2: Meeting Room": 27.0,
+        "Zone 3: Executive Suite": 24.5
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 18.5,
+        "Zone 2: Meeting Room": 16.0,
+        "Zone 3: Executive Suite": 18.5
+      }
+    }
+  },
+  {
+    "hour": 16.25,
+    "outdoor_temp": 28.192041663066018,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 18,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 2
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 23.989080674197943,
+      "Zone 2: Meeting Room": 26.603662783362665,
+      "Zone 3: Executive Suite": 23.5
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 23.5,
+      "Zone 2: Meeting Room": 27.0,
+      "Zone 3: Executive Suite": 23.5
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 19.0,
+      "Zone 2: Meeting Room": 16.0,
+      "Zone 3: Executive Suite": 19.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.6666666666666666,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.5727078196306246
+    },
+    "total_energy": 1.239374486297291,
+    "metrics": {
+      "cost": 1.9829991780756657,
+      "energy_cost": 1.239374486297291,
+      "carbon_cost": 0.7436246917783746,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.14872493835567493,
+      "comfort_penalty": 0.0
+    },
+    "ai_strategy": "Strategy A (Eco-Optimized)",
+    "ai_explanation": "Low occupancy or moderate weather detected. Eco-Optimized strategy minimizes baseline energy consumption. Predicted Cost J=7.417 (Energy Cost: 4.636, Carbon Cost: 2.781, Comfort Penalty: 0.000).",
+    "safety_log": {
+      "status": "APPROVED",
+      "reason": "Successfully applied control setpoints",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 23.5,
+        "Zone 2: Meeting Room": 27.0,
+        "Zone 3: Executive Suite": 23.5
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 19.0,
+        "Zone 2: Meeting Room": 16.0,
+        "Zone 3: Executive Suite": 19.0
+      }
+    }
+  },
+  {
+    "hour": 16.5,
+    "outdoor_temp": 27.357568053111258,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 18,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 2
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 23.5,
+      "Zone 2: Meeting Room": 26.816906736261227,
+      "Zone 3: Executive Suite": 23.727210435423697
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 23.5,
+      "Zone 2: Meeting Room": 27.0,
+      "Zone 3: Executive Suite": 23.5
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 19.0,
+      "Zone 2: Meeting Room": 16.0,
+      "Zone 3: Executive Suite": 19.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.5717065813448766,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.5717065813448766,
+    "metrics": {
+      "cost": 0.9147305301518025,
+      "energy_cost": 0.5717065813448766,
+      "carbon_cost": 0.34302394880692594,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.06860478976138519,
+      "comfort_penalty": 0.0
+    },
+    "ai_strategy": "Strategy A (Eco-Optimized)",
+    "ai_explanation": "Low occupancy or moderate weather detected. Eco-Optimized strategy minimizes baseline energy consumption. Predicted Cost J=5.570 (Energy Cost: 3.481, Carbon Cost: 2.089, Comfort Penalty: 0.000).",
+    "safety_log": {
+      "status": "APPROVED",
+      "reason": "Successfully applied control setpoints",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 23.5,
+        "Zone 2: Meeting Room": 27.0,
+        "Zone 3: Executive Suite": 23.5
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 19.0,
+        "Zone 2: Meeting Room": 16.0,
+        "Zone 3: Executive Suite": 19.0
+      }
+    }
+  },
+  {
+    "hour": 16.75,
+    "outdoor_temp": 26.500152514244263,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 18,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 2
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 24.223708462014933,
+      "Zone 2: Meeting Room": 27.0146403087539,
+      "Zone 3: Executive Suite": 23.5
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 23.5,
+      "Zone 2: Meeting Room": 27.0,
+      "Zone 3: Executive Suite": 23.5
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 19.0,
+      "Zone 2: Meeting Room": 16.0,
+      "Zone 3: Executive Suite": 19.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.2031702042917307
+    },
+    "total_energy": 0.2031702042917307,
+    "metrics": {
+      "cost": 0.3250723268667691,
+      "energy_cost": 0.2031702042917307,
+      "carbon_cost": 0.12190212257503841,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.02438042451500768,
+      "comfort_penalty": 0.0
+    },
+    "ai_strategy": "Strategy A (Eco-Optimized)",
+    "ai_explanation": "Low occupancy or moderate weather detected. Eco-Optimized strategy minimizes baseline energy consumption. Predicted Cost J=5.211 (Energy Cost: 3.257, Carbon Cost: 1.954, Comfort Penalty: 0.000).",
+    "safety_log": {
+      "status": "APPROVED",
+      "reason": "Successfully applied control setpoints",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 23.5,
+        "Zone 2: Meeting Room": 27.0,
+        "Zone 3: Executive Suite": 23.5
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 19.0,
+        "Zone 2: Meeting Room": 16.0,
+        "Zone 3: Executive Suite": 19.0
+      }
+    }
+  },
+  {
+    "hour": 17.0,
+    "outdoor_temp": 25.623466631435296,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 18,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 2
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 23.5,
+      "Zone 2: Meeting Room": 27.0,
+      "Zone 3: Executive Suite": 23.698883245607433
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 23.5,
+      "Zone 2: Meeting Room": 27.0,
+      "Zone 3: Executive Suite": 23.5
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 19.0,
+      "Zone 2: Meeting Room": 16.0,
+      "Zone 3: Executive Suite": 19.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.6563809947722249,
+      "Zone 2: Meeting Room": 0.09153133007960297,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.7479123248518279,
+    "metrics": {
+      "cost": 1.1966597197629247,
+      "energy_cost": 0.7479123248518279,
+      "carbon_cost": 0.4487473949110967,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.08974947898221934,
+      "comfort_penalty": 0.0
+    },
+    "ai_strategy": "Strategy A (Eco-Optimized)",
+    "ai_explanation": "Low occupancy or moderate weather detected. Eco-Optimized strategy minimizes baseline energy consumption. Predicted Cost J=4.957 (Energy Cost: 3.098, Carbon Cost: 1.859, Comfort Penalty: 0.000).",
+    "safety_log": {
+      "status": "APPROVED",
+      "reason": "Successfully applied control setpoints",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 23.5,
+        "Zone 2: Meeting Room": 27.0,
+        "Zone 3: Executive Suite": 23.5
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 19.0,
+        "Zone 2: Meeting Room": 16.0,
+        "Zone 3: Executive Suite": 19.0
+      }
+    }
+  },
+  {
+    "hour": 17.25,
+    "outdoor_temp": 24.7312645082258,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 18,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 2
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 24.171994063076465,
+      "Zone 2: Meeting Room": 27.167798810192515,
+      "Zone 3: Executive Suite": 23.5
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 23.5,
+      "Zone 2: Meeting Room": 27.0,
+      "Zone 3: Executive Suite": 23.5
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 19.0,
+      "Zone 2: Meeting Room": 16.0,
+      "Zone 3: Executive Suite": 19.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.1766375375901463
+    },
+    "total_energy": 0.1766375375901463,
+    "metrics": {
+      "cost": 0.2826200601442341,
+      "energy_cost": 0.1766375375901463,
+      "carbon_cost": 0.10598252255408779,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.021196504510817556,
+      "comfort_penalty": 0.0
+    },
+    "ai_strategy": "Strategy A (Eco-Optimized)",
+    "ai_explanation": "Low occupancy or moderate weather detected. Eco-Optimized strategy minimizes baseline energy consumption. Predicted Cost J=4.295 (Energy Cost: 2.684, Carbon Cost: 1.611, Comfort Penalty: 0.000).",
+    "safety_log": {
+      "status": "APPROVED",
+      "reason": "Successfully applied control setpoints",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 23.5,
+        "Zone 2: Meeting Room": 27.0,
+        "Zone 3: Executive Suite": 23.5
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 19.0,
+        "Zone 2: Meeting Room": 16.0,
+        "Zone 3: Executive Suite": 19.0
+      }
+    }
+  },
+  {
+    "hour": 17.5,
+    "outdoor_temp": 23.827366691080723,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 18,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 2
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 23.5,
+      "Zone 2: Meeting Room": 27.0,
+      "Zone 3: Executive Suite": 23.66927802934427
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 23.5,
+      "Zone 2: Meeting Room": 27.0,
+      "Zone 3: Executive Suite": 23.5
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 19.0,
+      "Zone 2: Meeting Room": 16.0,
+      "Zone 3: Executive Suite": 19.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.6082566034037659,
+      "Zone 2: Meeting Room": 0.1484128448569063,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.7566694482606722,
+    "metrics": {
+      "cost": 1.2106711172170754,
+      "energy_cost": 0.7566694482606722,
+      "carbon_cost": 0.4540016689564033,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.09080033379128066,
+      "comfort_penalty": 0.0
+    },
+    "ai_strategy": "Strategy A (Eco-Optimized)",
+    "ai_explanation": "Low occupancy or moderate weather detected. Eco-Optimized strategy minimizes baseline energy consumption. Predicted Cost J=4.073 (Energy Cost: 2.546, Carbon Cost: 1.527, Comfort Penalty: 0.000).",
+    "safety_log": {
+      "status": "APPROVED",
+      "reason": "Successfully applied control setpoints",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 23.5,
+        "Zone 2: Meeting Room": 27.0,
+        "Zone 3: Executive Suite": 23.5
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 19.0,
+        "Zone 2: Meeting Room": 16.0,
+        "Zone 3: Executive Suite": 19.0
+      }
+    }
+  },
+  {
+    "hour": 17.75,
+    "outdoor_temp": 22.915643809222004,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 18,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 2
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 24.11874379446246,
+      "Zone 2: Meeting Room": 27.137918880974624,
+      "Zone 3: Executive Suite": 23.5
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 23.5,
+      "Zone 2: Meeting Room": 27.0,
+      "Zone 3: Executive Suite": 23.5
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 19.0,
+      "Zone 2: Meeting Room": 16.0,
+      "Zone 3: Executive Suite": 19.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.14915979591983577
+    },
+    "total_energy": 0.14915979591983577,
+    "metrics": {
+      "cost": 0.23865567347173725,
+      "energy_cost": 0.14915979591983577,
+      "carbon_cost": 0.08949587755190147,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.017899175510380293,
+      "comfort_penalty": 0.0
+    },
+    "ai_strategy": "Strategy A (Eco-Optimized)",
+    "ai_explanation": "Low occupancy or moderate weather detected. Eco-Optimized strategy minimizes baseline energy consumption. Predicted Cost J=3.377 (Energy Cost: 2.110, Carbon Cost: 1.266, Comfort Penalty: 0.000).",
+    "safety_log": {
+      "status": "APPROVED",
+      "reason": "Successfully applied control setpoints",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 23.5,
+        "Zone 2: Meeting Room": 27.0,
+        "Zone 3: Executive Suite": 23.5
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 19.0,
+        "Zone 2: Meeting Room": 16.0,
+        "Zone 3: Executive Suite": 19.0
+      }
+    }
+  },
+  {
+    "hour": 18.0,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 400.0,
+    "occupancies": {
+      "Zone 1: Open Office": 18,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 2
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 23.26727670496524,
+      "Zone 2: Meeting Room": 27.0,
+      "Zone 3: Executive Suite": 22.5
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.5,
+      "Zone 2: Meeting Room": 27.0,
+      "Zone 3: Executive Suite": 22.5
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 19.0,
+      "Zone 2: Meeting Room": 16.0,
+      "Zone 3: Executive Suite": 19.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.6666666666666666,
+      "Zone 2: Meeting Room": 0.12069681269687701,
+      "Zone 3: Executive Suite": 0.527387439543989
+    },
+    "total_energy": 1.3147509189075326,
+    "metrics": {
+      "cost": 3.944252756722598,
+      "energy_cost": 1.3147509189075326,
+      "carbon_cost": 2.629501837815065,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.5259003675630131,
+      "comfort_penalty": 0.0
+    },
+    "ai_strategy": "Strategy A (Eco-Optimized)",
+    "ai_explanation": "Low occupancy or moderate weather detected. Eco-Optimized strategy minimizes baseline energy consumption. Predicted Cost J=9.222 (Energy Cost: 3.074, Carbon Cost: 6.148, Comfort Penalty: 0.000).",
+    "safety_log": {
+      "status": "APPROVED",
+      "reason": "Successfully applied control setpoints",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 22.5,
+        "Zone 2: Meeting Room": 27.0,
+        "Zone 3: Executive Suite": 22.5
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 19.0,
+        "Zone 2: Meeting Room": 16.0,
+        "Zone 3: Executive Suite": 19.0
+      }
+    }
+  },
+  {
+    "hour": 18.25,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 400.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.5,
+      "Zone 2: Meeting Room": 27.014640549034468,
+      "Zone 3: Executive Suite": 22.53489054903447
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.5,
+      "Zone 2: Meeting Room": 27.0,
+      "Zone 3: Executive Suite": 22.5
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 19.0,
+      "Zone 2: Meeting Room": 16.0,
+      "Zone 3: Executive Suite": 19.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.37101083831408727,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.37101083831408727,
+    "metrics": {
+      "cost": 1.1130325149422617,
+      "energy_cost": 0.37101083831408727,
+      "carbon_cost": 0.7420216766281745,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.1484043353256349,
+      "comfort_penalty": 0.0
+    },
+    "ai_strategy": "Strategy A (Eco-Optimized)",
+    "ai_explanation": "Low occupancy or moderate weather detected. Eco-Optimized strategy minimizes baseline energy consumption. Predicted Cost J=0.163 (Energy Cost: 0.054, Carbon Cost: 0.109, Comfort Penalty: 0.000).",
+    "safety_log": {
+      "status": "REJECTED",
+      "reason": "Failed to apply: Zone 'Zone 1: Open Office' Validation Failed: Cooling setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 4.5\u00b0C)",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 27.0,
+        "Zone 2: Meeting Room": 27.0,
+        "Zone 3: Executive Suite": 27.0
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 16.0,
+        "Zone 2: Meeting Room": 16.0,
+        "Zone 3: Executive Suite": 16.0
+      }
+    }
+  },
+  {
+    "hour": 18.5,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 400.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.53829457798826,
+      "Zone 2: Meeting Room": 27.0,
+      "Zone 3: Executive Suite": 22.5
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.5,
+      "Zone 2: Meeting Room": 27.0,
+      "Zone 3: Executive Suite": 22.5
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 19.0,
+      "Zone 2: Meeting Room": 16.0,
+      "Zone 3: Executive Suite": 19.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.013205864149913218,
+      "Zone 3: Executive Suite": 0.03191367664991357
+    },
+    "total_energy": 0.04511954079982679,
+    "metrics": {
+      "cost": 0.13535862239948038,
+      "energy_cost": 0.04511954079982679,
+      "carbon_cost": 0.09023908159965358,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.018047816319930715,
+      "comfort_penalty": 0.0
+    },
+    "ai_strategy": "Strategy A (Eco-Optimized)",
+    "ai_explanation": "Low occupancy or moderate weather detected. Eco-Optimized strategy minimizes baseline energy consumption. Predicted Cost J=0.157 (Energy Cost: 0.052, Carbon Cost: 0.104, Comfort Penalty: 0.000).",
+    "safety_log": {
+      "status": "REJECTED",
+      "reason": "Failed to apply: Zone 'Zone 1: Open Office' Validation Failed: Cooling setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 4.5\u00b0C)",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 27.0,
+        "Zone 2: Meeting Room": 27.0,
+        "Zone 3: Executive Suite": 27.0
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 16.0,
+        "Zone 2: Meeting Room": 16.0,
+        "Zone 3: Executive Suite": 16.0
+      }
+    }
+  },
+  {
+    "hour": 18.75,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 400.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.5,
+      "Zone 2: Meeting Room": 27.01398446512019,
+      "Zone 3: Executive Suite": 22.53423446512019
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.5,
+      "Zone 2: Meeting Room": 27.0,
+      "Zone 3: Executive Suite": 22.5
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 19.0,
+      "Zone 2: Meeting Room": 16.0,
+      "Zone 3: Executive Suite": 19.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.03534156817922399,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.03534156817922399,
+    "metrics": {
+      "cost": 0.10602470453767196,
+      "energy_cost": 0.03534156817922399,
+      "carbon_cost": 0.07068313635844797,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.014136627271689595,
+      "comfort_penalty": 0.0
+    },
+    "ai_strategy": "Strategy A (Eco-Optimized)",
+    "ai_explanation": "Low occupancy or moderate weather detected. Eco-Optimized strategy minimizes baseline energy consumption. Predicted Cost J=0.156 (Energy Cost: 0.052, Carbon Cost: 0.104, Comfort Penalty: 0.000).",
+    "safety_log": {
+      "status": "REJECTED",
+      "reason": "Failed to apply: Zone 'Zone 1: Open Office' Validation Failed: Cooling setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 4.5\u00b0C)",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 27.0,
+        "Zone 2: Meeting Room": 27.0,
+        "Zone 3: Executive Suite": 27.0
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 16.0,
+        "Zone 2: Meeting Room": 16.0,
+        "Zone 3: Executive Suite": 16.0
+      }
+    }
+  },
+  {
+    "hour": 19.0,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 400.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.538293397037215,
+      "Zone 2: Meeting Room": 27.0,
+      "Zone 3: Executive Suite": 22.5
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.5,
+      "Zone 2: Meeting Room": 27.0,
+      "Zone 3: Executive Suite": 22.5
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 19.0,
+      "Zone 2: Meeting Room": 16.0,
+      "Zone 3: Executive Suite": 19.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.01290348843849422,
+      "Zone 3: Executive Suite": 0.031611300938494576
+    },
+    "total_energy": 0.04451478937698879,
+    "metrics": {
+      "cost": 0.13354436813096637,
+      "energy_cost": 0.04451478937698879,
+      "carbon_cost": 0.08902957875397759,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.017805915750795518,
+      "comfort_penalty": 0.0
+    },
+    "ai_strategy": "Strategy A (Eco-Optimized)",
+    "ai_explanation": "Low occupancy or moderate weather detected. Eco-Optimized strategy minimizes baseline energy consumption. Predicted Cost J=0.156 (Energy Cost: 0.052, Carbon Cost: 0.104, Comfort Penalty: 0.000).",
+    "safety_log": {
+      "status": "REJECTED",
+      "reason": "Failed to apply: Zone 'Zone 1: Open Office' Validation Failed: Cooling setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 4.5\u00b0C)",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 27.0,
+        "Zone 2: Meeting Room": 27.0,
+        "Zone 3: Executive Suite": 27.0
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 16.0,
+        "Zone 2: Meeting Room": 16.0,
+        "Zone 3: Executive Suite": 16.0
+      }
+    }
+  },
+  {
+    "hour": 19.25,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 400.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.5,
+      "Zone 2: Meeting Room": 27.013984464057334,
+      "Zone 3: Executive Suite": 22.534234464057334
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.5,
+      "Zone 2: Meeting Room": 27.0,
+      "Zone 3: Executive Suite": 22.5
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 19.0,
+      "Zone 2: Meeting Room": 16.0,
+      "Zone 3: Executive Suite": 19.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.035341024395006505,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.035341024395006505,
+    "metrics": {
+      "cost": 0.10602307318501952,
+      "energy_cost": 0.035341024395006505,
+      "carbon_cost": 0.07068204879001301,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.014136409758002602,
+      "comfort_penalty": 0.0
+    },
+    "ai_strategy": "Strategy A (Eco-Optimized)",
+    "ai_explanation": "Low occupancy or moderate weather detected. Eco-Optimized strategy minimizes baseline energy consumption. Predicted Cost J=0.156 (Energy Cost: 0.052, Carbon Cost: 0.104, Comfort Penalty: 0.000).",
+    "safety_log": {
+      "status": "REJECTED",
+      "reason": "Failed to apply: Zone 'Zone 1: Open Office' Validation Failed: Cooling setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 4.5\u00b0C)",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 27.0,
+        "Zone 2: Meeting Room": 27.0,
+        "Zone 3: Executive Suite": 27.0
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 16.0,
+        "Zone 2: Meeting Room": 16.0,
+        "Zone 3: Executive Suite": 16.0
+      }
+    }
+  },
+  {
+    "hour": 19.5,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 400.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.538293397035304,
+      "Zone 2: Meeting Room": 27.0,
+      "Zone 3: Executive Suite": 22.5
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.5,
+      "Zone 2: Meeting Room": 27.0,
+      "Zone 3: Executive Suite": 22.5
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 19.0,
+      "Zone 2: Meeting Room": 16.0,
+      "Zone 3: Executive Suite": 19.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.012903487948646142,
+      "Zone 3: Executive Suite": 0.0316113004486465
+    },
+    "total_energy": 0.04451478839729264,
+    "metrics": {
+      "cost": 0.13354436519187793,
+      "energy_cost": 0.04451478839729264,
+      "carbon_cost": 0.08902957679458529,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.017805915358917058,
+      "comfort_penalty": 0.0
+    },
+    "ai_strategy": "Strategy A (Eco-Optimized)",
+    "ai_explanation": "Low occupancy or moderate weather detected. Eco-Optimized strategy minimizes baseline energy consumption. Predicted Cost J=0.156 (Energy Cost: 0.052, Carbon Cost: 0.104, Comfort Penalty: 0.000).",
+    "safety_log": {
+      "status": "REJECTED",
+      "reason": "Failed to apply: Zone 'Zone 1: Open Office' Validation Failed: Cooling setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 4.5\u00b0C)",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 27.0,
+        "Zone 2: Meeting Room": 27.0,
+        "Zone 3: Executive Suite": 27.0
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 16.0,
+        "Zone 2: Meeting Room": 16.0,
+        "Zone 3: Executive Suite": 16.0
+      }
+    }
+  },
+  {
+    "hour": 19.75,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 400.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.5,
+      "Zone 2: Meeting Room": 27.01398446405733,
+      "Zone 3: Executive Suite": 22.53423446405733
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.5,
+      "Zone 2: Meeting Room": 27.0,
+      "Zone 3: Executive Suite": 22.5
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 19.0,
+      "Zone 2: Meeting Room": 16.0,
+      "Zone 3: Executive Suite": 19.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0353410243941264,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0353410243941264,
+    "metrics": {
+      "cost": 0.10602307318237919,
+      "energy_cost": 0.0353410243941264,
+      "carbon_cost": 0.0706820487882528,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.01413640975765056,
+      "comfort_penalty": 0.0
+    },
+    "ai_strategy": "Strategy A (Eco-Optimized)",
+    "ai_explanation": "Low occupancy or moderate weather detected. Eco-Optimized strategy minimizes baseline energy consumption. Predicted Cost J=0.156 (Energy Cost: 0.052, Carbon Cost: 0.104, Comfort Penalty: 0.000).",
+    "safety_log": {
+      "status": "REJECTED",
+      "reason": "Failed to apply: Zone 'Zone 1: Open Office' Validation Failed: Cooling setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 4.5\u00b0C)",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 27.0,
+        "Zone 2: Meeting Room": 27.0,
+        "Zone 3: Executive Suite": 27.0
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 16.0,
+        "Zone 2: Meeting Room": 16.0,
+        "Zone 3: Executive Suite": 16.0
+      }
+    }
+  },
+  {
+    "hour": 20.0,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 400.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.538293397035304,
+      "Zone 2: Meeting Room": 27.0,
+      "Zone 3: Executive Suite": 22.5
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.5,
+      "Zone 2: Meeting Room": 27.0,
+      "Zone 3: Executive Suite": 22.5
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 19.0,
+      "Zone 2: Meeting Room": 16.0,
+      "Zone 3: Executive Suite": 19.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.012903487948644505,
+      "Zone 3: Executive Suite": 0.03161130044864486
+    },
+    "total_energy": 0.04451478839728937,
+    "metrics": {
+      "cost": 0.1335443651918681,
+      "energy_cost": 0.04451478839728937,
+      "carbon_cost": 0.08902957679457874,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.017805915358915746,
+      "comfort_penalty": 0.0
+    },
+    "ai_strategy": "Strategy A (Eco-Optimized)",
+    "ai_explanation": "Low occupancy or moderate weather detected. Eco-Optimized strategy minimizes baseline energy consumption. Predicted Cost J=0.156 (Energy Cost: 0.052, Carbon Cost: 0.104, Comfort Penalty: 0.000).",
+    "safety_log": {
+      "status": "REJECTED",
+      "reason": "Failed to apply: Zone 'Zone 1: Open Office' Validation Failed: Cooling setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 4.5\u00b0C)",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 27.0,
+        "Zone 2: Meeting Room": 27.0,
+        "Zone 3: Executive Suite": 27.0
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 16.0,
+        "Zone 2: Meeting Room": 16.0,
+        "Zone 3: Executive Suite": 16.0
+      }
+    }
+  },
+  {
+    "hour": 20.25,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 400.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.5,
+      "Zone 2: Meeting Room": 27.01398446405733,
+      "Zone 3: Executive Suite": 22.53423446405733
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.5,
+      "Zone 2: Meeting Room": 27.0,
+      "Zone 3: Executive Suite": 22.5
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 19.0,
+      "Zone 2: Meeting Room": 16.0,
+      "Zone 3: Executive Suite": 19.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0353410243941264,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0353410243941264,
+    "metrics": {
+      "cost": 0.10602307318237919,
+      "energy_cost": 0.0353410243941264,
+      "carbon_cost": 0.0706820487882528,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.01413640975765056,
+      "comfort_penalty": 0.0
+    },
+    "ai_strategy": "Strategy A (Eco-Optimized)",
+    "ai_explanation": "Low occupancy or moderate weather detected. Eco-Optimized strategy minimizes baseline energy consumption. Predicted Cost J=0.156 (Energy Cost: 0.052, Carbon Cost: 0.104, Comfort Penalty: 0.000).",
+    "safety_log": {
+      "status": "REJECTED",
+      "reason": "Failed to apply: Zone 'Zone 1: Open Office' Validation Failed: Cooling setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 4.5\u00b0C)",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 27.0,
+        "Zone 2: Meeting Room": 27.0,
+        "Zone 3: Executive Suite": 27.0
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 16.0,
+        "Zone 2: Meeting Room": 16.0,
+        "Zone 3: Executive Suite": 16.0
+      }
+    }
+  },
+  {
+    "hour": 20.5,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 400.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.538293397035304,
+      "Zone 2: Meeting Room": 27.0,
+      "Zone 3: Executive Suite": 22.5
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.5,
+      "Zone 2: Meeting Room": 27.0,
+      "Zone 3: Executive Suite": 22.5
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 19.0,
+      "Zone 2: Meeting Room": 16.0,
+      "Zone 3: Executive Suite": 19.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.012903487948644505,
+      "Zone 3: Executive Suite": 0.03161130044864486
+    },
+    "total_energy": 0.04451478839728937,
+    "metrics": {
+      "cost": 0.1335443651918681,
+      "energy_cost": 0.04451478839728937,
+      "carbon_cost": 0.08902957679457874,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.017805915358915746,
+      "comfort_penalty": 0.0
+    },
+    "ai_strategy": "Strategy A (Eco-Optimized)",
+    "ai_explanation": "Low occupancy or moderate weather detected. Eco-Optimized strategy minimizes baseline energy consumption. Predicted Cost J=0.156 (Energy Cost: 0.052, Carbon Cost: 0.104, Comfort Penalty: 0.000).",
+    "safety_log": {
+      "status": "REJECTED",
+      "reason": "Failed to apply: Zone 'Zone 1: Open Office' Validation Failed: Cooling setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 4.5\u00b0C)",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 27.0,
+        "Zone 2: Meeting Room": 27.0,
+        "Zone 3: Executive Suite": 27.0
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 16.0,
+        "Zone 2: Meeting Room": 16.0,
+        "Zone 3: Executive Suite": 16.0
+      }
+    }
+  },
+  {
+    "hour": 20.75,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 400.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.5,
+      "Zone 2: Meeting Room": 27.01398446405733,
+      "Zone 3: Executive Suite": 22.53423446405733
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.5,
+      "Zone 2: Meeting Room": 27.0,
+      "Zone 3: Executive Suite": 22.5
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 19.0,
+      "Zone 2: Meeting Room": 16.0,
+      "Zone 3: Executive Suite": 19.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0353410243941264,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0353410243941264,
+    "metrics": {
+      "cost": 0.10602307318237919,
+      "energy_cost": 0.0353410243941264,
+      "carbon_cost": 0.0706820487882528,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.01413640975765056,
+      "comfort_penalty": 0.0
+    },
+    "ai_strategy": "Strategy A (Eco-Optimized)",
+    "ai_explanation": "Low occupancy or moderate weather detected. Eco-Optimized strategy minimizes baseline energy consumption. Predicted Cost J=0.156 (Energy Cost: 0.052, Carbon Cost: 0.104, Comfort Penalty: 0.000).",
+    "safety_log": {
+      "status": "REJECTED",
+      "reason": "Failed to apply: Zone 'Zone 1: Open Office' Validation Failed: Cooling setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 4.5\u00b0C)",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 27.0,
+        "Zone 2: Meeting Room": 27.0,
+        "Zone 3: Executive Suite": 27.0
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 16.0,
+        "Zone 2: Meeting Room": 16.0,
+        "Zone 3: Executive Suite": 16.0
+      }
+    }
+  },
+  {
+    "hour": 21.0,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 400.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.538293397035304,
+      "Zone 2: Meeting Room": 27.0,
+      "Zone 3: Executive Suite": 22.5
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.5,
+      "Zone 2: Meeting Room": 27.0,
+      "Zone 3: Executive Suite": 22.5
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 19.0,
+      "Zone 2: Meeting Room": 16.0,
+      "Zone 3: Executive Suite": 19.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.012903487948644505,
+      "Zone 3: Executive Suite": 0.03161130044864486
+    },
+    "total_energy": 0.04451478839728937,
+    "metrics": {
+      "cost": 0.1335443651918681,
+      "energy_cost": 0.04451478839728937,
+      "carbon_cost": 0.08902957679457874,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.017805915358915746,
+      "comfort_penalty": 0.0
+    },
+    "ai_strategy": "Strategy A (Eco-Optimized)",
+    "ai_explanation": "Low occupancy or moderate weather detected. Eco-Optimized strategy minimizes baseline energy consumption. Predicted Cost J=0.156 (Energy Cost: 0.052, Carbon Cost: 0.104, Comfort Penalty: 0.000).",
+    "safety_log": {
+      "status": "REJECTED",
+      "reason": "Failed to apply: Zone 'Zone 1: Open Office' Validation Failed: Cooling setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 4.5\u00b0C)",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 27.0,
+        "Zone 2: Meeting Room": 27.0,
+        "Zone 3: Executive Suite": 27.0
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 16.0,
+        "Zone 2: Meeting Room": 16.0,
+        "Zone 3: Executive Suite": 16.0
+      }
+    }
+  },
+  {
+    "hour": 21.25,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 400.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.5,
+      "Zone 2: Meeting Room": 27.01398446405733,
+      "Zone 3: Executive Suite": 22.53423446405733
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.5,
+      "Zone 2: Meeting Room": 27.0,
+      "Zone 3: Executive Suite": 22.5
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 19.0,
+      "Zone 2: Meeting Room": 16.0,
+      "Zone 3: Executive Suite": 19.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0353410243941264,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0353410243941264,
+    "metrics": {
+      "cost": 0.10602307318237919,
+      "energy_cost": 0.0353410243941264,
+      "carbon_cost": 0.0706820487882528,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.01413640975765056,
+      "comfort_penalty": 0.0
+    },
+    "ai_strategy": "Strategy A (Eco-Optimized)",
+    "ai_explanation": "Low occupancy or moderate weather detected. Eco-Optimized strategy minimizes baseline energy consumption. Predicted Cost J=0.156 (Energy Cost: 0.052, Carbon Cost: 0.104, Comfort Penalty: 0.000).",
+    "safety_log": {
+      "status": "REJECTED",
+      "reason": "Failed to apply: Zone 'Zone 1: Open Office' Validation Failed: Cooling setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 4.5\u00b0C)",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 27.0,
+        "Zone 2: Meeting Room": 27.0,
+        "Zone 3: Executive Suite": 27.0
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 16.0,
+        "Zone 2: Meeting Room": 16.0,
+        "Zone 3: Executive Suite": 16.0
+      }
+    }
+  },
+  {
+    "hour": 21.5,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 400.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.538293397035304,
+      "Zone 2: Meeting Room": 27.0,
+      "Zone 3: Executive Suite": 22.5
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.5,
+      "Zone 2: Meeting Room": 27.0,
+      "Zone 3: Executive Suite": 22.5
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 19.0,
+      "Zone 2: Meeting Room": 16.0,
+      "Zone 3: Executive Suite": 19.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.012903487948644505,
+      "Zone 3: Executive Suite": 0.03161130044864486
+    },
+    "total_energy": 0.04451478839728937,
+    "metrics": {
+      "cost": 0.1335443651918681,
+      "energy_cost": 0.04451478839728937,
+      "carbon_cost": 0.08902957679457874,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.017805915358915746,
+      "comfort_penalty": 0.0
+    },
+    "ai_strategy": "Strategy A (Eco-Optimized)",
+    "ai_explanation": "Low occupancy or moderate weather detected. Eco-Optimized strategy minimizes baseline energy consumption. Predicted Cost J=0.156 (Energy Cost: 0.052, Carbon Cost: 0.104, Comfort Penalty: 0.000).",
+    "safety_log": {
+      "status": "REJECTED",
+      "reason": "Failed to apply: Zone 'Zone 1: Open Office' Validation Failed: Cooling setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 4.5\u00b0C)",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 27.0,
+        "Zone 2: Meeting Room": 27.0,
+        "Zone 3: Executive Suite": 27.0
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 16.0,
+        "Zone 2: Meeting Room": 16.0,
+        "Zone 3: Executive Suite": 16.0
+      }
+    }
+  },
+  {
+    "hour": 21.75,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 400.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.5,
+      "Zone 2: Meeting Room": 27.01398446405733,
+      "Zone 3: Executive Suite": 22.53423446405733
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.5,
+      "Zone 2: Meeting Room": 27.0,
+      "Zone 3: Executive Suite": 22.5
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 19.0,
+      "Zone 2: Meeting Room": 16.0,
+      "Zone 3: Executive Suite": 19.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0353410243941264,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0353410243941264,
+    "metrics": {
+      "cost": 0.10602307318237919,
+      "energy_cost": 0.0353410243941264,
+      "carbon_cost": 0.0706820487882528,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.01413640975765056,
+      "comfort_penalty": 0.0
+    },
+    "ai_strategy": "Strategy A (Eco-Optimized)",
+    "ai_explanation": "Low occupancy or moderate weather detected. Eco-Optimized strategy minimizes baseline energy consumption. Predicted Cost J=0.156 (Energy Cost: 0.052, Carbon Cost: 0.104, Comfort Penalty: 0.000).",
+    "safety_log": {
+      "status": "REJECTED",
+      "reason": "Failed to apply: Zone 'Zone 1: Open Office' Validation Failed: Cooling setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 4.5\u00b0C)",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 27.0,
+        "Zone 2: Meeting Room": 27.0,
+        "Zone 3: Executive Suite": 27.0
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 16.0,
+        "Zone 2: Meeting Room": 16.0,
+        "Zone 3: Executive Suite": 16.0
+      }
+    }
+  },
+  {
+    "hour": 22.0,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 400.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.538293397035304,
+      "Zone 2: Meeting Room": 27.0,
+      "Zone 3: Executive Suite": 22.5
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.5,
+      "Zone 2: Meeting Room": 27.0,
+      "Zone 3: Executive Suite": 22.5
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 19.0,
+      "Zone 2: Meeting Room": 16.0,
+      "Zone 3: Executive Suite": 19.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.012903487948644505,
+      "Zone 3: Executive Suite": 0.03161130044864486
+    },
+    "total_energy": 0.04451478839728937,
+    "metrics": {
+      "cost": 0.1335443651918681,
+      "energy_cost": 0.04451478839728937,
+      "carbon_cost": 0.08902957679457874,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.017805915358915746,
+      "comfort_penalty": 0.0
+    },
+    "ai_strategy": "Strategy A (Eco-Optimized)",
+    "ai_explanation": "Low occupancy or moderate weather detected. Eco-Optimized strategy minimizes baseline energy consumption. Predicted Cost J=0.156 (Energy Cost: 0.052, Carbon Cost: 0.104, Comfort Penalty: 0.000).",
+    "safety_log": {
+      "status": "REJECTED",
+      "reason": "Failed to apply: Zone 'Zone 1: Open Office' Validation Failed: Cooling setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 4.5\u00b0C)",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 27.0,
+        "Zone 2: Meeting Room": 27.0,
+        "Zone 3: Executive Suite": 27.0
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 16.0,
+        "Zone 2: Meeting Room": 16.0,
+        "Zone 3: Executive Suite": 16.0
+      }
+    }
+  },
+  {
+    "hour": 22.25,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.5,
+      "Zone 2: Meeting Room": 27.01398446405733,
+      "Zone 3: Executive Suite": 22.53423446405733
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.5,
+      "Zone 2: Meeting Room": 27.0,
+      "Zone 3: Executive Suite": 22.5
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 19.0,
+      "Zone 2: Meeting Room": 16.0,
+      "Zone 3: Executive Suite": 19.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0353410243941264,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0353410243941264,
+    "metrics": {
+      "cost": 0.05654563903060223,
+      "energy_cost": 0.0353410243941264,
+      "carbon_cost": 0.021204614636475834,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.004240922927295167,
+      "comfort_penalty": 0.0
+    },
+    "ai_strategy": "Strategy A (Eco-Optimized)",
+    "ai_explanation": "Low occupancy or moderate weather detected. Eco-Optimized strategy minimizes baseline energy consumption. Predicted Cost J=0.083 (Energy Cost: 0.052, Carbon Cost: 0.031, Comfort Penalty: 0.000).",
+    "safety_log": {
+      "status": "REJECTED",
+      "reason": "Failed to apply: Zone 'Zone 1: Open Office' Validation Failed: Cooling setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 4.5\u00b0C)",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 27.0,
+        "Zone 2: Meeting Room": 27.0,
+        "Zone 3: Executive Suite": 27.0
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 16.0,
+        "Zone 2: Meeting Room": 16.0,
+        "Zone 3: Executive Suite": 16.0
+      }
+    }
+  },
+  {
+    "hour": 22.5,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.538293397035304,
+      "Zone 2: Meeting Room": 27.0,
+      "Zone 3: Executive Suite": 22.5
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.5,
+      "Zone 2: Meeting Room": 27.0,
+      "Zone 3: Executive Suite": 22.5
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 19.0,
+      "Zone 2: Meeting Room": 16.0,
+      "Zone 3: Executive Suite": 19.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.012903487948644505,
+      "Zone 3: Executive Suite": 0.03161130044864486
+    },
+    "total_energy": 0.04451478839728937,
+    "metrics": {
+      "cost": 0.07122366143566299,
+      "energy_cost": 0.04451478839728937,
+      "carbon_cost": 0.026708873038373618,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.0053417746076747236,
+      "comfort_penalty": 0.0
+    },
+    "ai_strategy": "Strategy A (Eco-Optimized)",
+    "ai_explanation": "Low occupancy or moderate weather detected. Eco-Optimized strategy minimizes baseline energy consumption. Predicted Cost J=0.083 (Energy Cost: 0.052, Carbon Cost: 0.031, Comfort Penalty: 0.000).",
+    "safety_log": {
+      "status": "REJECTED",
+      "reason": "Failed to apply: Zone 'Zone 1: Open Office' Validation Failed: Cooling setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 4.5\u00b0C)",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 27.0,
+        "Zone 2: Meeting Room": 27.0,
+        "Zone 3: Executive Suite": 27.0
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 16.0,
+        "Zone 2: Meeting Room": 16.0,
+        "Zone 3: Executive Suite": 16.0
+      }
+    }
+  },
+  {
+    "hour": 22.75,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.5,
+      "Zone 2: Meeting Room": 27.01398446405733,
+      "Zone 3: Executive Suite": 22.53423446405733
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.5,
+      "Zone 2: Meeting Room": 27.0,
+      "Zone 3: Executive Suite": 22.5
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 19.0,
+      "Zone 2: Meeting Room": 16.0,
+      "Zone 3: Executive Suite": 19.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0353410243941264,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0353410243941264,
+    "metrics": {
+      "cost": 0.05654563903060223,
+      "energy_cost": 0.0353410243941264,
+      "carbon_cost": 0.021204614636475834,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.004240922927295167,
+      "comfort_penalty": 0.0
+    },
+    "ai_strategy": "Strategy A (Eco-Optimized)",
+    "ai_explanation": "Low occupancy or moderate weather detected. Eco-Optimized strategy minimizes baseline energy consumption. Predicted Cost J=0.083 (Energy Cost: 0.052, Carbon Cost: 0.031, Comfort Penalty: 0.000).",
+    "safety_log": {
+      "status": "REJECTED",
+      "reason": "Failed to apply: Zone 'Zone 1: Open Office' Validation Failed: Cooling setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 4.5\u00b0C)",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 27.0,
+        "Zone 2: Meeting Room": 27.0,
+        "Zone 3: Executive Suite": 27.0
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 16.0,
+        "Zone 2: Meeting Room": 16.0,
+        "Zone 3: Executive Suite": 16.0
+      }
+    }
+  },
+  {
+    "hour": 23.0,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.538293397035304,
+      "Zone 2: Meeting Room": 27.0,
+      "Zone 3: Executive Suite": 22.5
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.5,
+      "Zone 2: Meeting Room": 27.0,
+      "Zone 3: Executive Suite": 22.5
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 19.0,
+      "Zone 2: Meeting Room": 16.0,
+      "Zone 3: Executive Suite": 19.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.012903487948644505,
+      "Zone 3: Executive Suite": 0.03161130044864486
+    },
+    "total_energy": 0.04451478839728937,
+    "metrics": {
+      "cost": 0.07122366143566299,
+      "energy_cost": 0.04451478839728937,
+      "carbon_cost": 0.026708873038373618,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.0053417746076747236,
+      "comfort_penalty": 0.0
+    },
+    "ai_strategy": "Strategy A (Eco-Optimized)",
+    "ai_explanation": "Low occupancy or moderate weather detected. Eco-Optimized strategy minimizes baseline energy consumption. Predicted Cost J=0.083 (Energy Cost: 0.052, Carbon Cost: 0.031, Comfort Penalty: 0.000).",
+    "safety_log": {
+      "status": "REJECTED",
+      "reason": "Failed to apply: Zone 'Zone 1: Open Office' Validation Failed: Cooling setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 4.5\u00b0C)",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 27.0,
+        "Zone 2: Meeting Room": 27.0,
+        "Zone 3: Executive Suite": 27.0
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 16.0,
+        "Zone 2: Meeting Room": 16.0,
+        "Zone 3: Executive Suite": 16.0
+      }
+    }
+  },
+  {
+    "hour": 23.25,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.5,
+      "Zone 2: Meeting Room": 27.01398446405733,
+      "Zone 3: Executive Suite": 22.53423446405733
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.5,
+      "Zone 2: Meeting Room": 27.0,
+      "Zone 3: Executive Suite": 22.5
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 19.0,
+      "Zone 2: Meeting Room": 16.0,
+      "Zone 3: Executive Suite": 19.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0353410243941264,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0353410243941264,
+    "metrics": {
+      "cost": 0.05654563903060223,
+      "energy_cost": 0.0353410243941264,
+      "carbon_cost": 0.021204614636475834,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.004240922927295167,
+      "comfort_penalty": 0.0
+    },
+    "ai_strategy": "Strategy A (Eco-Optimized)",
+    "ai_explanation": "Low occupancy or moderate weather detected. Eco-Optimized strategy minimizes baseline energy consumption. Predicted Cost J=0.083 (Energy Cost: 0.052, Carbon Cost: 0.031, Comfort Penalty: 0.000).",
+    "safety_log": {
+      "status": "REJECTED",
+      "reason": "Failed to apply: Zone 'Zone 1: Open Office' Validation Failed: Cooling setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 4.5\u00b0C)",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 27.0,
+        "Zone 2: Meeting Room": 27.0,
+        "Zone 3: Executive Suite": 27.0
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 16.0,
+        "Zone 2: Meeting Room": 16.0,
+        "Zone 3: Executive Suite": 16.0
+      }
+    }
+  },
+  {
+    "hour": 23.5,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.538293397035304,
+      "Zone 2: Meeting Room": 27.0,
+      "Zone 3: Executive Suite": 22.5
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.5,
+      "Zone 2: Meeting Room": 27.0,
+      "Zone 3: Executive Suite": 22.5
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 19.0,
+      "Zone 2: Meeting Room": 16.0,
+      "Zone 3: Executive Suite": 19.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.012903487948644505,
+      "Zone 3: Executive Suite": 0.03161130044864486
+    },
+    "total_energy": 0.04451478839728937,
+    "metrics": {
+      "cost": 0.07122366143566299,
+      "energy_cost": 0.04451478839728937,
+      "carbon_cost": 0.026708873038373618,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.0053417746076747236,
+      "comfort_penalty": 0.0
+    },
+    "ai_strategy": "Strategy A (Eco-Optimized)",
+    "ai_explanation": "Low occupancy or moderate weather detected. Eco-Optimized strategy minimizes baseline energy consumption. Predicted Cost J=0.083 (Energy Cost: 0.052, Carbon Cost: 0.031, Comfort Penalty: 0.000).",
+    "safety_log": {
+      "status": "REJECTED",
+      "reason": "Failed to apply: Zone 'Zone 1: Open Office' Validation Failed: Cooling setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 4.5\u00b0C)",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 27.0,
+        "Zone 2: Meeting Room": 27.0,
+        "Zone 3: Executive Suite": 27.0
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 16.0,
+        "Zone 2: Meeting Room": 16.0,
+        "Zone 3: Executive Suite": 16.0
+      }
+    }
+  },
+  {
+    "hour": 23.75,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.5,
+      "Zone 2: Meeting Room": 27.01398446405733,
+      "Zone 3: Executive Suite": 22.53423446405733
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.5,
+      "Zone 2: Meeting Room": 27.0,
+      "Zone 3: Executive Suite": 22.5
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 19.0,
+      "Zone 2: Meeting Room": 16.0,
+      "Zone 3: Executive Suite": 19.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0353410243941264,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0353410243941264,
+    "metrics": {
+      "cost": 0.05654563903060223,
+      "energy_cost": 0.0353410243941264,
+      "carbon_cost": 0.021204614636475834,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.004240922927295167,
+      "comfort_penalty": 0.0
+    },
+    "ai_strategy": "Strategy A (Eco-Optimized)",
+    "ai_explanation": "Low occupancy or moderate weather detected. Eco-Optimized strategy minimizes baseline energy consumption. Predicted Cost J=0.083 (Energy Cost: 0.052, Carbon Cost: 0.031, Comfort Penalty: 0.000).",
+    "safety_log": {
+      "status": "REJECTED",
+      "reason": "Failed to apply: Zone 'Zone 1: Open Office' Validation Failed: Cooling setpoint ramp rate exceeds 3.0\u00b0C/step (diff: 4.5\u00b0C)",
+      "proposed_cooling": {
+        "Zone 1: Open Office": 27.0,
+        "Zone 2: Meeting Room": 27.0,
+        "Zone 3: Executive Suite": 27.0
+      },
+      "proposed_heating": {
+        "Zone 1: Open Office": 16.0,
+        "Zone 2: Meeting Room": 16.0,
+        "Zone 3: Executive Suite": 16.0
+      }
+    }
+  }
+]

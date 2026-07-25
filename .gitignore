@@ -1,0 +1,35 @@
+# React / Frontend dependencies
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Python cache & virtual environment
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+venv/
+.venv/
+env/
+
+# System / OS files
+.DS_Store
+Thumbs.db
+
+# IDE configuration
+.idea/
+.vscode/
+.gemini/
+antigravity-ide/
+mcp_server/__pycache__/
+backend/app/__pycache__/
+backend/app/api/__pycache__/
+backend/app/baseline/__pycache__/
+backend/app/data_generator/__pycache__/
+backend/app/digital_twin/__pycache__/
+backend/app/optimizer/__pycache__/
+backend/app/safety/__pycache__/
+backend/app/simulation/__pycache__/
+backend/app/explainability/__pycache__/
+backend/app/ai_planner/__pycache__/

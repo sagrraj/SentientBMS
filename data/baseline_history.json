@@ -1,0 +1,3746 @@
+[
+  {
+    "hour": 0.0,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.036,
+      "Zone 2: Meeting Room": 22.036,
+      "Zone 3: Executive Suite": 22.036
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 28.0,
+      "Zone 2: Meeting Room": 28.0,
+      "Zone 3: Executive Suite": 28.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 15.0,
+      "Zone 2: Meeting Room": 15.0,
+      "Zone 3: Executive Suite": 15.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0,
+    "metrics": {
+      "cost": 0.0,
+      "energy_cost": 0.0,
+      "carbon_cost": 0.0,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.0,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 0.25,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.0718704,
+      "Zone 2: Meeting Room": 22.0718704,
+      "Zone 3: Executive Suite": 22.0718704
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 28.0,
+      "Zone 2: Meeting Room": 28.0,
+      "Zone 3: Executive Suite": 28.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 15.0,
+      "Zone 2: Meeting Room": 15.0,
+      "Zone 3: Executive Suite": 15.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0,
+    "metrics": {
+      "cost": 0.0,
+      "energy_cost": 0.0,
+      "carbon_cost": 0.0,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.0,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 0.5,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.10761166656,
+      "Zone 2: Meeting Room": 22.10761166656,
+      "Zone 3: Executive Suite": 22.10761166656
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 28.0,
+      "Zone 2: Meeting Room": 28.0,
+      "Zone 3: Executive Suite": 28.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 15.0,
+      "Zone 2: Meeting Room": 15.0,
+      "Zone 3: Executive Suite": 15.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0,
+    "metrics": {
+      "cost": 0.0,
+      "energy_cost": 0.0,
+      "carbon_cost": 0.0,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.0,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 0.75,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.143224264560384,
+      "Zone 2: Meeting Room": 22.143224264560384,
+      "Zone 3: Executive Suite": 22.143224264560384
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 28.0,
+      "Zone 2: Meeting Room": 28.0,
+      "Zone 3: Executive Suite": 28.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 15.0,
+      "Zone 2: Meeting Room": 15.0,
+      "Zone 3: Executive Suite": 15.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0,
+    "metrics": {
+      "cost": 0.0,
+      "energy_cost": 0.0,
+      "carbon_cost": 0.0,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.0,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 1.0,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.178708657207967,
+      "Zone 2: Meeting Room": 22.178708657207967,
+      "Zone 3: Executive Suite": 22.178708657207967
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 28.0,
+      "Zone 2: Meeting Room": 28.0,
+      "Zone 3: Executive Suite": 28.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 15.0,
+      "Zone 2: Meeting Room": 15.0,
+      "Zone 3: Executive Suite": 15.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0,
+    "metrics": {
+      "cost": 0.0,
+      "energy_cost": 0.0,
+      "carbon_cost": 0.0,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.0,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 1.25,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.214065306042016,
+      "Zone 2: Meeting Room": 22.214065306042016,
+      "Zone 3: Executive Suite": 22.214065306042016
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 28.0,
+      "Zone 2: Meeting Room": 28.0,
+      "Zone 3: Executive Suite": 28.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 15.0,
+      "Zone 2: Meeting Room": 15.0,
+      "Zone 3: Executive Suite": 15.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0,
+    "metrics": {
+      "cost": 0.0,
+      "energy_cost": 0.0,
+      "carbon_cost": 0.0,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.0,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 1.5,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.249294670940266,
+      "Zone 2: Meeting Room": 22.249294670940266,
+      "Zone 3: Executive Suite": 22.249294670940266
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 28.0,
+      "Zone 2: Meeting Room": 28.0,
+      "Zone 3: Executive Suite": 28.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 15.0,
+      "Zone 2: Meeting Room": 15.0,
+      "Zone 3: Executive Suite": 15.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0,
+    "metrics": {
+      "cost": 0.0,
+      "energy_cost": 0.0,
+      "carbon_cost": 0.0,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.0,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 1.75,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.28439721012488,
+      "Zone 2: Meeting Room": 22.28439721012488,
+      "Zone 3: Executive Suite": 22.28439721012488
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 28.0,
+      "Zone 2: Meeting Room": 28.0,
+      "Zone 3: Executive Suite": 28.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 15.0,
+      "Zone 2: Meeting Room": 15.0,
+      "Zone 3: Executive Suite": 15.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0,
+    "metrics": {
+      "cost": 0.0,
+      "energy_cost": 0.0,
+      "carbon_cost": 0.0,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.0,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 2.0,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.31937338016843,
+      "Zone 2: Meeting Room": 22.31937338016843,
+      "Zone 3: Executive Suite": 22.31937338016843
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 28.0,
+      "Zone 2: Meeting Room": 28.0,
+      "Zone 3: Executive Suite": 28.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 15.0,
+      "Zone 2: Meeting Room": 15.0,
+      "Zone 3: Executive Suite": 15.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0,
+    "metrics": {
+      "cost": 0.0,
+      "energy_cost": 0.0,
+      "carbon_cost": 0.0,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.0,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 2.25,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.354223635999823,
+      "Zone 2: Meeting Room": 22.354223635999823,
+      "Zone 3: Executive Suite": 22.354223635999823
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 28.0,
+      "Zone 2: Meeting Room": 28.0,
+      "Zone 3: Executive Suite": 28.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 15.0,
+      "Zone 2: Meeting Room": 15.0,
+      "Zone 3: Executive Suite": 15.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0,
+    "metrics": {
+      "cost": 0.0,
+      "energy_cost": 0.0,
+      "carbon_cost": 0.0,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.0,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 2.5,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.388948430910222,
+      "Zone 2: Meeting Room": 22.388948430910222,
+      "Zone 3: Executive Suite": 22.388948430910222
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 28.0,
+      "Zone 2: Meeting Room": 28.0,
+      "Zone 3: Executive Suite": 28.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 15.0,
+      "Zone 2: Meeting Room": 15.0,
+      "Zone 3: Executive Suite": 15.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0,
+    "metrics": {
+      "cost": 0.0,
+      "energy_cost": 0.0,
+      "carbon_cost": 0.0,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.0,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 2.75,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.423548216558945,
+      "Zone 2: Meeting Room": 22.423548216558945,
+      "Zone 3: Executive Suite": 22.423548216558945
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 28.0,
+      "Zone 2: Meeting Room": 28.0,
+      "Zone 3: Executive Suite": 28.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 15.0,
+      "Zone 2: Meeting Room": 15.0,
+      "Zone 3: Executive Suite": 15.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0,
+    "metrics": {
+      "cost": 0.0,
+      "energy_cost": 0.0,
+      "carbon_cost": 0.0,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.0,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 3.0,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.458023442979332,
+      "Zone 2: Meeting Room": 22.458023442979332,
+      "Zone 3: Executive Suite": 22.458023442979332
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 28.0,
+      "Zone 2: Meeting Room": 28.0,
+      "Zone 3: Executive Suite": 28.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 15.0,
+      "Zone 2: Meeting Room": 15.0,
+      "Zone 3: Executive Suite": 15.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0,
+    "metrics": {
+      "cost": 0.0,
+      "energy_cost": 0.0,
+      "carbon_cost": 0.0,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.0,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 3.25,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.492374558584608,
+      "Zone 2: Meeting Room": 22.492374558584608,
+      "Zone 3: Executive Suite": 22.492374558584608
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 28.0,
+      "Zone 2: Meeting Room": 28.0,
+      "Zone 3: Executive Suite": 28.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 15.0,
+      "Zone 2: Meeting Room": 15.0,
+      "Zone 3: Executive Suite": 15.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0,
+    "metrics": {
+      "cost": 0.0,
+      "energy_cost": 0.0,
+      "carbon_cost": 0.0,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.0,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 3.5,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.526602010173704,
+      "Zone 2: Meeting Room": 22.526602010173704,
+      "Zone 3: Executive Suite": 22.526602010173704
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 28.0,
+      "Zone 2: Meeting Room": 28.0,
+      "Zone 3: Executive Suite": 28.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 15.0,
+      "Zone 2: Meeting Room": 15.0,
+      "Zone 3: Executive Suite": 15.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0,
+    "metrics": {
+      "cost": 0.0,
+      "energy_cost": 0.0,
+      "carbon_cost": 0.0,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.0,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 3.75,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.56070624293708,
+      "Zone 2: Meeting Room": 22.56070624293708,
+      "Zone 3: Executive Suite": 22.56070624293708
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 28.0,
+      "Zone 2: Meeting Room": 28.0,
+      "Zone 3: Executive Suite": 28.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 15.0,
+      "Zone 2: Meeting Room": 15.0,
+      "Zone 3: Executive Suite": 15.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0,
+    "metrics": {
+      "cost": 0.0,
+      "energy_cost": 0.0,
+      "carbon_cost": 0.0,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.0,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 4.0,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.594687700462508,
+      "Zone 2: Meeting Room": 22.594687700462508,
+      "Zone 3: Executive Suite": 22.594687700462508
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 28.0,
+      "Zone 2: Meeting Room": 28.0,
+      "Zone 3: Executive Suite": 28.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 15.0,
+      "Zone 2: Meeting Room": 15.0,
+      "Zone 3: Executive Suite": 15.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0,
+    "metrics": {
+      "cost": 0.0,
+      "energy_cost": 0.0,
+      "carbon_cost": 0.0,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.0,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 4.25,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.628546824740845,
+      "Zone 2: Meeting Room": 22.628546824740845,
+      "Zone 3: Executive Suite": 22.628546824740845
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 28.0,
+      "Zone 2: Meeting Room": 28.0,
+      "Zone 3: Executive Suite": 28.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 15.0,
+      "Zone 2: Meeting Room": 15.0,
+      "Zone 3: Executive Suite": 15.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0,
+    "metrics": {
+      "cost": 0.0,
+      "energy_cost": 0.0,
+      "carbon_cost": 0.0,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.0,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 4.5,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.662284056171778,
+      "Zone 2: Meeting Room": 22.662284056171778,
+      "Zone 3: Executive Suite": 22.662284056171778
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 28.0,
+      "Zone 2: Meeting Room": 28.0,
+      "Zone 3: Executive Suite": 28.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 15.0,
+      "Zone 2: Meeting Room": 15.0,
+      "Zone 3: Executive Suite": 15.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0,
+    "metrics": {
+      "cost": 0.0,
+      "energy_cost": 0.0,
+      "carbon_cost": 0.0,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.0,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 4.75,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.69589983356956,
+      "Zone 2: Meeting Room": 22.69589983356956,
+      "Zone 3: Executive Suite": 22.69589983356956
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 28.0,
+      "Zone 2: Meeting Room": 28.0,
+      "Zone 3: Executive Suite": 28.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 15.0,
+      "Zone 2: Meeting Room": 15.0,
+      "Zone 3: Executive Suite": 15.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0,
+    "metrics": {
+      "cost": 0.0,
+      "energy_cost": 0.0,
+      "carbon_cost": 0.0,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.0,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 5.0,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.72939459416871,
+      "Zone 2: Meeting Room": 22.72939459416871,
+      "Zone 3: Executive Suite": 22.72939459416871
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 28.0,
+      "Zone 2: Meeting Room": 28.0,
+      "Zone 3: Executive Suite": 28.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 15.0,
+      "Zone 2: Meeting Room": 15.0,
+      "Zone 3: Executive Suite": 15.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0,
+    "metrics": {
+      "cost": 0.0,
+      "energy_cost": 0.0,
+      "carbon_cost": 0.0,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.0,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 5.25,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.762768773629702,
+      "Zone 2: Meeting Room": 22.762768773629702,
+      "Zone 3: Executive Suite": 22.762768773629702
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 28.0,
+      "Zone 2: Meeting Room": 28.0,
+      "Zone 3: Executive Suite": 28.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 15.0,
+      "Zone 2: Meeting Room": 15.0,
+      "Zone 3: Executive Suite": 15.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0,
+    "metrics": {
+      "cost": 0.0,
+      "energy_cost": 0.0,
+      "carbon_cost": 0.0,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.0,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 5.5,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.796022806044636,
+      "Zone 2: Meeting Room": 22.796022806044636,
+      "Zone 3: Executive Suite": 22.796022806044636
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 28.0,
+      "Zone 2: Meeting Room": 28.0,
+      "Zone 3: Executive Suite": 28.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 15.0,
+      "Zone 2: Meeting Room": 15.0,
+      "Zone 3: Executive Suite": 15.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0,
+    "metrics": {
+      "cost": 0.0,
+      "energy_cost": 0.0,
+      "carbon_cost": 0.0,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.0,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 5.75,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.829157123942874,
+      "Zone 2: Meeting Room": 22.829157123942874,
+      "Zone 3: Executive Suite": 22.829157123942874
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 28.0,
+      "Zone 2: Meeting Room": 28.0,
+      "Zone 3: Executive Suite": 28.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 15.0,
+      "Zone 2: Meeting Room": 15.0,
+      "Zone 3: Executive Suite": 15.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0,
+    "metrics": {
+      "cost": 0.0,
+      "energy_cost": 0.0,
+      "carbon_cost": 0.0,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.0,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 6.0,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.86217215829668,
+      "Zone 2: Meeting Room": 22.86217215829668,
+      "Zone 3: Executive Suite": 22.86217215829668
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 28.0,
+      "Zone 2: Meeting Room": 28.0,
+      "Zone 3: Executive Suite": 28.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 15.0,
+      "Zone 2: Meeting Room": 15.0,
+      "Zone 3: Executive Suite": 15.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0,
+    "metrics": {
+      "cost": 0.0,
+      "energy_cost": 0.0,
+      "carbon_cost": 0.0,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.0,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 6.25,
+    "outdoor_temp": 22.915643809222004,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.921909782762864,
+      "Zone 2: Meeting Room": 22.910137219501436,
+      "Zone 3: Executive Suite": 22.910137219501436
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 28.0,
+      "Zone 2: Meeting Room": 28.0,
+      "Zone 3: Executive Suite": 28.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 15.0,
+      "Zone 2: Meeting Room": 15.0,
+      "Zone 3: Executive Suite": 15.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0,
+    "metrics": {
+      "cost": 0.0,
+      "energy_cost": 0.0,
+      "carbon_cost": 0.0,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.0,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 6.5,
+    "outdoor_temp": 23.827366691080723,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 23.008137666218158,
+      "Zone 2: Meeting Room": 22.972944555505666,
+      "Zone 3: Executive Suite": 22.972944555505666
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 28.0,
+      "Zone 2: Meeting Room": 28.0,
+      "Zone 3: Executive Suite": 28.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 15.0,
+      "Zone 2: Meeting Room": 15.0,
+      "Zone 3: Executive Suite": 15.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0,
+    "metrics": {
+      "cost": 0.0,
+      "energy_cost": 0.0,
+      "carbon_cost": 0.0,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.0,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 6.75,
+    "outdoor_temp": 24.731264508225795,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 23.12051009117591,
+      "Zone 2: Meeting Room": 23.050422439098003,
+      "Zone 3: Executive Suite": 23.050422439098003
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 28.0,
+      "Zone 2: Meeting Room": 28.0,
+      "Zone 3: Executive Suite": 28.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 15.0,
+      "Zone 2: Meeting Room": 15.0,
+      "Zone 3: Executive Suite": 15.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0,
+    "metrics": {
+      "cost": 0.0,
+      "energy_cost": 0.0,
+      "carbon_cost": 0.0,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.0,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 7.0,
+    "outdoor_temp": 25.623466631435292,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 23.25856943318401,
+      "Zone 2: Meeting Room": 23.142335905195743,
+      "Zone 3: Executive Suite": 23.142335905195743
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 28.0,
+      "Zone 2: Meeting Room": 28.0,
+      "Zone 3: Executive Suite": 28.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 15.0,
+      "Zone 2: Meeting Room": 15.0,
+      "Zone 3: Executive Suite": 15.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0,
+    "metrics": {
+      "cost": 0.0,
+      "energy_cost": 0.0,
+      "carbon_cost": 0.0,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.0,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 7.25,
+    "outdoor_temp": 26.500152514244263,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 23.421748119434586,
+      "Zone 2: Meeting Room": 23.248387758918078,
+      "Zone 3: Executive Suite": 23.248387758918078
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 28.0,
+      "Zone 2: Meeting Room": 28.0,
+      "Zone 3: Executive Suite": 28.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 15.0,
+      "Zone 2: Meeting Room": 15.0,
+      "Zone 3: Executive Suite": 15.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0,
+    "metrics": {
+      "cost": 0.0,
+      "energy_cost": 0.0,
+      "carbon_cost": 0.0,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.0,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 7.5,
+    "outdoor_temp": 27.357568053111258,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 23.609371058198324,
+      "Zone 2: Meeting Room": 23.368219850127353,
+      "Zone 3: Executive Suite": 23.368219850127353
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 28.0,
+      "Zone 2: Meeting Room": 28.0,
+      "Zone 3: Executive Suite": 28.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 15.0,
+      "Zone 2: Meeting Room": 15.0,
+      "Zone 3: Executive Suite": 15.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0,
+    "metrics": {
+      "cost": 0.0,
+      "energy_cost": 0.0,
+      "carbon_cost": 0.0,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.0,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 7.75,
+    "outdoor_temp": 28.192041663066018,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 23.82065852868016,
+      "Zone 2: Meeting Room": 23.501414608980618,
+      "Zone 3: Executive Suite": 23.501414608980618
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 28.0,
+      "Zone 2: Meeting Room": 28.0,
+      "Zone 3: Executive Suite": 28.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 15.0,
+      "Zone 2: Meeting Room": 15.0,
+      "Zone 3: Executive Suite": 15.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0,
+    "metrics": {
+      "cost": 0.0,
+      "energy_cost": 0.0,
+      "carbon_cost": 0.0,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.0,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 8.0,
+    "outdoor_temp": 29.0,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 18,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 2
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 23.17272951892145,
+      "Zone 2: Meeting Room": 22.315496835916015,
+      "Zone 3: Executive Suite": 22.315496835916015
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 20.0,
+      "Zone 2: Meeting Room": 20.0,
+      "Zone 3: Executive Suite": 20.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.6666666666666666,
+      "Zone 2: Meeting Room": 0.6666666666666666,
+      "Zone 3: Executive Suite": 0.6666666666666666
+    },
+    "total_energy": 2.0,
+    "metrics": {
+      "cost": 3.2,
+      "energy_cost": 2.0,
+      "carbon_cost": 1.2,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.24,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 8.25,
+    "outdoor_temp": 29.777983262274432,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 18,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 2
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.548970697455168,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 20.0,
+      "Zone 2: Meeting Room": 20.0,
+      "Zone 3: Executive Suite": 20.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.6666666666666666,
+      "Zone 2: Meeting Room": 0.27182219370793453,
+      "Zone 3: Executive Suite": 0.27182219370793453
+    },
+    "total_energy": 1.2103110540825357,
+    "metrics": {
+      "cost": 1.9364976865320571,
+      "energy_cost": 1.2103110540825357,
+      "carbon_cost": 0.7261866324495214,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.14523732648990428,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 8.5,
+    "outdoor_temp": 30.522660006122088,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 18,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 2
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.28475270687132,
+      "Zone 3: Executive Suite": 22.28475270687132
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 20.0,
+      "Zone 2: Meeting Room": 20.0,
+      "Zone 3: Executive Suite": 20.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.643445345441708,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.643445345441708,
+    "metrics": {
+      "cost": 1.0295125527067328,
+      "energy_cost": 0.643445345441708,
+      "carbon_cost": 0.38606720726502475,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.07721344145300495,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 8.75,
+    "outdoor_temp": 31.230841411400963,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 18,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 2
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.865108077389436,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 20.0,
+      "Zone 2: Meeting Room": 20.0,
+      "Zone 3: Executive Suite": 20.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.2682336090228957,
+      "Zone 3: Executive Suite": 0.2682336090228957
+    },
+    "total_energy": 0.5364672180457914,
+    "metrics": {
+      "cost": 0.8583475488732664,
+      "energy_cost": 0.5364672180457914,
+      "carbon_cost": 0.32188033082747486,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.06437606616549497,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 9.0,
+    "outdoor_temp": 31.899494936611667,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 18,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 2
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.304633116770493,
+      "Zone 2: Meeting Room": 22.30769599965503,
+      "Zone 3: Executive Suite": 22.30769599965503
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 20.0,
+      "Zone 2: Meeting Room": 20.0,
+      "Zone 3: Executive Suite": 20.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.6666666666666666,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.6666666666666666,
+    "metrics": {
+      "cost": 1.0666666666666664,
+      "energy_cost": 0.6666666666666666,
+      "carbon_cost": 0.3999999999999999,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.07999999999999999,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 9.25,
+    "outdoor_temp": 32.52575730470568,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 18,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 2
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 20.0,
+      "Zone 2: Meeting Room": 20.0,
+      "Zone 3: Executive Suite": 20.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.5583782443188349,
+      "Zone 2: Meeting Room": 0.2888006616226082,
+      "Zone 3: Executive Suite": 0.2888006616226082
+    },
+    "total_energy": 1.1359795675640512,
+    "metrics": {
+      "cost": 1.8175673081024817,
+      "energy_cost": 1.1359795675640512,
+      "carbon_cost": 0.6815877405384306,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.13631754810768612,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 9.5,
+    "outdoor_temp": 33.10694676407729,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 18,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 2
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.919592210855523,
+      "Zone 2: Meeting Room": 22.3267886096031,
+      "Zone 3: Executive Suite": 22.3267886096031
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 20.0,
+      "Zone 2: Meeting Room": 20.0,
+      "Zone 3: Executive Suite": 20.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0,
+    "metrics": {
+      "cost": 0.0,
+      "energy_cost": 0.0,
+      "carbon_cost": 0.0,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.0,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 9.75,
+    "outdoor_temp": 33.640574572235636,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 18,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 2
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.410449761303152,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 20.0,
+      "Zone 2: Meeting Room": 20.0,
+      "Zone 3: Executive Suite": 20.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.6666666666666666,
+      "Zone 2: Meeting Room": 0.3063501354278526,
+      "Zone 3: Executive Suite": 0.3063501354278526
+    },
+    "total_energy": 1.2793669375223717,
+    "metrics": {
+      "cost": 2.0469871000357944,
+      "energy_cost": 1.2793669375223717,
+      "carbon_cost": 0.7676201625134229,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.1535240325026846,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 10.0,
+    "outdoor_temp": 34.12435565298214,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 18,
+      "Zone 2: Meeting Room": 12,
+      "Zone 3: Executive Suite": 2
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.559901657817107,
+      "Zone 3: Executive Suite": 22.343901657817106
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 20.0,
+      "Zone 2: Meeting Room": 20.0,
+      "Zone 3: Executive Suite": 20.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.6285417399561335,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.6285417399561335,
+    "metrics": {
+      "cost": 1.0056667839298137,
+      "energy_cost": 0.6285417399561335,
+      "carbon_cost": 0.3771250439736801,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.07542500879473601,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 10.25,
+    "outdoor_temp": 34.55621838145764,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 18,
+      "Zone 2: Meeting Room": 12,
+      "Zone 3: Executive Suite": 2
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.962889996109087,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 20.0,
+      "Zone 2: Meeting Room": 20.0,
+      "Zone 3: Executive Suite": 20.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.5203803611139175,
+      "Zone 3: Executive Suite": 0.32083036111391705
+    },
+    "total_energy": 0.8412107222278346,
+    "metrics": {
+      "cost": 1.3459371555645352,
+      "energy_cost": 0.8412107222278346,
+      "carbon_cost": 0.5047264333367006,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.10094528666734014,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 10.5,
+    "outdoor_temp": 34.93431345515801,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 18,
+      "Zone 2: Meeting Room": 12,
+      "Zone 3: Executive Suite": 2
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.49085055027273,
+      "Zone 2: Meeting Room": 22.5737284452871,
+      "Zone 3: Executive Suite": 22.357728445287098
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 20.0,
+      "Zone 2: Meeting Room": 20.0,
+      "Zone 3: Executive Suite": 20.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.6666666666666666,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.6666666666666666,
+    "metrics": {
+      "cost": 1.0666666666666664,
+      "energy_cost": 0.6666666666666666,
+      "carbon_cost": 0.3999999999999999,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.07999999999999999,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 10.75,
+    "outdoor_temp": 35.25702181293148,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 18,
+      "Zone 2: Meeting Room": 12,
+      "Zone 3: Executive Suite": 2
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.031658393647565,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 20.0,
+      "Zone 2: Meeting Room": 20.0,
+      "Zone 3: Executive Suite": 20.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.6666666666666666,
+      "Zone 2: Meeting Room": 0.5322968215806595,
+      "Zone 3: Executive Suite": 0.332746821580659
+    },
+    "total_energy": 1.5317103098279852,
+    "metrics": {
+      "cost": 2.450736495724776,
+      "energy_cost": 1.5317103098279852,
+      "carbon_cost": 0.919026185896791,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.1838052371793582,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 11.0,
+    "outdoor_temp": 35.52296156804695,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 18,
+      "Zone 2: Meeting Room": 12,
+      "Zone 3: Executive Suite": 2
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.582577802931283,
+      "Zone 3: Executive Suite": 22.366577802931285
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 20.0,
+      "Zone 2: Meeting Room": 20.0,
+      "Zone 3: Executive Suite": 20.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.47310342473652833,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.47310342473652833,
+    "metrics": {
+      "cost": 0.7569654795784453,
+      "energy_cost": 0.47310342473652833,
+      "carbon_cost": 0.28386205484191696,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.0567724109683834,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 11.25,
+    "outdoor_temp": 35.73099392564522,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 18,
+      "Zone 2: Meeting Room": 12,
+      "Zone 3: Executive Suite": 2
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.997368519122762,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 20.0,
+      "Zone 2: Meeting Room": 20.0,
+      "Zone 3: Executive Suite": 20.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.5397820052884243,
+      "Zone 3: Executive Suite": 0.3402320052884254
+    },
+    "total_energy": 0.8800140105768497,
+    "metrics": {
+      "cost": 1.4080224169229596,
+      "energy_cost": 0.8800140105768497,
+      "carbon_cost": 0.5280084063461098,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.10560168126922195,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 11.5,
+    "outdoor_temp": 35.880228059233346,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 18,
+      "Zone 2: Meeting Room": 12,
+      "Zone 3: Executive Suite": 2
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.55287170022731,
+      "Zone 2: Meeting Room": 22.589326527727735,
+      "Zone 3: Executive Suite": 22.373326527727738
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 20.0,
+      "Zone 2: Meeting Room": 20.0,
+      "Zone 3: Executive Suite": 20.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.6666666666666666,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.6666666666666666,
+    "metrics": {
+      "cost": 1.0666666666666664,
+      "energy_cost": 0.6666666666666666,
+      "carbon_cost": 0.3999999999999999,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.07999999999999999,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 11.75,
+    "outdoor_temp": 35.97002492534045,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 18,
+      "Zone 2: Meeting Room": 12,
+      "Zone 3: Executive Suite": 2
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.114273882893116,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 20.0,
+      "Zone 2: Meeting Room": 20.0,
+      "Zone 3: Executive Suite": 20.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.6666666666666666,
+      "Zone 2: Meeting Room": 0.5449439068506199,
+      "Zone 3: Executive Suite": 0.3453939068506211
+    },
+    "total_energy": 1.5570044803679077,
+    "metrics": {
+      "cost": 2.4912071685886525,
+      "energy_cost": 1.5570044803679077,
+      "carbon_cost": 0.9342026882207446,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.18684053764414893,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 12.0,
+    "outdoor_temp": 36.0,
+    "carbon_intensity": 550.0,
+    "occupancies": {
+      "Zone 1: Open Office": 18,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 2
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.374502846494604,
+      "Zone 3: Executive Suite": 22.374502846494604
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 20.0,
+      "Zone 2: Meeting Room": 20.0,
+      "Zone 3: Executive Suite": 20.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.5176188907062468,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.5176188907062468,
+    "metrics": {
+      "cost": 1.9410708401484253,
+      "energy_cost": 0.5176188907062468,
+      "carbon_cost": 1.4234519494421787,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.28469038988843576,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 12.25,
+    "outdoor_temp": 35.97002492534045,
+    "carbon_intensity": 550.0,
+    "occupancies": {
+      "Zone 1: Open Office": 18,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 2
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 23.004195407220813,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 20.0,
+      "Zone 2: Meeting Room": 20.0,
+      "Zone 3: Executive Suite": 20.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.3457056849997928,
+      "Zone 3: Executive Suite": 0.3457056849997928
+    },
+    "total_energy": 0.6914113699995856,
+    "metrics": {
+      "cost": 2.5927926374984462,
+      "energy_cost": 0.6914113699995856,
+      "carbon_cost": 1.9013812674988606,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.3802762534997721,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 12.5,
+    "outdoor_temp": 35.880228059233346,
+    "carbon_intensity": 550.0,
+    "occupancies": {
+      "Zone 1: Open Office": 18,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 2
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.559661723129633,
+      "Zone 2: Meeting Room": 22.373332671927024,
+      "Zone 3: Executive Suite": 22.373332671927024
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 20.0,
+      "Zone 2: Meeting Room": 20.0,
+      "Zone 3: Executive Suite": 20.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.6666666666666666,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.6666666666666666,
+    "metrics": {
+      "cost": 2.5,
+      "energy_cost": 0.6666666666666666,
+      "carbon_cost": 1.8333333333333335,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.3666666666666667,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 12.75,
+    "outdoor_temp": 35.73099392564522,
+    "carbon_intensity": 550.0,
+    "occupancies": {
+      "Zone 1: Open Office": 18,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 2
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.113825827711686,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 20.0,
+      "Zone 2: Meeting Room": 20.0,
+      "Zone 3: Executive Suite": 20.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.6666666666666666,
+      "Zone 2: Meeting Room": 0.34357837919401535,
+      "Zone 3: Executive Suite": 0.34357837919401535
+    },
+    "total_energy": 1.3538234250546974,
+    "metrics": {
+      "cost": 5.076837843955116,
+      "energy_cost": 1.3538234250546974,
+      "carbon_cost": 3.7230144189004184,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.7446028837800837,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 13.0,
+    "outdoor_temp": 35.52296156804695,
+    "carbon_intensity": 550.0,
+    "occupancies": {
+      "Zone 1: Open Office": 18,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 2
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.36665175362194,
+      "Zone 3: Executive Suite": 22.36665175362194
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 20.0,
+      "Zone 2: Meeting Room": 20.0,
+      "Zone 3: Executive Suite": 20.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.5109384848847578,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.5109384848847578,
+    "metrics": {
+      "cost": 1.916019318317842,
+      "energy_cost": 0.5109384848847578,
+      "carbon_cost": 1.4050808334330842,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.28101616668661683,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 13.25,
+    "outdoor_temp": 35.257021812931484,
+    "carbon_intensity": 550.0,
+    "occupancies": {
+      "Zone 1: Open Office": 18,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 2
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.98328009830131,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 20.0,
+      "Zone 2: Meeting Room": 20.0,
+      "Zone 3: Executive Suite": 20.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.33665487155847895,
+      "Zone 3: Executive Suite": 0.33665487155847895
+    },
+    "total_energy": 0.6733097431169579,
+    "metrics": {
+      "cost": 2.5249115366885926,
+      "energy_cost": 0.6733097431169579,
+      "carbon_cost": 1.8516017935716345,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.3703203587143269,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 13.5,
+    "outdoor_temp": 34.93431345515801,
+    "carbon_intensity": 550.0,
+    "occupancies": {
+      "Zone 1: Open Office": 18,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 2
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.511130545913115,
+      "Zone 2: Meeting Room": 22.35774679637907,
+      "Zone 3: Executive Suite": 22.35774679637907
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 20.0,
+      "Zone 2: Meeting Room": 20.0,
+      "Zone 3: Executive Suite": 20.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.6666666666666666,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.6666666666666666,
+    "metrics": {
+      "cost": 2.5,
+      "energy_cost": 0.6666666666666666,
+      "carbon_cost": 1.8333333333333335,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.3666666666666667,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 13.75,
+    "outdoor_temp": 34.55621838145764,
+    "carbon_intensity": 550.0,
+    "occupancies": {
+      "Zone 1: Open Office": 18,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 2
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.03109095832368,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 20.0,
+      "Zone 2: Meeting Room": 20.0,
+      "Zone 3: Executive Suite": 20.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.6666666666666666,
+      "Zone 2: Meeting Room": 0.3274242745073237,
+      "Zone 3: Executive Suite": 0.3274242745073237
+    },
+    "total_energy": 1.321515215681314,
+    "metrics": {
+      "cost": 4.9556820588049275,
+      "energy_cost": 1.321515215681314,
+      "carbon_cost": 3.6341668431236136,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.7268333686247227,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 14.0,
+    "outdoor_temp": 34.124355652982146,
+    "carbon_intensity": 550.0,
+    "occupancies": {
+      "Zone 1: Open Office": 18,
+      "Zone 2: Meeting Room": 12,
+      "Zone 3: Executive Suite": 2
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.559560234894427,
+      "Zone 3: Executive Suite": 22.343560234894426
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 20.0,
+      "Zone 2: Meeting Room": 20.0,
+      "Zone 3: Executive Suite": 20.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.45386106151012334,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.45386106151012334,
+    "metrics": {
+      "cost": 1.7019789806629626,
+      "energy_cost": 0.45386106151012334,
+      "carbon_cost": 1.2481179191528393,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.24962358383056785,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 14.25,
+    "outdoor_temp": 33.640574572235636,
+    "carbon_intensity": 550.0,
+    "occupancies": {
+      "Zone 1: Open Office": 18,
+      "Zone 2: Meeting Room": 12,
+      "Zone 3: Executive Suite": 2
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.936047937311773,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 20.0,
+      "Zone 2: Meeting Room": 20.0,
+      "Zone 3: Executive Suite": 20.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.5132466724592167,
+      "Zone 3: Executive Suite": 0.31369667245921634
+    },
+    "total_energy": 0.8269433449184331,
+    "metrics": {
+      "cost": 3.101037543444124,
+      "energy_cost": 0.8269433449184331,
+      "carbon_cost": 2.2740941985256913,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.45481883970513826,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 14.5,
+    "outdoor_temp": 33.10694676407729,
+    "carbon_intensity": 550.0,
+    "occupancies": {
+      "Zone 1: Open Office": 18,
+      "Zone 2: Meeting Room": 12,
+      "Zone 3: Executive Suite": 2
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.410585489305813,
+      "Zone 2: Meeting Room": 22.543631052746683,
+      "Zone 3: Executive Suite": 22.327631052746682
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 20.0,
+      "Zone 2: Meeting Room": 20.0,
+      "Zone 3: Executive Suite": 20.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.6666666666666666,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.6666666666666666,
+    "metrics": {
+      "cost": 2.5,
+      "energy_cost": 0.6666666666666666,
+      "carbon_cost": 1.8333333333333335,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.3666666666666667,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 14.75,
+    "outdoor_temp": 32.525757304705685,
+    "carbon_intensity": 550.0,
+    "occupancies": {
+      "Zone 1: Open Office": 18,
+      "Zone 2: Meeting Room": 12,
+      "Zone 3: Executive Suite": 2
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 20.0,
+      "Zone 2: Meeting Room": 20.0,
+      "Zone 3: Executive Suite": 20.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.6072720002536472,
+      "Zone 2: Meeting Room": 0.4975824683300253,
+      "Zone 3: Executive Suite": 0.2980324683300248
+    },
+    "total_energy": 1.4028869369136974,
+    "metrics": {
+      "cost": 5.260826013426366,
+      "energy_cost": 1.4028869369136974,
+      "carbon_cost": 3.857939076512668,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.7715878153025336,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 15.0,
+    "outdoor_temp": 31.899494936611667,
+    "carbon_intensity": 550.0,
+    "occupancies": {
+      "Zone 1: Open Office": 18,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 2
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.88419662299896,
+      "Zone 2: Meeting Room": 22.30691740238538,
+      "Zone 3: Executive Suite": 22.30691740238538
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 20.0,
+      "Zone 2: Meeting Room": 20.0,
+      "Zone 3: Executive Suite": 20.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0,
+    "metrics": {
+      "cost": 0.0,
+      "energy_cost": 0.0,
+      "carbon_cost": 0.0,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.0,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 15.25,
+    "outdoor_temp": 31.230841411400966,
+    "carbon_intensity": 550.0,
+    "occupancies": {
+      "Zone 1: Open Office": 18,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 2
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.304569935076128,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 20.0,
+      "Zone 2: Meeting Room": 20.0,
+      "Zone 3: Executive Suite": 20.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.6666666666666666,
+      "Zone 2: Meeting Room": 0.27881728094185243,
+      "Zone 3: Executive Suite": 0.27881728094185243
+    },
+    "total_energy": 1.2243012285503716,
+    "metrics": {
+      "cost": 4.591129607063894,
+      "energy_cost": 1.2243012285503716,
+      "carbon_cost": 3.3668283785135222,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.6733656757027044,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 15.5,
+    "outdoor_temp": 30.52266000612209,
+    "carbon_intensity": 550.0,
+    "occupancies": {
+      "Zone 1: Open Office": 18,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 2
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.284532746185178,
+      "Zone 3: Executive Suite": 22.284532746185178
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 20.0,
+      "Zone 2: Meeting Room": 20.0,
+      "Zone 3: Executive Suite": 20.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.5309078462462479,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.5309078462462479,
+    "metrics": {
+      "cost": 1.9909044234234297,
+      "energy_cost": 0.5309078462462479,
+      "carbon_cost": 1.4599965771771817,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.29199931543543634,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 15.75,
+    "outdoor_temp": 29.777983262274432,
+    "carbon_intensity": 550.0,
+    "occupancies": {
+      "Zone 1: Open Office": 18,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 2
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.822518182574377,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 20.0,
+      "Zone 2: Meeting Room": 20.0,
+      "Zone 3: Executive Suite": 20.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.2570628382014172,
+      "Zone 3: Executive Suite": 0.2570628382014172
+    },
+    "total_energy": 0.5141256764028344,
+    "metrics": {
+      "cost": 1.9279712865106289,
+      "energy_cost": 0.5141256764028344,
+      "carbon_cost": 1.4138456101077945,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.2827691220215589,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 16.0,
+    "outdoor_temp": 29.0,
+    "carbon_intensity": 550.0,
+    "occupancies": {
+      "Zone 1: Open Office": 18,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 2
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.177276584388476,
+      "Zone 2: Meeting Room": 22.259940266364318,
+      "Zone 3: Executive Suite": 22.259940266364318
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 20.0,
+      "Zone 2: Meeting Room": 20.0,
+      "Zone 3: Executive Suite": 20.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.6666666666666666,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.6666666666666666,
+    "metrics": {
+      "cost": 2.5,
+      "energy_cost": 0.6666666666666666,
+      "carbon_cost": 1.8333333333333335,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.3666666666666667,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 16.25,
+    "outdoor_temp": 28.192041663066018,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 18,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 2
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 20.0,
+      "Zone 2: Meeting Room": 20.0,
+      "Zone 3: Executive Suite": 20.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.4408807693417187,
+      "Zone 2: Meeting Room": 0.23371916588800262,
+      "Zone 3: Executive Suite": 0.23371916588800262
+    },
+    "total_energy": 0.908319101117724,
+    "metrics": {
+      "cost": 1.4533105617883582,
+      "energy_cost": 0.908319101117724,
+      "carbon_cost": 0.5449914606706343,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.10899829213412687,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 16.5,
+    "outdoor_temp": 27.357568053111258,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 18,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 2
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.751053280642633,
+      "Zone 2: Meeting Room": 22.23217026281692,
+      "Zone 3: Executive Suite": 22.23217026281692
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 20.0,
+      "Zone 2: Meeting Room": 20.0,
+      "Zone 3: Executive Suite": 20.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0,
+    "metrics": {
+      "cost": 0.0,
+      "energy_cost": 0.0,
+      "carbon_cost": 0.0,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.0,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 16.75,
+    "outdoor_temp": 26.500152514244263,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 18,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 2
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.03333425596065,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 20.0,
+      "Zone 2: Meeting Room": 20.0,
+      "Zone 3: Executive Suite": 20.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.6666666666666666,
+      "Zone 2: Meeting Room": 0.20826902657068017,
+      "Zone 3: Executive Suite": 0.20826902657068017
+    },
+    "total_energy": 1.083204719808027,
+    "metrics": {
+      "cost": 1.733127551692843,
+      "energy_cost": 1.083204719808027,
+      "carbon_cost": 0.6499228318848161,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.12998456637696323,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 17.0,
+    "outdoor_temp": 25.623466631435296,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 18,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 2
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.203661908821985,
+      "Zone 3: Executive Suite": 22.203661908821985
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 20.0,
+      "Zone 2: Meeting Room": 20.0,
+      "Zone 3: Executive Suite": 20.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.3395248088372857,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.3395248088372857,
+    "metrics": {
+      "cost": 0.5432396941396571,
+      "energy_cost": 0.3395248088372857,
+      "carbon_cost": 0.20371488530237142,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.040742977060474285,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 17.25,
+    "outdoor_temp": 24.7312645082258,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 18,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 2
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.6744316595913,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 20.0,
+      "Zone 2: Meeting Room": 20.0,
+      "Zone 3: Executive Suite": 20.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.18133992612259361,
+      "Zone 3: Executive Suite": 0.18133992612259361
+    },
+    "total_energy": 0.36267985224518723,
+    "metrics": {
+      "cost": 0.5802877635922996,
+      "energy_cost": 0.36267985224518723,
+      "carbon_cost": 0.21760791134711233,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.04352158226942247,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 17.5,
+    "outdoor_temp": 23.827366691080723,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 18,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 2
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.17468022318113,
+      "Zone 3: Executive Suite": 22.17468022318113
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 20.0,
+      "Zone 2: Meeting Room": 20.0,
+      "Zone 3: Executive Suite": 20.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.6103507768132478,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.6103507768132478,
+    "metrics": {
+      "cost": 0.9765612429011965,
+      "energy_cost": 0.6103507768132478,
+      "carbon_cost": 0.36621046608794866,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.07324209321758973,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 17.75,
+    "outdoor_temp": 22.915643809222004,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 18,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 2
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.62115586863778,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 20.0,
+      "Zone 2: Meeting Room": 20.0,
+      "Zone 3: Executive Suite": 20.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.1541495570145559,
+      "Zone 3: Executive Suite": 0.1541495570145559
+    },
+    "total_energy": 0.3082991140291118,
+    "metrics": {
+      "cost": 0.4932785824465789,
+      "energy_cost": 0.3082991140291118,
+      "carbon_cost": 0.1849794684174671,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.03699589368349342,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 18.0,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 400.0,
+    "occupancies": {
+      "Zone 1: Open Office": 18,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 2
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.144559040281774,
+      "Zone 3: Executive Suite": 22.144559040281774
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 22.0,
+      "Zone 2: Meeting Room": 22.0,
+      "Zone 3: Executive Suite": 22.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 20.0,
+      "Zone 2: Meeting Room": 20.0,
+      "Zone 3: Executive Suite": 20.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.5610192717347845,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.5610192717347845,
+    "metrics": {
+      "cost": 1.6830578152043536,
+      "energy_cost": 0.5610192717347845,
+      "carbon_cost": 1.122038543469569,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.2244077086939138,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 18.25,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 400.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.03626020627251,
+      "Zone 2: Meeting Room": 22.179908524600506,
+      "Zone 3: Executive Suite": 22.179908524600506
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 28.0,
+      "Zone 2: Meeting Room": 28.0,
+      "Zone 3: Executive Suite": 28.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 15.0,
+      "Zone 2: Meeting Room": 15.0,
+      "Zone 3: Executive Suite": 15.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0,
+    "metrics": {
+      "cost": 0.0,
+      "energy_cost": 0.0,
+      "carbon_cost": 0.0,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.0,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 18.5,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 400.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.072388236502917,
+      "Zone 2: Meeting Room": 22.21513157042545,
+      "Zone 3: Executive Suite": 22.21513157042545
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 28.0,
+      "Zone 2: Meeting Room": 28.0,
+      "Zone 3: Executive Suite": 28.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 15.0,
+      "Zone 2: Meeting Room": 15.0,
+      "Zone 3: Executive Suite": 15.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0,
+    "metrics": {
+      "cost": 0.0,
+      "energy_cost": 0.0,
+      "carbon_cost": 0.0,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.0,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 18.75,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 400.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.10838457685257,
+      "Zone 2: Meeting Room": 22.250228627771385,
+      "Zone 3: Executive Suite": 22.250228627771385
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 28.0,
+      "Zone 2: Meeting Room": 28.0,
+      "Zone 3: Executive Suite": 28.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 15.0,
+      "Zone 2: Meeting Room": 15.0,
+      "Zone 3: Executive Suite": 15.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0,
+    "metrics": {
+      "cost": 0.0,
+      "energy_cost": 0.0,
+      "carbon_cost": 0.0,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.0,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 19.0,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 400.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.144249711667552,
+      "Zone 2: Meeting Room": 22.28520014506558,
+      "Zone 3: Executive Suite": 22.28520014506558
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 28.0,
+      "Zone 2: Meeting Room": 28.0,
+      "Zone 3: Executive Suite": 28.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 15.0,
+      "Zone 2: Meeting Room": 15.0,
+      "Zone 3: Executive Suite": 15.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0,
+    "metrics": {
+      "cost": 0.0,
+      "energy_cost": 0.0,
+      "carbon_cost": 0.0,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.0,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 19.25,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 400.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.179984123485664,
+      "Zone 2: Meeting Room": 22.320046569153288,
+      "Zone 3: Executive Suite": 22.320046569153288
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 28.0,
+      "Zone 2: Meeting Room": 28.0,
+      "Zone 3: Executive Suite": 28.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 15.0,
+      "Zone 2: Meeting Room": 15.0,
+      "Zone 3: Executive Suite": 15.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0,
+    "metrics": {
+      "cost": 0.0,
+      "energy_cost": 0.0,
+      "carbon_cost": 0.0,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.0,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 19.5,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 400.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.215588293043318,
+      "Zone 2: Meeting Room": 22.354768345303235,
+      "Zone 3: Executive Suite": 22.354768345303235
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 28.0,
+      "Zone 2: Meeting Room": 28.0,
+      "Zone 3: Executive Suite": 28.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 15.0,
+      "Zone 2: Meeting Room": 15.0,
+      "Zone 3: Executive Suite": 15.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0,
+    "metrics": {
+      "cost": 0.0,
+      "energy_cost": 0.0,
+      "carbon_cost": 0.0,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.0,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 19.75,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 400.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.25106269928243,
+      "Zone 2: Meeting Room": 22.38936591721311,
+      "Zone 3: Executive Suite": 22.38936591721311
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 28.0,
+      "Zone 2: Meeting Room": 28.0,
+      "Zone 3: Executive Suite": 28.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 15.0,
+      "Zone 2: Meeting Room": 15.0,
+      "Zone 3: Executive Suite": 15.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0,
+    "metrics": {
+      "cost": 0.0,
+      "energy_cost": 0.0,
+      "carbon_cost": 0.0,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.0,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 20.0,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 400.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.286407819357287,
+      "Zone 2: Meeting Room": 22.423839727015004,
+      "Zone 3: Executive Suite": 22.423839727015004
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 28.0,
+      "Zone 2: Meeting Room": 28.0,
+      "Zone 3: Executive Suite": 28.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 15.0,
+      "Zone 2: Meeting Room": 15.0,
+      "Zone 3: Executive Suite": 15.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0,
+    "metrics": {
+      "cost": 0.0,
+      "energy_cost": 0.0,
+      "carbon_cost": 0.0,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.0,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 20.25,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 400.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.321624128641385,
+      "Zone 2: Meeting Room": 22.458190215280858,
+      "Zone 3: Executive Suite": 22.458190215280858
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 28.0,
+      "Zone 2: Meeting Room": 28.0,
+      "Zone 3: Executive Suite": 28.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 15.0,
+      "Zone 2: Meeting Room": 15.0,
+      "Zone 3: Executive Suite": 15.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0,
+    "metrics": {
+      "cost": 0.0,
+      "energy_cost": 0.0,
+      "carbon_cost": 0.0,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.0,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 20.5,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 400.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.356712100734228,
+      "Zone 2: Meeting Room": 22.49241782102787,
+      "Zone 3: Executive Suite": 22.49241782102787
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 28.0,
+      "Zone 2: Meeting Room": 28.0,
+      "Zone 3: Executive Suite": 28.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 15.0,
+      "Zone 2: Meeting Room": 15.0,
+      "Zone 3: Executive Suite": 15.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0,
+    "metrics": {
+      "cost": 0.0,
+      "energy_cost": 0.0,
+      "carbon_cost": 0.0,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.0,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 20.75,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 400.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.391672207468112,
+      "Zone 2: Meeting Room": 22.526522981723907,
+      "Zone 3: Executive Suite": 22.526522981723907
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 28.0,
+      "Zone 2: Meeting Room": 28.0,
+      "Zone 3: Executive Suite": 28.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 15.0,
+      "Zone 2: Meeting Room": 15.0,
+      "Zone 3: Executive Suite": 15.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0,
+    "metrics": {
+      "cost": 0.0,
+      "energy_cost": 0.0,
+      "carbon_cost": 0.0,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.0,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 21.0,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 400.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.426504918914887,
+      "Zone 2: Meeting Room": 22.560506133292872,
+      "Zone 3: Executive Suite": 22.560506133292872
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 28.0,
+      "Zone 2: Meeting Room": 28.0,
+      "Zone 3: Executive Suite": 28.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 15.0,
+      "Zone 2: Meeting Room": 15.0,
+      "Zone 3: Executive Suite": 15.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0,
+    "metrics": {
+      "cost": 0.0,
+      "energy_cost": 0.0,
+      "carbon_cost": 0.0,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.0,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 21.25,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 400.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.461210703392673,
+      "Zone 2: Meeting Room": 22.59436771012008,
+      "Zone 3: Executive Suite": 22.59436771012008
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 28.0,
+      "Zone 2: Meeting Room": 28.0,
+      "Zone 3: Executive Suite": 28.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 15.0,
+      "Zone 2: Meeting Room": 15.0,
+      "Zone 3: Executive Suite": 15.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0,
+    "metrics": {
+      "cost": 0.0,
+      "energy_cost": 0.0,
+      "carbon_cost": 0.0,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.0,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 21.5,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 400.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.49579002747257,
+      "Zone 2: Meeting Room": 22.628108145057592,
+      "Zone 3: Executive Suite": 22.628108145057592
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 28.0,
+      "Zone 2: Meeting Room": 28.0,
+      "Zone 3: Executive Suite": 28.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 15.0,
+      "Zone 2: Meeting Room": 15.0,
+      "Zone 3: Executive Suite": 15.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0,
+    "metrics": {
+      "cost": 0.0,
+      "energy_cost": 0.0,
+      "carbon_cost": 0.0,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.0,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 21.75,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 400.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.53024335598532,
+      "Zone 2: Meeting Room": 22.66172786942956,
+      "Zone 3: Executive Suite": 22.66172786942956
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 28.0,
+      "Zone 2: Meeting Room": 28.0,
+      "Zone 3: Executive Suite": 28.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 15.0,
+      "Zone 2: Meeting Room": 15.0,
+      "Zone 3: Executive Suite": 15.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0,
+    "metrics": {
+      "cost": 0.0,
+      "energy_cost": 0.0,
+      "carbon_cost": 0.0,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.0,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 22.0,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 400.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.564571152027973,
+      "Zone 2: Meeting Room": 22.695227313037513,
+      "Zone 3: Executive Suite": 22.695227313037513
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 28.0,
+      "Zone 2: Meeting Room": 28.0,
+      "Zone 3: Executive Suite": 28.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 15.0,
+      "Zone 2: Meeting Room": 15.0,
+      "Zone 3: Executive Suite": 15.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0,
+    "metrics": {
+      "cost": 0.0,
+      "energy_cost": 0.0,
+      "carbon_cost": 0.0,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.0,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 22.25,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.59877387697049,
+      "Zone 2: Meeting Room": 22.72860690416567,
+      "Zone 3: Executive Suite": 22.72860690416567
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 28.0,
+      "Zone 2: Meeting Room": 28.0,
+      "Zone 3: Executive Suite": 28.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 15.0,
+      "Zone 2: Meeting Room": 15.0,
+      "Zone 3: Executive Suite": 15.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0,
+    "metrics": {
+      "cost": 0.0,
+      "energy_cost": 0.0,
+      "carbon_cost": 0.0,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.0,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 22.5,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.63285199046235,
+      "Zone 2: Meeting Room": 22.7618670695862,
+      "Zone 3: Executive Suite": 22.7618670695862
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 28.0,
+      "Zone 2: Meeting Room": 28.0,
+      "Zone 3: Executive Suite": 28.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 15.0,
+      "Zone 2: Meeting Room": 15.0,
+      "Zone 3: Executive Suite": 15.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0,
+    "metrics": {
+      "cost": 0.0,
+      "energy_cost": 0.0,
+      "carbon_cost": 0.0,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.0,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 22.75,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.66680595043911,
+      "Zone 2: Meeting Room": 22.795008234564477,
+      "Zone 3: Executive Suite": 22.795008234564477
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 28.0,
+      "Zone 2: Meeting Room": 28.0,
+      "Zone 3: Executive Suite": 28.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 15.0,
+      "Zone 2: Meeting Room": 15.0,
+      "Zone 3: Executive Suite": 15.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0,
+    "metrics": {
+      "cost": 0.0,
+      "energy_cost": 0.0,
+      "carbon_cost": 0.0,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.0,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 23.0,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.700636213128952,
+      "Zone 2: Meeting Room": 22.82803082286433,
+      "Zone 3: Executive Suite": 22.82803082286433
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 28.0,
+      "Zone 2: Meeting Room": 28.0,
+      "Zone 3: Executive Suite": 28.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 15.0,
+      "Zone 2: Meeting Room": 15.0,
+      "Zone 3: Executive Suite": 15.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0,
+    "metrics": {
+      "cost": 0.0,
+      "energy_cost": 0.0,
+      "carbon_cost": 0.0,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.0,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 23.25,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.73434323305921,
+      "Zone 2: Meeting Room": 22.860935256753258,
+      "Zone 3: Executive Suite": 22.860935256753258
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 28.0,
+      "Zone 2: Meeting Room": 28.0,
+      "Zone 3: Executive Suite": 28.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 15.0,
+      "Zone 2: Meeting Room": 15.0,
+      "Zone 3: Executive Suite": 15.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0,
+    "metrics": {
+      "cost": 0.0,
+      "energy_cost": 0.0,
+      "carbon_cost": 0.0,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.0,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 23.5,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.767927463062847,
+      "Zone 2: Meeting Room": 22.89372195700762,
+      "Zone 3: Executive Suite": 22.89372195700762
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 28.0,
+      "Zone 2: Meeting Room": 28.0,
+      "Zone 3: Executive Suite": 28.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 15.0,
+      "Zone 2: Meeting Room": 15.0,
+      "Zone 3: Executive Suite": 15.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0,
+    "metrics": {
+      "cost": 0.0,
+      "energy_cost": 0.0,
+      "carbon_cost": 0.0,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.0,
+      "comfort_penalty": 0.0
+    }
+  },
+  {
+    "hour": 23.75,
+    "outdoor_temp": 22.0,
+    "carbon_intensity": 120.0,
+    "occupancies": {
+      "Zone 1: Open Office": 0,
+      "Zone 2: Meeting Room": 0,
+      "Zone 3: Executive Suite": 0
+    },
+    "temperatures": {
+      "Zone 1: Open Office": 22.80138935428492,
+      "Zone 2: Meeting Room": 22.926391342917842,
+      "Zone 3: Executive Suite": 22.926391342917842
+    },
+    "cooling_setpoints": {
+      "Zone 1: Open Office": 28.0,
+      "Zone 2: Meeting Room": 28.0,
+      "Zone 3: Executive Suite": 28.0
+    },
+    "heating_setpoints": {
+      "Zone 1: Open Office": 15.0,
+      "Zone 2: Meeting Room": 15.0,
+      "Zone 3: Executive Suite": 15.0
+    },
+    "energy_kwh": {
+      "Zone 1: Open Office": 0.0,
+      "Zone 2: Meeting Room": 0.0,
+      "Zone 3: Executive Suite": 0.0
+    },
+    "total_energy": 0.0,
+    "metrics": {
+      "cost": 0.0,
+      "energy_cost": 0.0,
+      "carbon_cost": 0.0,
+      "comfort_cost": 0.0,
+      "carbon_emissions": 0.0,
+      "comfort_penalty": 0.0
+    }
+  }
+]

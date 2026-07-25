@@ -1,0 +1,54 @@
+! EnergyPlus Input Data File (IDF) Template for SentientBMS
+Version, 9.6;
+
+Building,
+  SentientBMS Office Tower,  !- Name
+  0.0,                      !- North Axis {deg}
+  City,                     !- Terrain
+  0.04,                     !- Loads Convergence Tolerance Value {W}
+  0.4,                      !- Temperature Convergence Tolerance Value {deltaC}
+  FullExterior,             !- Solar Distribution
+  25,                       !- Maximum Number of Warmup Days
+  6;                        !- Minimum Number of Warmup Days
+
+Zone,
+  Zone 1: Open Office,      !- Name
+  0.0,                      !- Direction of Relative North {deg}
+  0.0, 0.0, 0.0,            !- X,Y,Z {m}
+  1,                        !- Type
+  1,                        !- Multiplier
+  3.0,                      !- Ceiling Height {m}
+  250.0;                    !- Volume {m3}
+
+Zone,
+  Zone 2: Meeting Room,     !- Name
+  0.0,                      !- Direction of Relative North {deg}
+  10.0, 0.0, 0.0,           !- X,Y,Z {m}
+  1,                        !- Type
+  1,                        !- Multiplier
+  3.0,                      !- Ceiling Height {m}
+  100.0;                    !- Volume {m3}
+
+Zone,
+  Zone 3: Executive Suite,  !- Name
+  0.0,                      !- Direction of Relative North {deg}
+  20.0, 0.0, 0.0,           !- X,Y,Z {m}
+  1,                        !- Type
+  1,                        !- Multiplier
+  3.0,                      !- Ceiling Height {m}
+  50.0;                     !- Volume {m3}
+
+ThermostatSetpoint:DualSetpoint,
+  Zone 1: Open Office Setpoints, !- Name
+  20.0,                     !- Heating Setpoint Temperature Schedule Name {C} or Value
+  22.0;                     !- Cooling Setpoint Temperature Schedule Name {C} or Value
+
+ThermostatSetpoint:DualSetpoint,
+  Zone 2: Meeting Room Setpoints, !- Name
+  19.5,                     !- Heating Setpoint Temperature Schedule Name {C} or Value
+  23.0;                     !- Cooling Setpoint Temperature Schedule Name {C} or Value
+
+ThermostatSetpoint:DualSetpoint,
+  Zone 3: Executive Suite Setpoints, !- Name
+  20.0,                     !- Heating Setpoint Temperature Schedule Name {C} or Value
+  22.0;                     !- Cooling Setpoint Temperature Schedule Name {C} or Value

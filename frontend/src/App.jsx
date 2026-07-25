@@ -712,6 +712,7 @@ export default function App() {
             <p className="text-xs text-slate-500">Inspect and actuate zone setpoints dynamically</p>
           </div>
         </div>
+      </div>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         {(buildingState.zones && Object.keys(buildingState.zones).length > 0 ? Object.keys(buildingState.zones) : ["Zone 1: Open Office", "Zone 2: Meeting Room", "Zone 3: Executive Suite"]).map((zoneName) => {
@@ -770,6 +771,7 @@ export default function App() {
             <p className="text-xs text-slate-500">Comparative simulation profile overview</p>
           </div>
         </div>
+      </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
         {/* Temp Curve chart */}
@@ -843,6 +845,7 @@ export default function App() {
             <p className="text-xs text-slate-500">Actuator thresholds & environmental boundaries</p>
           </div>
         </div>
+      </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         <div className={`p-6 bg-slate-900/40 border ${borderClass} rounded-xl space-y-4`}>

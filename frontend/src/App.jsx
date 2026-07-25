@@ -403,7 +403,6 @@ export default function App() {
                 </div>
                 <h3 className={`text-xs font-bold uppercase tracking-wider ${textClass}`}>Dynamic Strategy Tuning</h3>
               </div>
-              <button className="text-slate-500 hover:text-slate-400 cursor-pointer"><MoreVertical size={16} /></button>
             </div>
 
             <div className="space-y-6">
@@ -477,7 +476,6 @@ export default function App() {
                 </div>
                 <h3 className={`text-xs font-bold uppercase tracking-wider ${textClass}`}>AI Sandbox Evaluations</h3>
               </div>
-              <button className="text-slate-500 hover:text-slate-400 cursor-pointer"><MoreVertical size={16} /></button>
             </div>
 
             {hasHistory && currentDecision && currentDecision.candidate_strategies ? (
@@ -555,7 +553,6 @@ export default function App() {
               </div>
               <h3 className={`text-xs font-bold uppercase tracking-wider ${textClass}`}>Zone Monitoring Grid</h3>
             </div>
-            <button className="text-slate-500 hover:text-white cursor-pointer"><MoreVertical size={16} /></button>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
@@ -644,7 +641,6 @@ export default function App() {
                 </div>
                 <h3 className={`text-xs font-bold uppercase tracking-wider ${textClass}`}>Audit & Explainability Log</h3>
               </div>
-              <button className="text-slate-500 hover:text-white cursor-pointer"><MoreVertical size={16} /></button>
             </div>
 
             <div className="h-44 overflow-y-auto pr-2 space-y-3 custom-scrollbar font-mono text-[11px]">
@@ -716,8 +712,6 @@ export default function App() {
             <p className="text-xs text-slate-500">Inspect and actuate zone setpoints dynamically</p>
           </div>
         </div>
-        <button className="text-slate-500 hover:text-white cursor-pointer"><MoreVertical size={18} /></button>
-      </div>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         {(buildingState.zones && Object.keys(buildingState.zones).length > 0 ? Object.keys(buildingState.zones) : ["Zone 1: Open Office", "Zone 2: Meeting Room", "Zone 3: Executive Suite"]).map((zoneName) => {
@@ -776,8 +770,6 @@ export default function App() {
             <p className="text-xs text-slate-500">Comparative simulation profile overview</p>
           </div>
         </div>
-        <button className="text-slate-500 hover:text-white cursor-pointer"><MoreVertical size={18} /></button>
-      </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
         {/* Temp Curve chart */}
@@ -851,8 +843,6 @@ export default function App() {
             <p className="text-xs text-slate-500">Actuator thresholds & environmental boundaries</p>
           </div>
         </div>
-        <button className="text-slate-500 hover:text-white cursor-pointer"><MoreVertical size={18} /></button>
-      </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         <div className={`p-6 bg-slate-900/40 border ${borderClass} rounded-xl space-y-4`}>

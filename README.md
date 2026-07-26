@@ -7,7 +7,9 @@ SentientBMS is a production-quality autonomous Building Management System (BMS) 
 ## 🎥 PoC Demonstration Video
 Watch the autonomous loop, digital twin visualizations, safety validations, and dynamic control actions in action:
 
-*(Watch the Demo video here : **[Download demo_video.mp4](https://youtu.be/XwfJjB-7ZPw)**)*
+[![SentientBMS Demo Video](https://img.youtube.com/vi/XwfJjB-7ZPw/0.jpg)](https://youtu.be/XwfJjB-7ZPw)
+
+*(Click the image above to play the video on YouTube)*
 
 ---
 
@@ -46,37 +48,7 @@ sentient-bms/
 │   └── demo_script.md              # Hackathon presentation steps
 ```
 
----
 
-## 2. Setup & Execution
-
-### Backend API Server
-1. Navigate to the backend directory and install dependencies:
-   ```bash
-   cd backend
-   pip install -r requirements.txt
-   ```
-2. Start the Uvicorn dev server:
-   ```bash
-   python -m uvicorn app.main:app --port 8000 --reload
-   ```
-
-### Frontend React Client
-1. Navigate to the frontend directory:
-   ```bash
-   cd frontend
-   ```
-2. Install Node packages:
-   ```bash
-   npm install
-   ```
-3. Boot the Vite local dev server:
-   ```bash
-   npm run dev
-   ```
-4. Open your browser to `http://localhost:5173`.
-
----
 
 ## 3. Running Verification Tests
 To run the automated test suite checking physical parameters, bounds checks, and safety logic:

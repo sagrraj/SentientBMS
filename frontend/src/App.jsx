@@ -35,7 +35,12 @@ import {
   TrendingDown,
   Users,
   Sun,
-  Moon
+  Moon,
+  Shield,
+  ShieldAlert,
+  MessageSquare,
+  Send,
+  ChevronRight
 } from "lucide-react";
 
 const API_BASE = "http://localhost:8000/api";
@@ -67,6 +72,39 @@ const DEFAULT_HISTORICAL_DATA = Array.from({ length: 24 }, (_, idx) => {
     comfort_penalty: 0.05 + 0.05 * Math.cos(hr / 4)
   };
 });
+
+const ZONE_OCCUPANT_POSITIONS = {
+  "Zone 1: Open Office": [
+    {x: 45, y: 55}, {x: 85, y: 65}, {x: 125, y: 45}, {x: 165, y: 75}, {x: 205, y: 55},
+    {x: 55, y: 115}, {x: 95, y: 105}, {x: 135, y: 125}, {x: 175, y: 105}, {x: 215, y: 115},
+    {x: 65, y: 175}, {x: 105, y: 165}, {x: 145, y: 185}, {x: 185, y: 165}, {x: 215, y: 175},
+    {x: 85, y: 225}, {x: 125, y: 235}, {x: 165, y: 215}, {x: 185, y: 225}, {x: 205, y: 235}
+  ],
+  "Zone 2: Meeting Room": [
+    {x: 285, y: 45}, {x: 315, y: 55}, {x: 345, y: 45}, {x: 375, y: 65}, {x: 405, y: 55},
+    {x: 295, y: 95}, {x: 325, y: 85}, {x: 355, y: 100}, {x: 385, y: 85}, {x: 415, y: 95},
+    {x: 305, y: 115}, {x: 365, y: 115}
+  ],
+  "Zone 3: Executive Suite": [
+    {x: 285, y: 175}, {x: 315, y: 185}, {x: 345, y: 175}, {x: 375, y: 195}, {x: 405, y: 185},
+    {x: 295, y: 225}, {x: 325, y: 215}, {x: 355, y: 235}, {x: 385, y: 225}, {x: 415, y: 235}
+  ]
+};
+
+const getZoneTempColor = (temp, isFallback) => {
+  if (isFallback) return "rgba(239, 68, 68, 0.12)";
+  if (temp > 24.5) return "rgba(245, 158, 11, 0.12)";
+  if (temp < 20.0) return "rgba(59, 130, 246, 0.12)";
+  return "rgba(34, 211, 238, 0.08)";
+};
+
+const getZoneTempStroke = (temp, isFallback) => {
+  if (isFallback) return "rgb(239, 68, 68)";
+  if (temp > 24.5) return "rgb(245, 158, 11)";
+  if (temp < 20.0) return "rgb(59, 130, 246)";
+  return "rgb(34, 211, 238)";
+};
+
 
 export default function App() {
   const [darkMode, setDarkMode] = useState(true);
@@ -115,6 +153,34 @@ export default function App() {
     cooling: 22.0,
     heating: 20.0
   });
+
+  // New states for Copilot and Safety Modal
+  const [copilotOpen, setCopilotOpen] = useState(false);
+  const [chatHistory, setChatHistory] = useState([
+    { sender: "assistant", text: "Hello! I am your SentientBMS AI Co-Pilot. I monitor thermodynamics, safety bounds, and carbon forecast details in real time. Select a quick action chip or type a question to audit the system!" }
+  ]);
+  const [copilotLoading, setCopilotLoading] = useState(false);
+  const [showSafetyModal, setShowSafetyModal] = useState(false);
+
+  const handleCopilotAsk = async (queryId, label) => {
+    // Append user query
+    setChatHistory(prev => [...prev, { sender: "user", text: label }]);
+    setCopilotLoading(true);
+    try {
+      const res = await fetch(`${API_BASE}/copilot/query`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ query_id: queryId })
+      });
+      const data = await res.json();
+      setChatHistory(prev => [...prev, { sender: "assistant", text: data.response }]);
+    } catch (err) {
+      console.error(err);
+      setChatHistory(prev => [...prev, { sender: "assistant", text: "Failed to connect to backend API server. Verify FastAPI is running on localhost:8000." }]);
+    } finally {
+      setCopilotLoading(false);
+    }
+  };
 
   const playIntervalRef = useRef(null);
 
@@ -286,112 +352,356 @@ export default function App() {
   const borderClass = darkMode ? "border-white/5" : "border-slate-200";
   const bgClass = darkMode ? "bg-white/5" : "bg-slate-100";
 
-  const renderDashboardView = () => (
-    <div className="space-y-8">
-      {/* 3. Top Row: High-Level KPIs */}
-      <section className="grid grid-cols-1 md:grid-cols-3 gap-6">
-        {/* Card: HVAC Energy Cost */}
-        <div className={`${cardClass} relative overflow-hidden flex flex-col justify-between hover:scale-[1.01] transition-all duration-300`}>
-          <div className="absolute inset-x-0 bottom-0 h-10 pointer-events-none opacity-10">
-            <ResponsiveContainer width="100%" height="100%">
-              <AreaChart data={getSparklineData("energy")}>
-                <Area type="monotone" dataKey="value" stroke="#3B82F6" strokeWidth={1.5} fill="#3B82F6" fillOpacity={0.2} dot={false} />
-              </AreaChart>
-            </ResponsiveContainer>
-          </div>
-          <div className="flex justify-between items-start mb-4">
-            <div className="space-y-0.5">
-              <span className="text-[10px] font-bold uppercase tracking-widest text-slate-400">HVAC Energy Cost</span>
-              <p className="text-[10px] text-slate-500 font-sans">Active electrical input demand</p>
+  const renderDashboardView = () => {
+    // Extract zone references with default fallbacks
+    const z1 = buildingState.zones && buildingState.zones["Zone 1: Open Office"] 
+      ? buildingState.zones["Zone 1: Open Office"] 
+      : { temperature: 21.8, occupancy: 12 };
+    const z2 = buildingState.zones && buildingState.zones["Zone 2: Meeting Room"] 
+      ? buildingState.zones["Zone 2: Meeting Room"] 
+      : { temperature: 22.2, occupancy: 5 };
+    const z3 = buildingState.zones && buildingState.zones["Zone 3: Executive Suite"] 
+      ? buildingState.zones["Zone 3: Executive Suite"] 
+      : { temperature: 22.0, occupancy: 2 };
+
+    return (
+      <div className="space-y-8">
+        {/* 3. Top Row: High-Level KPIs */}
+        <section className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          {/* Card: HVAC Energy Cost */}
+          <div className={`${cardClass} relative overflow-hidden flex flex-col justify-between hover:scale-[1.01] transition-all duration-300`}>
+            <div className="absolute inset-x-0 bottom-0 h-10 pointer-events-none opacity-10">
+              <ResponsiveContainer width="100%" height="100%">
+                <AreaChart data={getSparklineData("energy")}>
+                  <Area type="monotone" dataKey="value" stroke="#3B82F6" strokeWidth={1.5} fill="#3B82F6" fillOpacity={0.2} dot={false} />
+                </AreaChart>
+              </ResponsiveContainer>
             </div>
-            <div className="p-2 bg-blue-500/10 rounded-lg text-blue-500">
-              <Zap className="h-4.5 w-4.5" />
+            <div className="flex justify-between items-start mb-4">
+              <div className="space-y-0.5">
+                <span className="text-[10px] font-bold uppercase tracking-widest text-slate-400">HVAC Energy Cost</span>
+                <p className="text-[10px] text-slate-500 font-sans">Active electrical input demand</p>
+              </div>
+              <div className="p-2 bg-blue-500/10 rounded-lg text-blue-500">
+                <Zap className="h-4.5 w-4.5" />
+              </div>
             </div>
-          </div>
-          <div className="flex items-baseline justify-between pt-2">
-            <span className={`text-2xl font-black font-mono-tech tracking-tight ${textClass}`}>
-              {metrics.sentient.energy} <span className="text-xs font-normal text-slate-400">kWh</span>
-            </span>
-            {metrics.savings.energy > 0 ? (
-              <span className="text-xs font-bold text-emerald-500 bg-emerald-500/10 border border-emerald-500/25 px-2.5 py-0.5 rounded-full flex items-center gap-1">
-                <TrendingDown size={11} />
-                ↓ {metrics.savings.energy}%
+            <div className="flex items-baseline justify-between pt-2">
+              <span className={`text-2xl font-black font-mono-tech tracking-tight ${textClass}`}>
+                {metrics.sentient.energy} <span className="text-xs font-normal text-slate-400">kWh</span>
               </span>
+              {metrics.savings.energy > 0 ? (
+                <span className="text-xs font-bold text-emerald-500 bg-emerald-500/10 border border-emerald-500/25 px-2.5 py-0.5 rounded-full flex items-center gap-1">
+                  <TrendingDown size={11} />
+                  ↓ {metrics.savings.energy}%
+                </span>
+              ) : (
+                <span className="text-[10px] text-slate-500 font-mono-tech">vs {metrics.baseline.energy}</span>
+              )}
+            </div>
+          </div>
+
+          {/* Card: Carbon Footprint */}
+          <div className={`${cardClass} relative overflow-hidden flex flex-col justify-between hover:scale-[1.01] transition-all duration-300`}>
+            <div className="absolute inset-x-0 bottom-0 h-10 pointer-events-none opacity-10">
+              <ResponsiveContainer width="100%" height="100%">
+                <AreaChart data={getSparklineData("carbon")}>
+                  <Area type="monotone" dataKey="value" stroke="#10B981" strokeWidth={1.5} fill="#10B981" fillOpacity={0.2} dot={false} />
+                </AreaChart>
+              </ResponsiveContainer>
+            </div>
+            <div className="flex justify-between items-start mb-4">
+              <div className="space-y-0.5">
+                <span className="text-[10px] font-bold uppercase tracking-widest text-slate-400">Carbon Footprint</span>
+                <p className="text-[10px] text-slate-500 font-sans">Active emissions footprint</p>
+              </div>
+              <div className="p-2 bg-emerald-500/10 rounded-lg text-emerald-500">
+                <Leaf className="h-4.5 w-4.5" />
+              </div>
+            </div>
+            <div className="flex items-baseline justify-between pt-2">
+              <span className={`text-2xl font-black font-mono-tech tracking-tight ${textClass}`}>
+                {metrics.sentient.carbon} <span className="text-xs font-normal text-slate-400">kg CO₂</span>
+              </span>
+              {metrics.savings.carbon > 0 ? (
+                <span className="text-xs font-bold text-emerald-500 bg-emerald-500/10 border border-emerald-500/25 px-2.5 py-0.5 rounded-full flex items-center gap-1">
+                  <TrendingDown size={11} />
+                  ↓ {metrics.savings.carbon}%
+                </span>
+              ) : (
+                <span className="text-[10px] text-slate-500 font-mono-tech">vs {metrics.baseline.carbon}</span>
+              )}
+            </div>
+          </div>
+
+          {/* Card: Comfort Deviation */}
+          <div className={`${cardClass} relative overflow-hidden flex flex-col justify-between hover:scale-[1.01] transition-all duration-300`}>
+            <div className="absolute inset-x-0 bottom-0 h-10 pointer-events-none opacity-10">
+              <ResponsiveContainer width="100%" height="100%">
+                <AreaChart data={getSparklineData("comfort")}>
+                  <Area type="monotone" dataKey="value" stroke="#F59E0B" strokeWidth={1.5} fill="#F59E0B" fillOpacity={0.2} dot={false} />
+                </AreaChart>
+              </ResponsiveContainer>
+            </div>
+            <div className="flex justify-between items-start mb-4">
+              <div className="space-y-0.5">
+                <span className="text-[10px] font-bold uppercase tracking-widest text-slate-400">Comfort Deviation</span>
+                <p className="text-[10px] text-slate-500 font-sans">Boundary violation rate</p>
+              </div>
+              <div className="p-2 bg-amber-500/10 rounded-lg text-amber-500">
+                <Thermometer className="h-4.5 w-4.5" />
+              </div>
+            </div>
+            <div className="flex items-baseline justify-between pt-2">
+              <span className={`text-2xl font-black font-mono-tech tracking-tight ${textClass}`}>
+                {metrics.sentient.comfort}
+              </span>
+              {metrics.savings.comfort > 0 ? (
+                <span className="text-xs font-bold text-emerald-500 bg-emerald-500/10 border border-emerald-500/25 px-2.5 py-0.5 rounded-full flex items-center gap-1">
+                  <TrendingDown size={11} />
+                  ↓ {metrics.savings.comfort}%
+                </span>
+              ) : (
+                <span className="text-[10px] text-slate-500 font-mono-tech">vs {metrics.baseline.comfort}</span>
+              )}
+            </div>
+          </div>
+        </section>
+
+        {/* 2D Digital Twin Interactive Floor Plan & Safety Shield HUD */}
+        <section className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+          {/* Interactive Floor Plan Card */}
+          <div className={`${cardClass} lg:col-span-2 relative overflow-hidden shadow-neon-indigo border border-indigo-500/10`}>
+            <div className="flex justify-between items-center mb-5">
+              <div className="flex items-center gap-2">
+                <div className="p-1.5 bg-indigo-500/10 rounded-lg text-indigo-400">
+                  <Building size={16} />
+                </div>
+                <div>
+                  <h3 className={`text-xs font-bold uppercase tracking-wider ${textClass}`}>Digital Twin Room Schematic</h3>
+                  <p className="text-[10px] text-slate-500">Click a zone to target. Animated particles represent live occupants.</p>
+                </div>
+              </div>
+              <div className="flex items-center gap-1.5">
+                <span className="h-2 w-2 rounded-full bg-emerald-500 animate-pulse shadow-[0_0_8px_rgba(16,185,129,0.8)]" />
+                <span className="text-[8px] font-black tracking-widest text-emerald-400 uppercase">Live telemetry feed</span>
+              </div>
+            </div>
+
+            <div className="p-2 bg-slate-950/20 rounded-2xl border border-white/5 relative">
+              <svg viewBox="0 0 600 280" className="w-full h-auto">
+                <defs>
+                  <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+                    <path d="M 20 0 L 0 0 0 20" fill="none" stroke={darkMode ? "rgba(255,255,255,0.015)" : "rgba(15,23,42,0.02)"} strokeWidth="1" />
+                  </pattern>
+                </defs>
+                <rect width="100%" height="100%" fill="url(#grid)" />
+
+                {/* HVAC Duct Pathways / Airflow */}
+                <path d="M 20,10 L 580,10 M 240,10 L 240,140 M 140,10 L 140,40 M 340,10 L 340,40 M 340,140 L 340,170" 
+                      fill="none" 
+                      stroke={darkMode ? "rgba(99, 102, 241, 0.15)" : "rgba(99, 102, 241, 0.08)"} 
+                      strokeWidth="6" 
+                      strokeLinecap="round" />
+                
+                {/* Glowing flowing air indicators */}
+                <path d="M 20,10 L 580,10 M 240,10 L 240,140 M 140,10 L 140,40 M 340,10 L 340,40 M 340,140 L 340,170" 
+                      fill="none" 
+                      stroke="#22D3EE" 
+                      strokeWidth="2" 
+                      className="animate-airflow"
+                      style={{
+                        animationDuration: isPlaying ? '0.7s' : '1.8s',
+                        opacity: buildingState.step > 0 ? 0.85 : 0.25
+                      }} 
+                      strokeLinecap="round" />
+
+                {/* Zone 1: Open Office */}
+                <g 
+                  onClick={() => setSelectedZone("Zone 1: Open Office")}
+                  className="cursor-pointer group transition-all duration-300">
+                  <rect 
+                    x="20" y="30" width="210" height="220" rx="8"
+                    fill={getZoneTempColor(z1.temperature, safetyStatus.fallback_active && selectedZone === "Zone 1: Open Office")}
+                    stroke={selectedZone === "Zone 1: Open Office" ? "rgb(99, 102, 241)" : getZoneTempStroke(z1.temperature, safetyStatus.fallback_active && selectedZone === "Zone 1: Open Office")}
+                    strokeWidth={selectedZone === "Zone 1: Open Office" ? "2.5" : "1.5"}
+                    className="transition-all duration-300"
+                  />
+                  <text x="35" y="55" className={`text-[10px] font-bold fill-current ${darkMode ? 'text-slate-400' : 'text-slate-600'}`}>OPEN OFFICE</text>
+                  <text x="35" y="72" className={`text-base font-black font-mono-tech fill-current ${
+                    z1.temperature > 24.5 ? 'text-amber-500' : z1.temperature < 20.0 ? 'text-blue-400' : 'text-cyan-400'
+                  }`}>{z1.temperature}°C</text>
+                  {/* Occupant dots */}
+                  {ZONE_OCCUPANT_POSITIONS["Zone 1: Open Office"].slice(0, z1.occupancy).map((pos, i) => (
+                    <circle key={i} cx={pos.x} cy={pos.y} r="3" fill="#8B5CF6" className="occupant-dot" style={{ animationDelay: `${i * 0.15}s` }} />
+                  ))}
+                </g>
+
+                {/* Zone 2: Meeting Room */}
+                <g 
+                  onClick={() => setSelectedZone("Zone 2: Meeting Room")}
+                  className="cursor-pointer group transition-all duration-300">
+                  <rect 
+                    x="250" y="30" width="180" height="100" rx="8"
+                    fill={getZoneTempColor(z2.temperature, safetyStatus.fallback_active && selectedZone === "Zone 2: Meeting Room")}
+                    stroke={selectedZone === "Zone 2: Meeting Room" ? "rgb(99, 102, 241)" : getZoneTempStroke(z2.temperature, safetyStatus.fallback_active && selectedZone === "Zone 2: Meeting Room")}
+                    strokeWidth={selectedZone === "Zone 2: Meeting Room" ? "2.5" : "1.5"}
+                    className="transition-all duration-300"
+                  />
+                  <text x="265" y="55" className={`text-[10px] font-bold fill-current ${darkMode ? 'text-slate-400' : 'text-slate-600'}`}>MEETING ROOM</text>
+                  <text x="265" y="72" className={`text-base font-black font-mono-tech fill-current ${
+                    z2.temperature > 24.5 ? 'text-amber-500' : z2.temperature < 20.0 ? 'text-blue-400' : 'text-cyan-400'
+                  }`}>{z2.temperature}°C</text>
+                  {/* Occupant dots */}
+                  {ZONE_OCCUPANT_POSITIONS["Zone 2: Meeting Room"].slice(0, z2.occupancy).map((pos, i) => (
+                    <circle key={i} cx={pos.x} cy={pos.y} r="3" fill="#22D3EE" className="occupant-dot" style={{ animationDelay: `${i * 0.15}s` }} />
+                  ))}
+                </g>
+
+                {/* Zone 3: Executive Suite */}
+                <g 
+                  onClick={() => setSelectedZone("Zone 3: Executive Suite")}
+                  className="cursor-pointer group transition-all duration-300">
+                  <rect 
+                    x="250" y="150" width="180" height="100" rx="8"
+                    fill={getZoneTempColor(z3.temperature, safetyStatus.fallback_active && selectedZone === "Zone 3: Executive Suite")}
+                    stroke={selectedZone === "Zone 3: Executive Suite" ? "rgb(99, 102, 241)" : getZoneTempStroke(z3.temperature, safetyStatus.fallback_active && selectedZone === "Zone 3: Executive Suite")}
+                    strokeWidth={selectedZone === "Zone 3: Executive Suite" ? "2.5" : "1.5"}
+                    className="transition-all duration-300"
+                  />
+                  <text x="265" y="175" className={`text-[10px] font-bold fill-current ${darkMode ? 'text-slate-400' : 'text-slate-600'}`}>EXEC SUITE</text>
+                  <text x="265" y="192" className={`text-base font-black font-mono-tech fill-current ${
+                    z3.temperature > 24.5 ? 'text-amber-500' : z3.temperature < 20.0 ? 'text-blue-400' : 'text-cyan-400'
+                  }`}>{z3.temperature}°C</text>
+                  {/* Occupant dots */}
+                  {ZONE_OCCUPANT_POSITIONS["Zone 3: Executive Suite"].slice(0, z3.occupancy).map((pos, i) => (
+                    <circle key={i} cx={pos.x} cy={pos.y} r="3" fill="#6366F1" className="occupant-dot" style={{ animationDelay: `${i * 0.15}s` }} />
+                  ))}
+                </g>
+
+                {/* Plant Core Layout */}
+                <g className="opacity-75">
+                  <rect 
+                    x="450" y="30" width="130" height="220" rx="8"
+                    fill="none"
+                    stroke={darkMode ? "rgba(255,255,255,0.08)" : "rgba(15,23,42,0.08)"}
+                    strokeDasharray="4 4"
+                    strokeWidth="1.5"
+                  />
+                  <text x="465" y="52" className={`text-[8px] font-bold fill-current ${darkMode ? 'text-slate-500' : 'text-slate-450'}`}>HVAC CORE UNIT</text>
+                  <rect x="465" y="65" width="100" height="55" rx="6" fill={darkMode ? "rgba(255,255,255,0.02)" : "rgba(15,23,42,0.02)"} stroke={darkMode ? "rgba(255,255,255,0.06)" : "rgba(15,23,42,0.06)"} />
+                  <text x="475" y="85" className="text-[8px] font-mono-tech fill-current text-slate-500">FAN: ACTIVE</text>
+                  <text x="475" y="100" className="text-[8px] font-mono-tech fill-current text-slate-500">FLOW: {metrics.sentient.energy > 0 ? (metrics.sentient.energy / 5).toFixed(1) : 1.2} m³/s</text>
+                  
+                  <rect x="465" y="135" width="100" height="100" rx="6" fill={darkMode ? "rgba(255,255,255,0.02)" : "rgba(15,23,42,0.02)"} stroke={darkMode ? "rgba(255,255,255,0.06)" : "rgba(15,23,42,0.06)"} />
+                  <text x="475" y="155" className={`text-[8px] font-bold fill-current ${darkMode ? 'text-slate-400' : 'text-slate-650'}`}>UTILITY BLOCK</text>
+                  <circle cx="490" cy="180" r="4" fill="rgba(34, 211, 238, 0.3)" />
+                  <circle cx="515" cy="180" r="4" fill="rgba(99, 102, 241, 0.3)" />
+                  <circle cx="540" cy="180" r="4" fill="rgba(245, 158, 11, 0.3)" />
+                  <text x="475" y="210" className="text-[8px] font-mono-tech fill-current text-slate-500">GRID: CONNECTED</text>
+                  <text x="475" y="222" className="text-[8px] font-mono-tech fill-current text-slate-500">DT BIAS: 98.4%</text>
+                </g>
+              </svg>
+            </div>
+          </div>
+
+          {/* Safety HUD Shield Panel */}
+          <div className={`${cardClass} flex flex-col justify-between relative overflow-hidden border border-white/5`}>
+            <div>
+              <div className="flex justify-between items-center mb-4">
+                <div className="flex items-center gap-2.5">
+                  <div className={`p-1.5 rounded-lg ${safetyStatus.fallback_active ? 'bg-rose-500/10 text-rose-500 animate-pulse' : 'bg-emerald-500/10 text-emerald-400'}`}>
+                    <Shield size={16} />
+                  </div>
+                  <h3 className={`text-xs font-bold uppercase tracking-wider ${textClass}`}>Safety HUD Shield</h3>
+                </div>
+                <span className={`px-2.5 py-0.5 rounded-full text-[9px] font-black uppercase tracking-widest ${
+                  safetyStatus.fallback_active
+                    ? 'bg-rose-500/15 text-rose-500 border border-rose-500/30 animate-pulse shadow-neon-rose'
+                    : 'bg-emerald-500/15 text-emerald-400 border border-emerald-500/30 shadow-neon-cyan'
+                }`}>
+                  {safetyStatus.fallback_active ? 'FALLBACK ACTIVE' : 'SECURE'}
+                </span>
+              </div>
+
+              <div className="space-y-4">
+                {/* Rule 1: Hard Bounds */}
+                <div className="flex items-center justify-between p-3 rounded-xl bg-slate-900/20 border border-white/5">
+                  <div className="flex items-center gap-3">
+                    <div className={`p-2 rounded-lg ${safetyStatus.fallback_active && safetyStatus.last_violations.some(v => v.toLowerCase().includes("limit") || v.toLowerCase().includes("bound") || v.toLowerCase().includes("temperature")) ? 'bg-rose-500/20 text-rose-500' : 'bg-emerald-500/10 text-emerald-400'}`}>
+                      <Thermometer size={14} />
+                    </div>
+                    <div>
+                      <div className={`text-[11px] font-bold ${textClass}`}>Thermal Boundary Guard</div>
+                      <div className="text-[9px] text-slate-500">Limits: 18.0°C - 30.0°C</div>
+                    </div>
+                  </div>
+                  <span className={`text-[9px] font-black uppercase ${
+                    safetyStatus.fallback_active && safetyStatus.last_violations.some(v => v.toLowerCase().includes("limit") || v.toLowerCase().includes("bound") || v.toLowerCase().includes("temperature"))
+                      ? 'text-rose-500' : 'text-emerald-400'
+                  }`}>
+                    {safetyStatus.fallback_active && safetyStatus.last_violations.some(v => v.toLowerCase().includes("limit") || v.toLowerCase().includes("bound") || v.toLowerCase().includes("temperature")) ? 'VIOLATED' : 'PASS'}
+                  </span>
+                </div>
+
+                {/* Rule 2: Ramp Limit */}
+                <div className="flex items-center justify-between p-3 rounded-xl bg-slate-900/20 border border-white/5">
+                  <div className="flex items-center gap-3">
+                    <div className={`p-2 rounded-lg ${safetyStatus.fallback_active && safetyStatus.last_violations.some(v => v.toLowerCase().includes("rate") || v.toLowerCase().includes("slew") || v.toLowerCase().includes("adjust") || v.toLowerCase().includes("ramp")) ? 'bg-rose-500/20 text-rose-500' : 'bg-emerald-500/10 text-emerald-400'}`}>
+                      <Activity size={14} />
+                    </div>
+                    <div>
+                      <div className={`text-[11px] font-bold ${textClass}`}>Setpoint Slew Limit</div>
+                      <div className="text-[9px] text-slate-500">Max shift: 3.0°C per step</div>
+                    </div>
+                  </div>
+                  <span className={`text-[9px] font-black uppercase ${
+                    safetyStatus.fallback_active && safetyStatus.last_violations.some(v => v.toLowerCase().includes("rate") || v.toLowerCase().includes("slew") || v.toLowerCase().includes("adjust") || v.toLowerCase().includes("ramp"))
+                      ? 'text-rose-500' : 'text-emerald-400'
+                  }`}>
+                    {safetyStatus.fallback_active && safetyStatus.last_violations.some(v => v.toLowerCase().includes("rate") || v.toLowerCase().includes("slew") || v.toLowerCase().includes("adjust") || v.toLowerCase().includes("ramp")) ? 'VIOLATED' : 'PASS'}
+                  </span>
+                </div>
+
+                {/* Rule 3: Deadband */}
+                <div className="flex items-center justify-between p-3 rounded-xl bg-slate-900/20 border border-white/5">
+                  <div className="flex items-center gap-3">
+                    <div className={`p-2 rounded-lg ${safetyStatus.fallback_active && safetyStatus.last_violations.some(v => v.toLowerCase().includes("deadband") || v.toLowerCase().includes("separation")) ? 'bg-rose-500/20 text-rose-500' : 'bg-emerald-500/10 text-emerald-400'}`}>
+                      <Zap size={14} />
+                    </div>
+                    <div>
+                      <div className={`text-[11px] font-bold ${textClass}`}>Heating/Cooling Separation</div>
+                      <div className="text-[9px] text-slate-500">Min deadband: 1.0°C</div>
+                    </div>
+                  </div>
+                  <span className={`text-[9px] font-black uppercase ${
+                    safetyStatus.fallback_active && safetyStatus.last_violations.some(v => v.toLowerCase().includes("deadband") || v.toLowerCase().includes("separation"))
+                      ? 'text-rose-500' : 'text-emerald-400'
+                  }`}>
+                    {safetyStatus.fallback_active && safetyStatus.last_violations.some(v => v.toLowerCase().includes("deadband") || v.toLowerCase().includes("separation")) ? 'VIOLATED' : 'PASS'}
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            {safetyStatus.fallback_active && safetyStatus.last_violations.length > 0 ? (
+              <div className="mt-4 p-3 bg-rose-500/10 border border-rose-500/20 rounded-xl space-y-1 animate-pulse">
+                <div className="text-[9px] font-black text-rose-400 uppercase tracking-widest flex items-center gap-1.5">
+                  <ShieldAlert size={10} className="animate-bounce" />
+                  Fault Diagnostic Alert
+                </div>
+                <p className="text-[10px] text-rose-350 leading-relaxed font-mono-tech">{safetyStatus.last_violations.join(", ")}</p>
+              </div>
             ) : (
-              <span className="text-[10px] text-slate-500 font-mono-tech">vs {metrics.baseline.energy}</span>
+              <div className="mt-4 p-3 bg-slate-950/20 border border-white/5 rounded-xl text-[10px] text-slate-500 font-sans leading-relaxed">
+                🛡️ All proposed actuator setpoints successfully passed validation checks. The AI Planner loop is running securely.
+              </div>
             )}
           </div>
-        </div>
+        </section>
 
-        {/* Card: Carbon Footprint */}
-        <div className={`${cardClass} relative overflow-hidden flex flex-col justify-between hover:scale-[1.01] transition-all duration-300`}>
-          <div className="absolute inset-x-0 bottom-0 h-10 pointer-events-none opacity-10">
-            <ResponsiveContainer width="100%" height="100%">
-              <AreaChart data={getSparklineData("carbon")}>
-                <Area type="monotone" dataKey="value" stroke="#10B981" strokeWidth={1.5} fill="#10B981" fillOpacity={0.2} dot={false} />
-              </AreaChart>
-            </ResponsiveContainer>
-          </div>
-          <div className="flex justify-between items-start mb-4">
-            <div className="space-y-0.5">
-              <span className="text-[10px] font-bold uppercase tracking-widest text-slate-400">Carbon Footprint</span>
-              <p className="text-[10px] text-slate-500 font-sans">Active emissions footprint</p>
-            </div>
-            <div className="p-2 bg-emerald-500/10 rounded-lg text-emerald-500">
-              <Leaf className="h-4.5 w-4.5" />
-            </div>
-          </div>
-          <div className="flex items-baseline justify-between pt-2">
-            <span className={`text-2xl font-black font-mono-tech tracking-tight ${textClass}`}>
-              {metrics.sentient.carbon} <span className="text-xs font-normal text-slate-400">kg CO₂</span>
-            </span>
-            {metrics.savings.carbon > 0 ? (
-              <span className="text-xs font-bold text-emerald-500 bg-emerald-500/10 border border-emerald-500/25 px-2.5 py-0.5 rounded-full flex items-center gap-1">
-                <TrendingDown size={11} />
-                ↓ {metrics.savings.carbon}%
-              </span>
-            ) : (
-              <span className="text-[10px] text-slate-500 font-mono-tech">vs {metrics.baseline.carbon}</span>
-            )}
-          </div>
-        </div>
-
-        {/* Card: Comfort Deviation */}
-        <div className={`${cardClass} relative overflow-hidden flex flex-col justify-between hover:scale-[1.01] transition-all duration-300`}>
-          <div className="absolute inset-x-0 bottom-0 h-10 pointer-events-none opacity-10">
-            <ResponsiveContainer width="100%" height="100%">
-              <AreaChart data={getSparklineData("comfort")}>
-                <Area type="monotone" dataKey="value" stroke="#F59E0B" strokeWidth={1.5} fill="#F59E0B" fillOpacity={0.2} dot={false} />
-              </AreaChart>
-            </ResponsiveContainer>
-          </div>
-          <div className="flex justify-between items-start mb-4">
-            <div className="space-y-0.5">
-              <span className="text-[10px] font-bold uppercase tracking-widest text-slate-400">Comfort Deviation</span>
-              <p className="text-[10px] text-slate-500 font-sans">Boundary violation rate</p>
-            </div>
-            <div className="p-2 bg-amber-500/10 rounded-lg text-amber-500">
-              <Thermometer className="h-4.5 w-4.5" />
-            </div>
-          </div>
-          <div className="flex items-baseline justify-between pt-2">
-            <span className={`text-2xl font-black font-mono-tech tracking-tight ${textClass}`}>
-              {metrics.sentient.comfort}
-            </span>
-            {metrics.savings.comfort > 0 ? (
-              <span className="text-xs font-bold text-emerald-500 bg-emerald-500/10 border border-emerald-500/25 px-2.5 py-0.5 rounded-full flex items-center gap-1">
-                <TrendingDown size={11} />
-                ↓ {metrics.savings.comfort}%
-              </span>
-            ) : (
-              <span className="text-[10px] text-slate-500 font-mono-tech">vs {metrics.baseline.comfort}</span>
-            )}
-          </div>
-        </div>
-      </section>
-
-      {/* 4. Middle Row: Strategy & Tuning (Split Layout) */}
-      <section className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+        {/* 4. Middle Row: Strategy & Tuning (Split Layout) */}
+        <section className="grid grid-cols-1 lg:grid-cols-2 gap-8">
         
         {/* Dynamic Objectives (Sliders Card) */}
         <div className={`${cardClass} flex flex-col justify-between relative`}>
@@ -698,7 +1008,8 @@ export default function App() {
         </div>
       </section>
     </div>
-  );
+    );
+  };
 
   const renderZonesView = () => (
     <div className={`${cardClass} space-y-8 animate-fade-in`}>

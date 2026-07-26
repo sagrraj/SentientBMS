@@ -4,6 +4,11 @@ SentientBMS is a production-quality autonomous Building Management System (BMS) 
 
 ---
 
+## 🎥 PoC Demonstration Video
+Watch the autonomous loop, digital twin visualizations, safety validations, and dynamic control actions in action: **[demo_video.mp4](demo_video.mp4)**
+
+---
+
 ## 1. Project Directory Structure
 ```
 sentient-bms/

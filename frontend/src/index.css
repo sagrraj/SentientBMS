@@ -94,3 +94,66 @@ input[type="range"]::-webkit-slider-thumb:hover {
 .animate-glow {
   animation: glow 2s infinite ease-in-out;
 }
+
+/* Building Airflow ducts animation */
+@keyframes flow {
+  to {
+    stroke-dashoffset: -20;
+  }
+}
+.animate-airflow {
+  stroke-dasharray: 6 4;
+  animation: flow 1s linear infinite;
+}
+
+/* Floating occupant particles animation */
+@keyframes float-dot {
+  0% {
+    transform: translate(0, 0) scale(1);
+  }
+  33% {
+    transform: translate(4px, -4px) scale(1.1);
+  }
+  66% {
+    transform: translate(-3px, 5px) scale(0.95);
+  }
+  100% {
+    transform: translate(0, 0) scale(1);
+  }
+}
+.occupant-dot {
+  animation: float-dot 4s ease-in-out infinite alternate;
+}
+
+/* Custom glow helper for active state */
+.shadow-neon-cyan {
+  box-shadow: 0 0 15px rgba(34, 211, 238, 0.25);
+}
+.shadow-neon-rose {
+  box-shadow: 0 0 15px rgba(244, 63, 94, 0.25);
+}
+.shadow-neon-indigo {
+  box-shadow: 0 0 20px rgba(99, 102, 241, 0.35);
+}
+.shadow-neon-amber {
+  box-shadow: 0 0 15px rgba(245, 158, 11, 0.25);
+}
+
+/* Fade in transition */
+.animate-fade-in {
+  animation: fadeIn 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Pulse animation for glow blobs */
+@keyframes pulseGlow {
+  0%, 100% { transform: scale(1) translate(0, 0); opacity: 0.05; }
+  50% { transform: scale(1.15) translate(2%, 2%); opacity: 0.09; }
+}
+.animate-pulse-glow {
+  animation: pulseGlow 12s infinite ease-in-out;
+}
+

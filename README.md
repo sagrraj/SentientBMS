@@ -6,9 +6,8 @@ SentientBMS is a production-quality autonomous Building Management System (BMS) 
 
 ## 🎥 PoC Demonstration Video
 Watch the autonomous loop, digital twin visualizations, safety validations, and dynamic control actions in action:
-<video src="https://raw.githubusercontent.com/sagrraj/SentientBMS/main/demo_video.mp4" controls width="100%"></video>
 
-*(If the video player does not load, you can download the file directly here: **[Download demo_video.mp4](demo_video.mp4)**)*
+*(Watch the Demo video here : **[Download demo_video.mp4](https://youtu.be/XwfJjB-7ZPw)**)*
 
 ---
 
